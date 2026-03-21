@@ -1,0 +1,126 @@
+.movie_page {
+  background: #111;
+  min-height: 100vh;
+  color: white;
+}
+
+.movie_backdrop {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.movie_backdrop::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+}
+
+.movie_content {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  margin-top: -150px;
+  position: relative;
+}
+
+.movie_poster {
+  width: 280px;
+  border-radius: 10px;
+}
+
+.movie_info h1 {
+  font-size: 40px;
+}
+
+.movie_meta {
+  margin-top: 10px;
+  color: #bbb;
+}
+
+.movie_description {
+  margin-top: 20px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.movie_buttons {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.play_btn {
+  background: #e50914;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.watch_btn {
+  background: rgba(255,255,255,0.2);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.trailer_overlay {
+  position: fixed;
+  margin-left: 25vw;
+  top: 80px;
+  left: 0;
+  width: 50vw;
+  height: 80vh;
+  border-radius: 18px;
+
+  background: rgb(17, 1, 1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 9999;
+
+  animation: fadeBackdrop 0.3s ease;
+}
+@keyframes fadeBackdrop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.trailer_container {
+  width: 80%;
+  max-width: 900px;
+  position: relative;
+  animation: trailerZoom 0.3s ease;
+}
+@keyframes trailerZoom {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.trailer_close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+
+  font-size: 28px;
+  cursor: pointer;
+  color: white;
+}

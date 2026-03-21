@@ -1,0 +1,304 @@
+{
+  "trending": [
+    {
+      "id": 1,
+      "title": "Stranger Things",
+      "poster": "strangerThing.jpg",
+      "year": "2016",
+      "rating": 8.7,
+      "description": "When a young boy disappears, a group of kids uncover supernatural mysteries in their town.",
+      "trailer": "Stranger_Things_Official_Final_Trailer_Netflix_1080p.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Inception",
+      "poster": "Inception.jpg",
+      "year": "2010",
+      "rating": 8.8,
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 3,
+      "title": "Breaking Bad",
+      "poster": "Breaking Bad.jpeg",
+      "year": "2008",
+      "rating": 9.5,
+      "description": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 4,
+      "title": "The dark Knight",
+      "poster": "The dark Knight.jpg",
+      "year": "2008",
+      "rating": 9.0,
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 5,
+      "title": "Interstellar",
+      "poster": "Interstellar.jpg",
+      "year": "2014",
+      "rating": 8.7,
+      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival as Earth's resources become rapidly depleted.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 6,
+      "title": "Dune: Part Two",
+      "poster": "Dune Part 2.jpg",
+      "year": "2024",
+      "rating": 8.6,
+      "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.",
+      "trailer": "dune-part-two-trailer.mp4"
+    },
+    {
+      "id": 7,
+      "title": "The Witcher",
+      "poster": "The Witcher.jpg",
+      "year": "2019",
+      "rating": 8.0,
+      "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+      "trailer": "the-witcher-trailer.mp4"
+    },
+    {
+      "id": 8,
+      "title": "The Last of Us",
+      "poster": "The Last of Us.jpg",
+      "year": "2023",
+      "rating": 8.7,
+      "description": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
+      "trailer": "the-last-of-us-trailer.mp4"
+    }
+  ],
+  "topRated": [
+    {
+      "id": 1,
+      "title": "Game of Thrones",
+      "poster": "Game of Thrones.jpg",
+      "year": "2011",
+      "rating": 9.2,
+      "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+      "trailer": "st.mp4"
+    },
+    {
+      "id": 2,
+      "title": "The Matrix",
+      "poster": "The Matrix.jpg",
+      "year": "1999",
+      "rating": 8.7,
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 3,
+      "title": "Parasite",
+      "poster": "The Perasite.jpg",
+      "year": "2019",
+      "rating": 8.5,
+      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 4,
+      "title": "The Office",
+      "poster": "The Office.webp",
+      "year": "2005",
+      "rating": 9.0,
+      "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 5,
+      "title": "Avengers: Endgame",
+      "poster": "Avengers Endgame.jpg",
+      "year": "2019",
+      "rating": 8.4,
+      "description": "After the devastating events of Infinity War, the remaining Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 6,
+      "title": "The Godfather",
+      "poster": "The Godfather.jpg",
+      "year": "1972",
+      "rating": 9.2,
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 7,
+      "title": "The Shawshank Redemption",
+      "poster": "The Shawshank Redemption.webp",
+      "year": "1994",
+      "rating": 9.3,
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "trailer": "shawshank-trailer.mp4"
+    },
+    {
+      "id": 8,
+      "title": "Schindler's List",
+      "poster": "Schindler's List.jpg",
+      "year": "1993",
+      "rating": 9.0,
+      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution.",
+      "trailer": "schindlers-list-trailer.mp4"
+    },
+    {
+      "id": 9,
+      "title": "The Wire",
+      "poster": "The Wire.jpg",
+      "year": "2002",
+      "rating": 9.3,
+      "description": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement.",
+      "trailer": "the-wire-trailer.mp4"
+    },
+    {
+      "id": 10,
+      "title": "The Sopranos",
+      "poster": "The Sopranos.jpg",
+      "year": "1999",
+      "rating": 9.2,
+      "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state.",
+      "trailer": "the-sopranos-trailer.mp4"
+    }
+  ],
+  "actionMovies": [
+    {
+      "id": 1,
+      "title": "The Mandalorian",
+      "poster": "The Mandalorian.jpg",
+      "year": "2019",
+      "rating": 8.6,
+      "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
+      "trailer": "st2.mp4"
+    },
+    {
+      "id": 2,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "poster": "SpiderMan into the Spider-Verse.jpg",
+      "year": "2018",
+      "rating": 8.4,
+      "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 3,
+      "title": "Dune",
+      "poster": "Dune.jpg",
+      "year": "2021",
+      "rating": 8.0,
+      "description": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
+      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+    },
+    {
+      "id": 4,
+      "title": "Everything Everywhere All at Once",
+      "poster": "Everything Everywhere All at Once.jpg",
+      "year": "2022",
+      "rating": 7.8,
+      "description": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes connecting with the lives she could have led.",
+      "trailer": "https://www.youtube.com/embed/wxN1T1uxQ2g"
+    },
+    {
+      "id": 5,
+      "title": "Succession",
+      "poster": "Succession.jpg",
+      "year": "2018",
+      "rating": 8.9,
+      "description": "The Roy family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.",
+      "trailer": "https://www.youtube.com/embed/OzYxJV_rmv8"
+    },
+    {
+      "id": 6,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "poster": "Lord of the Rings Fellowship of the Ring.jpg",
+      "year": "2001",
+      "rating": 8.9,
+      "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the dark Lord Sauron.",
+      "trailer": "https://www.youtube.com/embed/V75dSyCRwhc"
+    },
+    {
+      "id": 7,
+      "title": "Oppenheimer",
+      "poster": "Oppenheimer.jpg",
+      "year": "2023",
+      "rating": 8.3,
+      "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
+      "trailer": "https://www.youtube.com/embed/uYPbbksJxIg"
+    },
+    {
+      "id": 8,
+      "title": "Squid Game",
+      "poster": "Squid Game.jpg",
+      "year": "2021",
+      "rating": 8.0,
+      "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes.",
+      "trailer": "https://www.youtube.com/embed/oqxA158iUZI"
+    },
+    {
+      "id": 9,
+      "title": "Spirited Away",
+      "poster": "39wmItIWsg5sZMyRU8432X.jpg",
+      "year": "2001",
+      "rating": 8.6,
+      "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+      "trailer": "https://www.youtube.com/embed/ByXuk9QqQkk"
+    },
+    {
+      "id": 0,
+      "title": "Peaky Blinders",
+      "poster": "Peaky Blinders.jpg",
+      "year": "2013",
+      "rating": 8.8,
+      "description": "A gangster family epic set in 1900s England, centering on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.",
+      "trailer": "https://www.youtube.com/embed/oVzVdvGIC7U"
+    },
+    {
+      "id": 11,
+      "title": "Mad Max: Fury Road",
+      "poster": "Mad Max.jpg",
+      "year": "2015",
+      "rating": 8.1,
+      "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners.",
+      "trailer": "mad-max-trailer.mp4"
+    },
+    {
+      "id": 12,
+      "title": "John Wick",
+      "poster": "John Wick.jpg",
+      "year": "2014",
+      "rating": 7.4,
+      "description": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
+      "trailer": "john-wick-trailer.mp4"
+    },
+    {
+      "id": 13,
+      "title": "The Dark Knight Rises",
+      "poster": "The Dark Knight Rises.webp",
+      "year": "2012",
+      "rating": 8.4,
+      "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."
+    },
+    {
+      "id": 14,
+      "title": "Gladiator",
+      "poster": "Gladiator.jpg",
+      "year": "2000",
+      "rating": 8.5,
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "trailer": "gladiator-trailer.mp4"
+    },
+    {
+      "id": 15,
+      "title": "Terminator 2: Judgment Day",
+      "poster": "Terminator 2.jpg",
+      "year": "1991",
+      "rating": 8.6,
+      "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten-year-old son from an even more advanced and powerful cyborg.",
+      "trailer": "terminator-2-trailer.mp4"
+    }
+  ]
+}

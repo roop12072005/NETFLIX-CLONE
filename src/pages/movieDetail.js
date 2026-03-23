@@ -5,11 +5,12 @@ import "./MovieDetails.css";
 import { useState } from "react";
 import { useEffect } from "react";
 
-function MovieDetails({ addToWatchlist }) {
+function MovieDetails({ addToWatchlist, watchlist }) {
 
   const location = useLocation();
   const movie = location.state;
   const [ showTrailer, setShowTrailer] = useState(false);
+  const isInWatchlist = watchlist?.some((item) => item.id === movie?.id);
 
   useEffect(() => {
     const handleEsc = (e) => { 
@@ -66,7 +67,7 @@ function MovieDetails({ addToWatchlist }) {
             <button
              className="watch_btn"
              onClick={() => addToWatchlist(movie)}>
-              + My List
+              {isInWatchlist ? "Added to List" : "+ My List"}
             </button>
 
           </div>

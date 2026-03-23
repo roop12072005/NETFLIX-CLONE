@@ -115,6 +115,7 @@ const removeFromWatchlist = (movie) => {
                   topRated={topRated}
                   actionMovies={actionMovies}
                   addToWatchlist={addToWatchlist}
+                  watchlist={watchlist}
                 />
               </ProtectedRoute>
             }

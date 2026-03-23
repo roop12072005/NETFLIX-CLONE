@@ -92,10 +92,13 @@ function Row({ title, movies, addToWatchlist, removeFromWatchlist, watchlist }) 
                 <button 
                   className="preview_watchlist"
                   onClick={(e) => {
-                    e.stopPropagation();  
+                    e.stopPropagation();
+                    addToWatchlist(movie);
                   }}
                 >
-                  + My List
+                  {watchlist?.some((item) => item.id === movie.id)
+                    ? "Added to List"
+                    : "+ My List"}
                 </button>
               </div>
             </div>
@@ -150,7 +153,7 @@ function Row({ title, movies, addToWatchlist, removeFromWatchlist, watchlist }) 
                 onClick={() => isInWatchlist ? removeFromWatchlist(selectedMovie) : addToWatchlist(selectedMovie)
                 }
               >
-                {isInWatchlist ? "✓ Remove from Watchlist" : "+ Add to Watchlist"}
+                {isInWatchlist ? "Added to List" : "+ Add to Watchlist"}
               </button>
             </div>
           </div>

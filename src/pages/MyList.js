@@ -1,4 +1,5 @@
 import Navbar from "../Components/Navbar";
+
 import "./MyList.css";
 
 function MyList({ watchlist, removeFromWatchlist }) {

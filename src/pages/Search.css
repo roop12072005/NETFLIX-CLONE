@@ -19,6 +19,8 @@
 
 .search_poster {
   width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
   border-radius: 8px;
   transition: transform 0.3s;
   cursor: pointer;
@@ -26,4 +28,39 @@
 
 .search_poster:hover {
   transform: scale(1.05);
+}
+
+.search_poster_container {
+  width: 100%;
+}
+
+.search_poster_container .poster_overlay {
+  bottom: 12px;
+  padding: 0 10px;
+}
+
+.search_poster_container .preview_play,
+.search_poster_container .preview_watchlist {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .search_title {
+    margin-left: 24px;
+    margin-bottom: 24px;
+    font-size: 28px;
+  }
+
+  .search_grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 16px;
+    padding: 0 24px 24px;
+  }
+
+  .search_poster_container .poster_overlay {
+    opacity: 1;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 8px;
+  }
 }

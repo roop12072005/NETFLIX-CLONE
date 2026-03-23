@@ -79,6 +79,9 @@ const removeFromWatchlist = (movie) => {
                 <ProtectedRoute>
                   <Search
                     movies={movies}
+                    watchlist={watchlist}
+                    addToWatchlist={addToWatchlist}
+                    removeFromWatchlist={removeFromWatchlist}
                   />
                 </ProtectedRoute>
               }

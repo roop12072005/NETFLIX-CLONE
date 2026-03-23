@@ -2,16 +2,17 @@ import { useLocation } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import "./Search.css";
 
-function Search({ trending, topRated, actionMovies }) {
+function Search({ movies }) {
 
   const location = useLocation();
   const query = new URLSearchParams(location.search).get("q") || "";
 
-  const allMovies = [...trending, ...topRated, ...actionMovies];
-
-  const results = query ? allMovies.filter((movie) =>
-    movie.title.toLowerCase().includes(query.toLowerCase())
-  ) : [];
+  // const results = query ? allMovies.filter((movie) =>
+  //   movie.title.toLowerCase().includes(query.toLowerCase())
+  // ) : [];
+  const results = movies.filter(movies => 
+    movies.title.toLowerCase().includes(query.toLowerCase())
+    );
 
   return (
     <div className="search_page">

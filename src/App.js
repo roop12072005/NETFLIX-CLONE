@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Scroll from'./pages/Scroll';
 import Home from "./pages/Home";
 import Login from "./Login";
 import { useEffect, useState} from "react";
@@ -13,9 +14,6 @@ import Movies from "./pages/Movies";
 
 function App() {
 
-  const [trending, setTrending] = useState([]);
-  const [topRated, setTopRated] = useState([]);
-  const [actionMovies, setActionMovies] = useState([]);
   const [loading, setLoading] = useState(true);
 
 
@@ -24,18 +22,11 @@ function App() {
   return saved ? JSON.parse(saved) : [];
 });
 
+  const [movies, setMovies] = useState([]);
+
   useEffect(() => {
-  Promise.all([
-    fetch("http://localhost:4000/trending").then((res) => res.json()),
-    fetch("http://localhost:4000/topRated").then((res) => res.json()),
-    fetch("http://localhost:4000/actionMovies").then((res) => res.json()),
-  ]).then(([trendingData, topRatedData, actionData]) => {
-    setTrending(trendingData);
-    setTopRated(topRatedData);
-    setActionMovies(actionData);
-    setLoading(false);
-  });
-}, []);
+    fetch("http://localhost:4000/movies").then(res => res.json()).then(data => setMovies(data));
+    }, []);  
 
 useEffect(() => {
   localStorage.setItem("watchlist", JSON.stringify(watchlist));
@@ -66,112 +57,100 @@ const removeFromWatchlist = (movie) => {
 
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Login setIsAuthenticated={setIsAuthenticated} />} />
-        <Route
-          path="/home" 
-          element={
-          <ProtectedRoute>
-            <Home 
-              trending={trending}
-              topRated={topRated}
-              actionMovies={actionMovies}
-              loading={loading}
-              watchlist={watchlist}
-              addToWatchlist={addToWatchlist}
-              removeFromWatchlist={removeFromWatchlist}/>
-          </ProtectedRoute>
-          }
-          />
+      <Scroll />
+        <Routes>
+          <Route path="/" element={<Login setIsAuthenticated={setIsAuthenticated} />} />
           <Route
-            path="/search"
+            path="/home" 
             element={
-              <ProtectedRoute>
-                <Search
-                  trending={trending}
-                  topRated={topRated}
-                  actionMovies={actionMovies}
-                />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-           path="/mylist"
-           element={
             <ProtectedRoute>
-              <MyList
+              <Home 
+                movies={movies}
+                loading={loading}
                 watchlist={watchlist}
-                removeFromWatchlist={removeFromWatchlist}
-              />
+                addToWatchlist={addToWatchlist}
+                removeFromWatchlist={removeFromWatchlist}/>
             </ProtectedRoute>
             }
-          />
-          <Route
-            path="/movie/:id"
+            />
+            <Route
+              path="/search"
+              element={
+                <ProtectedRoute>
+                  <Search
+                    movies={movies}
+                  />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+            path="/mylist"
             element={
               <ProtectedRoute>
-                <MovieDetail
-                  trending={trending}
-                  topRated={topRated}
-                  actionMovies={actionMovies}
-                  addToWatchlist={addToWatchlist}
+                <MyList
                   watchlist={watchlist}
-                />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/genre/:genreName"
-            element={
-              <ProtectedRoute>
-                <GenrePage
-                  trending={trending}
-                  topRated={topRated}
-                  actionMovies={actionMovies}
-                  watchlist={watchlist}
-                  addToWatchlist={addToWatchlist}
                   removeFromWatchlist={removeFromWatchlist}
                 />
               </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/collection/:name"
-            element={
-              <ProtectedRoute>
-                <CollectionPage
-                  trending={trending}
-                  topRated={topRated}
-                  actionMovies={actionMovies}
-                />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/tvshows"
-            element={
-              <ProtectedRoute>
-                <TVShows 
-                  trending={trending}
-                  topRated={topRated}
-                  actionMovies={actionMovies}
+              }
+            />
+            <Route
+              path="/movie/:id"
+              element={
+                <ProtectedRoute>
+                  <MovieDetail
+                    movies={movies}
+                    addToWatchlist={addToWatchlist}
+                    removeFromWatchlist={removeFromWatchlist}
+                    watchlist={watchlist}
                   />
-              </ProtectedRoute>
-            }
-          />
-          <Route
-            path="/movies"
-            element={
-              <ProtectedRoute>
-                <Movies 
-                  trending={trending}
-                  topRated={topRated}
-                  actionMovies={actionMovies}
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/genre/:genreName"
+              element={
+                <ProtectedRoute>
+                  <GenrePage
+                    movies={movies}
+                    watchlist={watchlist}
+                    addToWatchlist={addToWatchlist}
+                    removeFromWatchlist={removeFromWatchlist}
                   />
-              </ProtectedRoute>
-            }
-          />
-      </Routes>
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/collection/:name"
+              element={
+                <ProtectedRoute>
+                  <CollectionPage
+                    movies={movies}
+                  />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/tvshows"
+              element={
+                <ProtectedRoute>
+                  <TVShows 
+                    movies={movies}
+                  />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/movies"
+              element={
+                <ProtectedRoute>
+                  <Movies 
+                    movies={movies}
+                    />
+                </ProtectedRoute>
+              }
+            />
+        </Routes>
     </Router>
   );
 }

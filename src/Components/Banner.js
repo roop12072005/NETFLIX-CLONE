@@ -66,7 +66,7 @@ function Banner({type , genre }) {
     data = bannerData.home;
   }
 
-    const bannerStyle = {
+  const bannerStyle = {
 
     backgroundImage: `url(${data.image})`, // No ./ prefix needed for public folder
     backgroundSize: 'cover',
@@ -79,13 +79,13 @@ function Banner({type , genre }) {
 
   const titleStyle = {
 
-  fontFamily: 'Impact, sans-serif',
-  textTransform: 'uppercase',
-  fontSize: '5rem',
-  color: 'white',
-  letterSpacing: '5px'
+    fontFamily: 'Impact, sans-serif',
+    textTransform: 'uppercase',
+    fontSize: '5rem',
+    color: 'white',
+    letterSpacing: '5px'
 
-};
+  };
 
   return (
     <div 

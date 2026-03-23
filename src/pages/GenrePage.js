@@ -5,9 +5,7 @@ import Navbar from '../Components/Navbar';
 
 
 function GenrePage({
-  trending,
-  topRated,
-  actionMovies,
+  movies,
   watchlist,
   addToWatchlist,
   removeFromWatchlist
@@ -19,14 +17,9 @@ function GenrePage({
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [showTrailer, setShowTrailer] = useState(false);
   
+  
 
-  const allMovies = [...trending, ...topRated, ...actionMovies];
-
-  const uniqueMovies = Array.from(
-    new Map(allMovies.map(movie => [movie.id, movie])).values()
-  );
-
-  const genreMovies = uniqueMovies.filter((movie) =>
+  const genreMovies = movies.filter((movie) =>
     movie.genre?.toLowerCase().includes(genreName?.toLowerCase())
   );
 

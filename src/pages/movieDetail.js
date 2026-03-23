@@ -5,7 +5,7 @@ import "./MovieDetails.css";
 import { useState } from "react";
 import { useEffect } from "react";
 
-function MovieDetails({ addToWatchlist, watchlist }) {
+function MovieDetails({ movies , addToWatchlist, removeFromWatchlist, watchlist }) {
 
   const location = useLocation();
   const movie = location.state;
@@ -25,6 +25,13 @@ function MovieDetails({ addToWatchlist, watchlist }) {
     };
   }, []);
 
+  const recommendations = movies.filter(m =>
+  m.id !== movie.id &&
+  m.genre.split(", ").some(g =>
+    movie.genre.includes(g)
+  )
+);
+
   if (!movie) {
     return <h1 style={{ color: "white" }}>Movie not found</h1>;
   }
@@ -35,7 +42,7 @@ function MovieDetails({ addToWatchlist, watchlist }) {
 
       <div className="movie_backdrop"
         style={{
-          backgroundImage: `url(/posters/${movie.poster})`
+          backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.9) 10%, rgba(0,0,0,0) 80%), url(/posters/${encodeURIComponent(movie.poster)})`
         }}></div>
         
         <div className="movie_content">
@@ -66,8 +73,12 @@ function MovieDetails({ addToWatchlist, watchlist }) {
         
             <button
              className="watch_btn"
-             onClick={() => addToWatchlist(movie)}>
-              {isInWatchlist ? "Added to List" : "+ My List"}
+             onClick={() =>
+              isInWatchlist
+                ? removeFromWatchlist(movie)
+                : addToWatchlist(movie)
+             }>
+              {isInWatchlist ? "Added to List" : "+ Add to List"}
             </button>
 
           </div>

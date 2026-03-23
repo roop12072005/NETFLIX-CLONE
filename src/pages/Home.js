@@ -5,15 +5,25 @@ import Row from "../Components/Row";
 import '../Home.css';
 
 function Home({
-  trending, 
-  topRated,
-  actionMovies,
+  movies,
   loading,
   watchlist, 
   addToWatchlist, 
   removeFromWatchlist 
 })
 {
+  const trending = movies.filter(m =>
+    m.tags.includes("trending")
+  );
+
+  const topRated = movies.filter(m =>
+    m.tags.includes("topRated")
+  );
+
+  const dual_Audio = movies.filter(m =>
+    m.tags.includes("dual audio")
+  );
+
   const [genreFilter, setGenreFilter] = useState("All");
   const filterMovies = (movies) => {
     // ?? SAFETY CHECK: If movies is undefined, null, or not an array, return an empty array
@@ -36,6 +46,7 @@ function Home({
 
       <Row
         title="Trending Now"
+        tag="trending"
         movies={filterMovies(trending).slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
@@ -44,6 +55,7 @@ function Home({
 
       <Row
         title="Top Rated"
+        tag="topRated"
         movies={filterMovies(topRated).slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
@@ -51,8 +63,9 @@ function Home({
       />
 
       <Row
-        title="Action Movies"
-        movies={filterMovies(actionMovies).slice(0, 10)}
+        title="Dual Audio"
+        tag="dual audio"
+        movies={filterMovies(dual_Audio).slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}

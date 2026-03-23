@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
-function Row({ title, movies, addToWatchlist, removeFromWatchlist, watchlist }) {
+function Row({ title, movies, tag , addToWatchlist, removeFromWatchlist, watchlist }) {
   const rowRef = useRef();
   const navigate = useNavigate();
 
@@ -49,7 +49,7 @@ function Row({ title, movies, addToWatchlist, removeFromWatchlist, watchlist }) 
 
         <button
           className="see_more"
-          onClick={() => navigate(`/collection/${title}`)}
+          onClick={() => navigate(`/collection/${tag}`)}
         >
           See More →
         </button>

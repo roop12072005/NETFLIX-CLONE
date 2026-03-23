@@ -1,304 +1,1473 @@
 {
-  "trending": [
+  "movies": [
     {
       "id": 1,
-      "title": "Stranger Things",
-      "poster": "strangerThing.jpg",
-      "year": "2016",
-      "rating": 8.7,
-      "description": "When a young boy disappears, a group of kids uncover supernatural mysteries in their town.",
-      "trailer": "Stranger_Things_Official_Final_Trailer_Netflix_1080p.mp4"
-    },
-    {
-      "id": 2,
-      "title": "Inception",
-      "poster": "Inception.jpg",
-      "year": "2010",
-      "rating": 8.8,
-      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
-    },
-    {
-      "id": 3,
-      "title": "Breaking Bad",
-      "poster": "Breaking Bad.jpeg",
-      "year": "2008",
-      "rating": 9.5,
-      "description": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
-    },
-    {
-      "id": 4,
-      "title": "The dark Knight",
-      "poster": "The dark Knight.jpg",
-      "year": "2008",
-      "rating": 9.0,
-      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
-    },
-    {
-      "id": 5,
-      "title": "Interstellar",
-      "poster": "Interstellar.jpg",
-      "year": "2014",
-      "rating": 8.7,
-      "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival as Earth's resources become rapidly depleted.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
-    },
-    {
-      "id": 6,
       "title": "Dune: Part Two",
-      "poster": "Dune Part 2.jpg",
+      "poster": "John Wick.jpg",
       "year": "2024",
-      "rating": 8.6,
-      "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge against the conspirators who destroyed his family.",
-      "trailer": "dune-part-two-trailer.mp4"
-    },
-    {
-      "id": 7,
-      "title": "The Witcher",
-      "poster": "The Witcher.jpg",
-      "year": "2019",
-      "rating": 8.0,
-      "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
-      "trailer": "the-witcher-trailer.mp4"
-    },
-    {
-      "id": 8,
-      "title": "The Last of Us",
-      "poster": "The Last of Us.jpg",
-      "year": "2023",
-      "rating": 8.7,
-      "description": "After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.",
-      "trailer": "the-last-of-us-trailer.mp4"
-    }
-  ],
-  "topRated": [
-    {
-      "id": 1,
-      "title": "Game of Thrones",
-      "poster": "Game of Thrones.jpg",
-      "year": "2011",
-      "rating": 9.2,
-      "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
-      "trailer": "st.mp4"
+      "rating": 8.8,
+      "genre": "Sci-Fi, Action",
+      "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge.",
+      "trailer": "dune2.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies",
+        "dual audio"
+      ]
     },
     {
       "id": 2,
-      "title": "The Matrix",
-      "poster": "The Matrix.jpg",
-      "year": "1999",
-      "rating": 8.7,
-      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+      "title": "Oppenheimer",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 8.4,
+      "genre": "Biography, Drama",
+      "description": "The story of American scientist J. Robert Oppenheimer and the atomic bomb.",
+      "trailer": "oppenheimer.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies"
+      ]
     },
     {
       "id": 3,
-      "title": "Parasite",
-      "poster": "The Perasite.jpg",
-      "year": "2019",
-      "rating": 8.5,
-      "description": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+      "title": "John Wick: Chapter 4",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 7.7,
+      "genre": "Action, Thriller",
+      "description": "John Wick uncovers a path to defeating The High Table.",
+      "trailer": "jw4.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies",
+        "dual audio"
+      ]
     },
     {
       "id": 4,
-      "title": "The Office",
-      "poster": "The Office.webp",
-      "year": "2005",
-      "rating": 9.0,
-      "description": "A mockumentary on a group of typical office workers, where the workday consists of ego clashes, inappropriate behavior, and tedium.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+      "title": "Spider-Man: Across the Spider-Verse",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 8.6,
+      "genre": "Animation, Action",
+      "description": "Miles Morales catapults across the Multiverse.",
+      "trailer": "spiderverse.mp4",
+      "tags": [
+        "trending",
+        "topRated",
+        "hollywood movies"
+      ]
     },
     {
       "id": 5,
-      "title": "Avengers: Endgame",
-      "poster": "Avengers Endgame.jpg",
-      "year": "2019",
-      "rating": 8.4,
-      "description": "After the devastating events of Infinity War, the remaining Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
-    },
-    {
-      "id": 6,
       "title": "The Godfather",
-      "poster": "The Godfather.jpg",
+      "poster": "John Wick.jpg",
       "year": "1972",
       "rating": 9.2,
-      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
+      "genre": "Crime, Drama",
+      "description": "The aging patriarch of an organized crime dynasty transfers control to his son.",
+      "trailer": "godfather.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Shawshank Redemption",
+      "poster": "John Wick.jpg",
+      "year": "1994",
+      "rating": 9.3,
+      "genre": "Drama",
+      "description": "Two imprisoned men bond over a number of years, finding solace and redemption.",
+      "trailer": "shawshank.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies"
+      ]
     },
     {
       "id": 7,
-      "title": "The Shawshank Redemption",
-      "poster": "The Shawshank Redemption.webp",
-      "year": "1994",
-      "rating": 9.3,
-      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
-      "trailer": "shawshank-trailer.mp4"
+      "title": "The Dark Knight",
+      "poster": "John Wick.jpg",
+      "year": "2008",
+      "rating": 9,
+      "genre": "Action, Crime",
+      "description": "Batman must accept one of the greatest psychological tests of his ability.",
+      "trailer": "darkknight.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
     },
     {
       "id": 8,
-      "title": "Schindler's List",
-      "poster": "Schindler's List.jpg",
-      "year": "1993",
-      "rating": 9.0,
-      "description": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution.",
-      "trailer": "schindlers-list-trailer.mp4"
+      "title": "Inception",
+      "poster": "John Wick.jpg",
+      "year": "2010",
+      "rating": 8.8,
+      "genre": "Sci-Fi, Action",
+      "description": "A thief who steals corporate secrets through dream-sharing technology.",
+      "trailer": "inception.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
     },
     {
       "id": 9,
-      "title": "The Wire",
-      "poster": "The Wire.jpg",
-      "year": "2002",
-      "rating": 9.3,
-      "description": "Baltimore drug scene, seen through the eyes of drug dealers and law enforcement.",
-      "trailer": "the-wire-trailer.mp4"
+      "title": "Interstellar",
+      "poster": "John Wick.jpg",
+      "year": "2014",
+      "rating": 8.7,
+      "genre": "Sci-Fi, Drama",
+      "description": "Explorers travel through a wormhole in space to ensure humanity's survival.",
+      "trailer": "interstellar.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
     },
     {
       "id": 10,
-      "title": "The Sopranos",
-      "poster": "The Sopranos.jpg",
-      "year": "1999",
-      "rating": 9.2,
-      "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues in his home and business life that affect his mental state.",
-      "trailer": "the-sopranos-trailer.mp4"
-    }
-  ],
-  "actionMovies": [
-    {
-      "id": 1,
-      "title": "The Mandalorian",
-      "poster": "The Mandalorian.jpg",
-      "year": "2019",
-      "rating": 8.6,
-      "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
-      "trailer": "st2.mp4"
-    },
-    {
-      "id": 2,
-      "title": "Spider-Man: Into the Spider-Verse",
-      "poster": "SpiderMan into the Spider-Verse.jpg",
-      "year": "2018",
-      "rating": 8.4,
-      "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
-    },
-    {
-      "id": 3,
-      "title": "Dune",
-      "poster": "Dune.jpg",
-      "year": "2021",
-      "rating": 8.0,
-      "description": "A noble family becomes embroiled in a war for control over the galaxy's most valuable asset while its heir becomes troubled by visions of a dark future.",
-      "trailer": "https://www.youtube.com/embed/aqz-KE-bpKQ"
-    },
-    {
-      "id": 4,
-      "title": "Everything Everywhere All at Once",
-      "poster": "Everything Everywhere All at Once.jpg",
+      "title": "Avatar: The Way of Water",
+      "poster": "John Wick.jpg",
       "year": "2022",
-      "rating": 7.8,
-      "description": "An aging Chinese immigrant is swept up in an insane adventure, where she alone can save the world by exploring other universes connecting with the lives she could have led.",
-      "trailer": "https://www.youtube.com/embed/wxN1T1uxQ2g"
-    },
-    {
-      "id": 5,
-      "title": "Succession",
-      "poster": "Succession.jpg",
-      "year": "2018",
-      "rating": 8.9,
-      "description": "The Roy family is known for controlling the biggest media and entertainment company in the world. However, their world changes when their father steps down from the company.",
-      "trailer": "https://www.youtube.com/embed/OzYxJV_rmv8"
-    },
-    {
-      "id": 6,
-      "title": "The Lord of the Rings: The Fellowship of the Ring",
-      "poster": "Lord of the Rings Fellowship of the Ring.jpg",
-      "year": "2001",
-      "rating": 8.9,
-      "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the dark Lord Sauron.",
-      "trailer": "https://www.youtube.com/embed/V75dSyCRwhc"
-    },
-    {
-      "id": 7,
-      "title": "Oppenheimer",
-      "poster": "Oppenheimer.jpg",
-      "year": "2023",
-      "rating": 8.3,
-      "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb.",
-      "trailer": "https://www.youtube.com/embed/uYPbbksJxIg"
-    },
-    {
-      "id": 8,
-      "title": "Squid Game",
-      "poster": "Squid Game.jpg",
-      "year": "2021",
-      "rating": 8.0,
-      "description": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes.",
-      "trailer": "https://www.youtube.com/embed/oqxA158iUZI"
-    },
-    {
-      "id": 9,
-      "title": "Spirited Away",
-      "poster": "39wmItIWsg5sZMyRU8432X.jpg",
-      "year": "2001",
-      "rating": 8.6,
-      "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
-      "trailer": "https://www.youtube.com/embed/ByXuk9QqQkk"
-    },
-    {
-      "id": 0,
-      "title": "Peaky Blinders",
-      "poster": "Peaky Blinders.jpg",
-      "year": "2013",
-      "rating": 8.8,
-      "description": "A gangster family epic set in 1900s England, centering on a gang who sew razor blades in the peaks of their caps, and their fierce boss Tommy Shelby.",
-      "trailer": "https://www.youtube.com/embed/oVzVdvGIC7U"
+      "rating": 7.6,
+      "genre": "Sci-Fi, Adventure",
+      "description": "Jake Sully lives with his newfound family on the extrasolar moon Pandora.",
+      "trailer": "avatar2.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies",
+        "dual audio"
+      ]
     },
     {
       "id": 11,
-      "title": "Mad Max: Fury Road",
-      "poster": "Mad Max.jpg",
-      "year": "2015",
-      "rating": 8.1,
-      "description": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners.",
-      "trailer": "mad-max-trailer.mp4"
+      "title": "Deadpool & Wolverine",
+      "poster": "John Wick.jpg",
+      "year": "2024",
+      "rating": 8.2,
+      "genre": "Action, Comedy",
+      "description": "A weary Wolverine finds himself teaming up with a loudmouthed Deadpool.",
+      "trailer": "deadpool3.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies"
+      ]
     },
     {
       "id": 12,
-      "title": "John Wick",
+      "title": "Gladiator",
       "poster": "John Wick.jpg",
-      "year": "2014",
-      "rating": 7.4,
-      "description": "An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
-      "trailer": "john-wick-trailer.mp4"
+      "year": "2000",
+      "rating": 8.5,
+      "genre": "Action, Drama",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor.",
+      "trailer": "gladiator.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
     },
     {
       "id": 13,
-      "title": "The Dark Knight Rises",
-      "poster": "The Dark Knight Rises.webp",
-      "year": "2012",
-      "rating": 8.4,
-      "description": "Eight years after the Joker's reign of anarchy, Batman, with the help of the enigmatic Catwoman, is forced from his exile to save Gotham City from the brutal guerrilla terrorist Bane."
+      "title": "The Matrix",
+      "poster": "John Wick.jpg",
+      "year": "1999",
+      "rating": 8.7,
+      "genre": "Sci-Fi, Action",
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality.",
+      "trailer": "matrix.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
     },
     {
       "id": 14,
-      "title": "Gladiator",
-      "poster": "Gladiator.jpg",
-      "year": "2000",
-      "rating": 8.5,
-      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
-      "trailer": "gladiator-trailer.mp4"
+      "title": "Mad Max: Fury Road",
+      "poster": "John Wick.jpg",
+      "year": "2015",
+      "rating": 8.1,
+      "genre": "Action, Sci-Fi",
+      "description": "A woman rebels against a tyrannical ruler in a post-apocalyptic wasteland.",
+      "trailer": "madmax.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies"
+      ]
     },
     {
       "id": 15,
+      "title": "Avengers: Endgame",
+      "poster": "John Wick.jpg",
+      "year": "2019",
+      "rating": 8.4,
+      "genre": "Action, Sci-Fi",
+      "description": "The remaining Avengers assemble to reverse Thanos' actions.",
+      "trailer": "endgame.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Jurassic Park",
+      "poster": "John Wick.jpg",
+      "year": "1993",
+      "rating": 8.2,
+      "genre": "Adventure, Sci-Fi",
+      "description": "A pragmatic paleontologist tours an almost complete theme park of cloned dinosaurs.",
+      "trailer": "jurassic.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 17,
       "title": "Terminator 2: Judgment Day",
-      "poster": "Terminator 2.jpg",
+      "poster": "John Wick.jpg",
       "year": "1991",
       "rating": 8.6,
-      "description": "A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten-year-old son from an even more advanced and powerful cyborg.",
-      "trailer": "terminator-2-trailer.mp4"
+      "genre": "Action, Sci-Fi",
+      "description": "A cyborg must protect Sarah Connor's son from a more advanced cyborg.",
+      "trailer": "t2.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "The Lord of the Rings: Return of the King",
+      "poster": "John Wick.jpg",
+      "year": "2003",
+      "rating": 9,
+      "genre": "Fantasy, Adventure",
+      "description": "Gandalf and Aragorn lead the World of Men against Sauron's army.",
+      "trailer": "lotr3.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Titanic",
+      "poster": "John Wick.jpg",
+      "year": "1997",
+      "rating": 7.9,
+      "genre": "Drama, Romance",
+      "description": "An aristocrat falls in love with a poor artist aboard the luxurious R.M.S. Titanic.",
+      "trailer": "titanic.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Top Gun: Maverick",
+      "poster": "John Wick.jpg",
+      "year": "2022",
+      "rating": 8.3,
+      "genre": "Action, Drama",
+      "description": "Maverick must confront ghosts of his past when he leads TOP GUN's elite graduates.",
+      "trailer": "topgun.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Dangal",
+      "poster": "John Wick.jpg",
+      "year": "2016",
+      "rating": 8.3,
+      "genre": "Biography, Drama",
+      "description": "Former wrestler Mahavir Singh Phogat trains his daughters to become world-class wrestlers.",
+      "trailer": "dangal.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "3 Idiots",
+      "poster": "John Wick.jpg",
+      "year": "2009",
+      "rating": 8.4,
+      "genre": "Comedy, Drama",
+      "description": "Two friends search for their long lost companion, revisiting their college days.",
+      "trailer": "3idiots.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Sholay",
+      "poster": "John Wick.jpg",
+      "year": "1975",
+      "rating": 8.1,
+      "genre": "Action, Adventure",
+      "description": "A retired police officer relies on two criminals to capture a ruthless bandit.",
+      "trailer": "sholay.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "PK",
+      "poster": "John Wick.jpg",
+      "year": "2014",
+      "rating": 8.1,
+      "genre": "Comedy, Drama",
+      "description": "An alien on Earth loses his communication device and questions religious dogmas.",
+      "trailer": "pk.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Bajrangi Bhaijaan",
+      "poster": "John Wick.jpg",
+      "year": "2015",
+      "rating": 8.1,
+      "genre": "Action, Comedy",
+      "description": "An Indian man with a magnanimous heart takes a mute Pakistani girl back to her homeland.",
+      "trailer": "bajrangi.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Lagaan",
+      "poster": "John Wick.jpg",
+      "year": "2001",
+      "rating": 8.1,
+      "genre": "Drama, Sports",
+      "description": "Villagers in Victorian India stake their future on a game of cricket against their British rulers.",
+      "trailer": "lagaan.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Kahaani",
+      "poster": "John Wick.jpg",
+      "year": "2012",
+      "rating": 8.1,
+      "genre": "Mystery, Thriller",
+      "description": "A pregnant woman searches for her missing husband in the city of Kolkata.",
+      "trailer": "kahaani.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Drishyam",
+      "poster": "John Wick.jpg",
+      "year": "2015",
+      "rating": 8.2,
+      "genre": "Crime, Thriller",
+      "description": "A man takes desperate measures to save his family from the dark side of the law.",
+      "trailer": "drishyam.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Andhadhun",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 8.2,
+      "genre": "Crime, Thriller",
+      "description": "A series of mysterious events change the life of a blind piano player.",
+      "trailer": "andhadhun.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Zindagi Na Milegi Dobara",
+      "poster": "John Wick.jpg",
+      "year": "2011",
+      "rating": 8.2,
+      "genre": "Comedy, Drama",
+      "description": "Three friends decide to turn their fantasy vacation into reality after one of them gets engaged.",
+      "trailer": "znmd.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Dilwale Dulhania Le Jayenge",
+      "poster": "John Wick.jpg",
+      "year": "1995",
+      "rating": 8,
+      "genre": "Drama, Romance",
+      "description": "Raj and Simran fall in love during a vacation in Europe, but Simran's father has promised her hand to someone else.",
+      "trailer": "ddlj.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies",
+        "Music and musical"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Swades",
+      "poster": "John Wick.jpg",
+      "year": "2004",
+      "rating": 8.2,
+      "genre": "Drama",
+      "description": "A successful Indian scientist returns to an Indian village to take his nanny to America.",
+      "trailer": "swades.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Chak De! India",
+      "poster": "John Wick.jpg",
+      "year": "2007",
+      "rating": 8.1,
+      "genre": "Drama, Sports",
+      "description": "A disgraced hockey player coaches the women's national team to win back his honor.",
+      "trailer": "chakde.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Taare Zameen Par",
+      "poster": "John Wick.jpg",
+      "year": "2007",
+      "rating": 8.3,
+      "genre": "Drama, Family",
+      "description": "An unconventional art teacher helps an 8-year-old dyslexic boy discover his true identity.",
+      "trailer": "taare.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Munna Bhai M.B.B.S.",
+      "poster": "John Wick.jpg",
+      "year": "2003",
+      "rating": 8.1,
+      "genre": "Comedy, Drama",
+      "description": "A goon sets out to fulfill his father's dream of becoming a doctor.",
+      "trailer": "munnabhai.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Pathaan",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 5.9,
+      "genre": "Action, Thriller",
+      "description": "An Indian spy takes on the leader of a group of mercenaries who have nefarious plans to target his homeland.",
+      "trailer": "pathaan.mp4",
+      "tags": [
+        "trending",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Jawan",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 7,
+      "genre": "Action, Thriller",
+      "description": "A high-octane action thriller which outlines the emotional journey of a man who is set to rectify the wrongs in the society.",
+      "trailer": "jawan.mp4",
+      "tags": [
+        "trending",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Animal",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 6.2,
+      "genre": "Action, Crime",
+      "description": "The hardened son of a powerful industrialist returns home after years abroad and vows to take bloody revenge on those threatening his father.",
+      "trailer": "animal.mp4",
+      "tags": [
+        "trending",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Gangs of Wasseypur",
+      "poster": "John Wick.jpg",
+      "year": "2012",
+      "rating": 8.2,
+      "genre": "Action, Crime",
+      "description": "A clash between Sultan and Shahid Khan leads to the expulsion of Khan from Wasseypur, igniting a deadly blood feud spanning three generations.",
+      "trailer": "gow.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Article 15",
+      "poster": "John Wick.jpg",
+      "year": "2019",
+      "rating": 8.1,
+      "genre": "Crime, Drama",
+      "description": "An upright police officer launches a harrowing investigation into the disappearance of three teenage girls in a rural village.",
+      "trailer": "article15.mp4",
+      "tags": [
+        "topRated",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Carry on Jatta 3",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 7.5,
+      "genre": "Comedy",
+      "description": "Chaos ensues as Jass tries to marry Meet, but his father refuses to let him marry a girl who doesn't have a family.",
+      "trailer": "coj3.mp4",
+      "tags": [
+        "trending",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Qismat",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 8.3,
+      "genre": "Drama, Romance",
+      "description": "A man falls in love with a woman while studying in Chandigarh, despite his arranged marriage back home.",
+      "trailer": "qismat.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies",
+        "Music and musical"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Shadaa",
+      "poster": "John Wick.jpg",
+      "year": "2019",
+      "rating": 7.1,
+      "genre": "Comedy, Romance",
+      "description": "A man past the eligible age of marriage struggles to find a bride.",
+      "trailer": "shadaa.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Chal Mera Putt",
+      "poster": "John Wick.jpg",
+      "year": "2019",
+      "rating": 8,
+      "genre": "Comedy, Drama",
+      "description": "Punjabi immigrants struggle to make a living and secure their residency in the UK.",
+      "trailer": "cmp.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Sufna",
+      "poster": "John Wick.jpg",
+      "year": "2020",
+      "rating": 8.2,
+      "genre": "Drama, Romance",
+      "description": "Jeet is a free-spirited youth in a village who falls in love with Teg, a beautiful cotton picker.",
+      "trailer": "sufna.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Ardaas",
+      "poster": "John Wick.jpg",
+      "year": "2016",
+      "rating": 8.2,
+      "genre": "Drama",
+      "description": "A teacher transfers to a village and helps the locals solve their various personal issues.",
+      "trailer": "ardaas.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Punjab 1984",
+      "poster": "John Wick.jpg",
+      "year": "2014",
+      "rating": 8.3,
+      "genre": "Drama, History",
+      "description": "A mother searches for her missing son who is wrongly labeled a terrorist during the 1980s insurgency.",
+      "trailer": "punjab1984.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Angrej",
+      "poster": "John Wick.jpg",
+      "year": "2015",
+      "rating": 8.3,
+      "genre": "Comedy, Romance",
+      "description": "A young man navigates love and marriage in rural Punjab during the 1940s.",
+      "trailer": "angrej.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Jatt & Juliet",
+      "poster": "John Wick.jpg",
+      "year": "2012",
+      "rating": 7.6,
+      "genre": "Comedy, Romance",
+      "description": "A village boy and a sophisticated city girl clash during their journey to Canada, only to eventually fall in love.",
+      "trailer": "jattjuliet.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Muklawa",
+      "poster": "John Wick.jpg",
+      "year": "2019",
+      "rating": 7.2,
+      "genre": "Comedy, Romance",
+      "description": "A man sets out to visit his wife after their marriage, challenging the traditions of the era.",
+      "trailer": "muklawa.mp4",
+      "tags": [
+        "trending",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Manje Bistre",
+      "poster": "John Wick.jpg",
+      "year": "2017",
+      "rating": 7.1,
+      "genre": "Comedy, Drama",
+      "description": "A traditional Punjabi wedding provides the backdrop for a budding romance.",
+      "trailer": "manjebistre.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 52,
+      "title": "Honsla Rakh",
+      "poster": "John Wick.jpg",
+      "year": "2021",
+      "rating": 7.3,
+      "genre": "Comedy, Romance",
+      "description": "A single father attempts to find love again, but faces challenges from his young son and his ex.",
+      "trailer": "honsla.mp4",
+      "tags": [
+        "trending",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 53,
+      "title": "Nikka Zaildar",
+      "poster": "John Wick.jpg",
+      "year": "2016",
+      "rating": 7.5,
+      "genre": "Comedy, Romance",
+      "description": "A village youth falls for a college girl and uses various tactics to win her heart and convince his strict grandmother.",
+      "trailer": "nikka.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 54,
+      "title": "Lahoriye",
+      "poster": "John Wick.jpg",
+      "year": "2017",
+      "rating": 7.6,
+      "genre": "Drama, Romance",
+      "description": "Love blossoms between an Indian Sikh man and a Pakistani Muslim woman, testing borders and prejudices.",
+      "trailer": "lahoriye.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Bambukat",
+      "poster": "John Wick.jpg",
+      "year": "2016",
+      "rating": 7.7,
+      "genre": "Comedy, Drama",
+      "description": "A man tries to outshine his wealthy brother-in-law by buying a motorcycle.",
+      "trailer": "bambukat.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 56,
+      "title": "Kala Shah Kala",
+      "poster": "John Wick.jpg",
+      "year": "2019",
+      "rating": 7.3,
+      "genre": "Comedy, Romance",
+      "description": "A dark-skinned man struggles to find a bride but eventually marries a beautiful woman who is in love with someone else.",
+      "trailer": "kalashah.mp4",
+      "tags": [
+        "trending",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 57,
+      "title": "Ashke",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 7.4,
+      "genre": "Drama, Family",
+      "description": "A former Bhangra dancer is inspired to rebuild his estranged college team to compete in a major competition.",
+      "trailer": "ashke.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies",
+        "Music and musical"
+      ]
+    },
+    {
+      "id": 58,
+      "title": "Saunkan Saunkne",
+      "poster": "John Wick.jpg",
+      "year": "2022",
+      "rating": 7.1,
+      "genre": "Comedy",
+      "description": "A childless couple's life turns upside down when the wife convinces the husband to marry her younger sister.",
+      "trailer": "saunkan.mp4",
+      "tags": [
+        "trending",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 59,
+      "title": "Rabb Da Radio",
+      "poster": "John Wick.jpg",
+      "year": "2017",
+      "rating": 7.9,
+      "genre": "Drama, Family",
+      "description": "A young woman brings love and unity to a deeply divided and estranged family.",
+      "trailer": "rabbda.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 60,
+      "title": "Sardar Mohammad",
+      "poster": "John Wick.jpg",
+      "year": "2017",
+      "rating": 7.5,
+      "genre": "Drama",
+      "description": "An Indian Sikh man sets out to Pakistan to find his biological parents after discovering he was adopted.",
+      "trailer": "sardar.mp4",
+      "tags": [
+        "topRated",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 61,
+      "title": "The Conjuring",
+      "poster": "John Wick.jpg",
+      "year": "2013",
+      "rating": 7.5,
+      "genre": "Horror, Thriller",
+      "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+      "trailer": "conjuring.mp4",
+      "tags": [
+        "topRated",
+        "Horror Movies",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 62,
+      "title": "Hereditary",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 7.3,
+      "genre": "Horror, Drama",
+      "description": "A grieving family is haunted by tragic and disturbing occurrences.",
+      "trailer": "hereditary.mp4",
+      "tags": [
+        "trending",
+        "Horror Movies",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 63,
+      "title": "A Quiet Place",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 7.5,
+      "genre": "Horror, Sci-Fi",
+      "description": "A family is forced to live in silence while hiding from creatures that hunt by sound.",
+      "trailer": "quietplace.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "Horror Movies",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 64,
+      "title": "Get Out",
+      "poster": "John Wick.jpg",
+      "year": "2017",
+      "rating": 7.8,
+      "genre": "Horror, Mystery",
+      "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness reaches a boiling point.",
+      "trailer": "getout.mp4",
+      "tags": [
+        "topRated",
+        "Horror Movies",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 65,
+      "title": "The Exorcist",
+      "poster": "John Wick.jpg",
+      "year": "1973",
+      "rating": 8.1,
+      "genre": "Horror",
+      "description": "When a teenage girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
+      "trailer": "exorcist.mp4",
+      "tags": [
+        "topRated",
+        "Horror Movies",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 66,
+      "title": "It",
+      "poster": "John Wick.jpg",
+      "year": "2017",
+      "rating": 7.3,
+      "genre": "Horror",
+      "description": "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster.",
+      "trailer": "it.mp4",
+      "tags": [
+        "trending",
+        "Horror Movies",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 67,
+      "title": "Halloween",
+      "poster": "John Wick.jpg",
+      "year": "1978",
+      "rating": 7.7,
+      "genre": "Horror, Thriller",
+      "description": "Fifteen years after murdering his sister on Halloween night, Michael Myers escapes from a mental hospital.",
+      "trailer": "halloween.mp4",
+      "tags": [
+        "topRated",
+        "Horror Movies",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 68,
+      "title": "Sinister",
+      "poster": "John Wick.jpg",
+      "year": "2012",
+      "rating": 6.8,
+      "genre": "Horror, Mystery",
+      "description": "A true-crime writer discovers a cache of 8mm home movies that suggest the murder he is currently researching is the work of a serial killer.",
+      "trailer": "sinister.mp4",
+      "tags": [
+        "trending",
+        "Horror Movies",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 69,
+      "title": "Insidious",
+      "poster": "John Wick.jpg",
+      "year": "2010",
+      "rating": 6.8,
+      "genre": "Horror, Mystery",
+      "description": "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
+      "trailer": "insidious.mp4",
+      "tags": [
+        "trending",
+        "Horror Movies",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 70,
+      "title": "The Ring",
+      "poster": "John Wick.jpg",
+      "year": "2002",
+      "rating": 7.1,
+      "genre": "Horror, Mystery",
+      "description": "A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week to the day after they view it.",
+      "trailer": "ring.mp4",
+      "tags": [
+        "topRated",
+        "Horror Movies",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 71,
+      "title": "Tumbbad",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 8.2,
+      "genre": "Horror, Fantasy",
+      "description": "A mythological story about a goddess who created the entire universe and her firstborn greed-driven son.",
+      "trailer": "tumbbad.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "Horror Movies",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 72,
+      "title": "Stree",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 7.5,
+      "genre": "Horror, Comedy",
+      "description": "In the small town of Chanderi, the menfolk live in fear of an evil spirit named Stree who abducts men in the night.",
+      "trailer": "stree.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "Horror Movies",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 73,
+      "title": "Bhool Bhulaiyaa",
+      "poster": "John Wick.jpg",
+      "year": "2007",
+      "rating": 7.4,
+      "genre": "Horror, Comedy",
+      "description": "An NRI and his wife decide to stay in his ancestral home, ignoring the warnings about ghosts.",
+      "trailer": "bhool.mp4",
+      "tags": [
+        "topRated",
+        "Horror Movies",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 74,
+      "title": "Pari",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 6.6,
+      "genre": "Horror, Mystery",
+      "description": "A kind-hearted man tries to help a strange woman named Rukhsana, who is a victim of abuse.",
+      "trailer": "pari.mp4",
+      "tags": [
+        "trending",
+        "Horror Movies",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 75,
+      "title": "Raaz",
+      "poster": "John Wick.jpg",
+      "year": "2002",
+      "rating": 6.6,
+      "genre": "Horror, Romance",
+      "description": "A couple moves to Ooty to save their failing marriage, but their new home turns out to be haunted.",
+      "trailer": "raaz.mp4",
+      "tags": [
+        "Horror Movies",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 76,
+      "title": "La La Land",
+      "poster": "John Wick.jpg",
+      "year": "2016",
+      "rating": 8,
+      "genre": "Comedy, Drama, Music",
+      "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations.",
+      "trailer": "lalaland.mp4",
+      "tags": [
+        "topRated",
+        "Music and musical",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 77,
+      "title": "The Greatest Showman",
+      "poster": "John Wick.jpg",
+      "year": "2017",
+      "rating": 7.5,
+      "genre": "Biography, Drama, Music",
+      "description": "Celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle.",
+      "trailer": "showman.mp4",
+      "tags": [
+        "trending",
+        "Music and musical",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 78,
+      "title": "Mamma Mia!",
+      "poster": "John Wick.jpg",
+      "year": "2008",
+      "rating": 6.5,
+      "genre": "Comedy, Musical",
+      "description": "The story of a bride-to-be trying to find her real father told using hit songs by the popular 1970s group ABBA.",
+      "trailer": "mammamia.mp4",
+      "tags": [
+        "Music and musical",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 79,
+      "title": "Les Misérables",
+      "poster": "John Wick.jpg",
+      "year": "2012",
+      "rating": 7.5,
+      "genre": "Drama, Musical",
+      "description": "In 19th-century France, Jean Valjean, who for decades has been hunted by the ruthless policeman Javert after breaking parole, agrees to care for a factory worker's daughter.",
+      "trailer": "lesmis.mp4",
+      "tags": [
+        "topRated",
+        "Music and musical",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Chicago",
+      "poster": "John Wick.jpg",
+      "year": "2002",
+      "rating": 7.2,
+      "genre": "Comedy, Crime, Musical",
+      "description": "Two death-row murderesses develop a fierce rivalry while competing for publicity, celebrity, and a sleazy lawyer's attention.",
+      "trailer": "chicago.mp4",
+      "tags": [
+        "topRated",
+        "Music and musical",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 81,
+      "title": "The Sound of Music",
+      "poster": "John Wick.jpg",
+      "year": "1965",
+      "rating": 8.1,
+      "genre": "Biography, Drama, Family",
+      "description": "A young novitiate is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.",
+      "trailer": "soundofmusic.mp4",
+      "tags": [
+        "topRated",
+        "Music and musical",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 82,
+      "title": "Grease",
+      "poster": "John Wick.jpg",
+      "year": "1978",
+      "rating": 7.2,
+      "genre": "Comedy, Musical",
+      "description": "Good girl Sandy Olsson and greaser Danny Zuko fell in love over the summer.",
+      "trailer": "grease.mp4",
+      "tags": [
+        "topRated",
+        "Music and musical",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 83,
+      "title": "Moulin Rouge!",
+      "poster": "John Wick.jpg",
+      "year": "2001",
+      "rating": 7.6,
+      "genre": "Drama, Musical",
+      "description": "A poet falls for a beautiful courtesan whom a jealous duke covets.",
+      "trailer": "moulinrouge.mp4",
+      "tags": [
+        "trending",
+        "Music and musical",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 84,
+      "title": "A Star is Born",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 7.6,
+      "genre": "Drama, Music",
+      "description": "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.",
+      "trailer": "starisborn.mp4",
+      "tags": [
+        "trending",
+        "Music and musical",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 85,
+      "title": "Bohemian Rhapsody",
+      "poster": "John Wick.jpg",
+      "year": "2018",
+      "rating": 7.9,
+      "genre": "Biography, Drama, Music",
+      "description": "The story of the legendary British rock band Queen and lead singer Freddie Mercury.",
+      "trailer": "bohemian.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "Music and musical",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 86,
+      "title": "Rockstar",
+      "poster": "John Wick.jpg",
+      "year": "2011",
+      "rating": 7.7,
+      "genre": "Drama, Music",
+      "description": "Janardhan Jakhar chases his dreams of becoming a big Rock star.",
+      "trailer": "rockstar.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "Music and musical",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 87,
+      "title": "Aashiqui 2",
+      "poster": "John Wick.jpg",
+      "year": "2013",
+      "rating": 7.1,
+      "genre": "Drama, Music",
+      "description": "Rahul loses his fans and fame due to alcoholism. But he then decides to turn a small time singer into a rising star.",
+      "trailer": "aashiqui2.mp4",
+      "tags": [
+        "Music and musical",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 88,
+      "title": "Gully Boy",
+      "poster": "John Wick.jpg",
+      "year": "2019",
+      "rating": 7.9,
+      "genre": "Drama, Music",
+      "description": "A coming-of-age story based on the lives of street rappers in Mumbai.",
+      "trailer": "gullyboy.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "Music and musical",
+        "bollywood movies"
+      ]
+    },
+    {
+      "id": 89,
+      "title": "Qismat 2",
+      "poster": "John Wick.jpg",
+      "year": "2021",
+      "rating": 7.4,
+      "genre": "Drama, Romance",
+      "description": "A story of unrequited love, destiny and heartbreaks.",
+      "trailer": "qismat2.mp4",
+      "tags": [
+        "trending",
+        "Music and musical",
+        "punjabi movies"
+      ]
+    },
+    {
+      "id": 90,
+      "title": "The Batman",
+      "poster": "John Wick.jpg",
+      "year": "2022",
+      "rating": 7.8,
+      "genre": "Action, Crime",
+      "description": "Batman investigates the city's hidden corruption.",
+      "trailer": "thebatman.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 91,
+      "title": "Guardians of the Galaxy Vol. 3",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 7.9,
+      "genre": "Action, Adventure",
+      "description": "Peter Quill rallies his team to defend the universe.",
+      "trailer": "gotg3.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 92,
+      "title": "Mission: Impossible - Dead Reckoning",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 7.7,
+      "genre": "Action, Thriller",
+      "description": "Ethan Hunt tracks down a dangerous new weapon.",
+      "trailer": "mi7.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 93,
+      "title": "Joker",
+      "poster": "John Wick.jpg",
+      "year": "2019",
+      "rating": 8.4,
+      "genre": "Crime, Drama",
+      "description": "A troubled comedian spirals into revolution and bloody crime.",
+      "trailer": "joker.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 94,
+      "title": "Godzilla Minus One",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 8.3,
+      "genre": "Action, Sci-Fi",
+      "description": "Post-war Japan faces a new crisis in the form of a giant monster.",
+      "trailer": "godzilla.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 95,
+      "title": "The Super Mario Bros. Movie",
+      "poster": "John Wick.jpg",
+      "year": "2023",
+      "rating": 7.1,
+      "genre": "Animation, Adventure",
+      "description": "Mario travels through an underground labyrinth with his brother.",
+      "trailer": "mario.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 96,
+      "title": "Avatar",
+      "poster": "John Wick.jpg",
+      "year": "2009",
+      "rating": 7.9,
+      "genre": "Action, Adventure",
+      "description": "A paraplegic Marine is dispatched to the moon Pandora on a unique mission.",
+      "trailer": "avatar.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 97,
+      "title": "The Wolf of Wall Street",
+      "poster": "John Wick.jpg",
+      "year": "2013",
+      "rating": 8.2,
+      "genre": "Biography, Comedy",
+      "description": "The rise and fall of stockbroker Jordan Belfort.",
+      "trailer": "wolf.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies"
+      ]
+    },
+    {
+      "id": 98,
+      "title": "Blade Runner 2049",
+      "poster": "John Wick.jpg",
+      "year": "2017",
+      "rating": 8,
+      "genre": "Action, Sci-Fi",
+      "description": "A young Blade Runner discovers a long-buried secret.",
+      "trailer": "br2049.mp4",
+      "tags": [
+        "topRated",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 99,
+      "title": "Tenet",
+      "poster": "John Wick.jpg",
+      "year": "2020",
+      "rating": 7.3,
+      "genre": "Action, Sci-Fi",
+      "description": "A protagonist journeys through a twilight world of international espionage.",
+      "trailer": "tenet.mp4",
+      "tags": [
+        "trending",
+        "hollywood movies",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 100,
+      "title": "Coco",
+      "poster": "John Wick.jpg",
+      "year": "2017",
+      "rating": 8.4,
+      "genre": "Animation, Family",
+      "description": "Miguel enters the Land of the Dead to find his great-great-grandfather.",
+      "trailer": "coco.mp4",
+      "tags": [
+        "topRated",
+        "Music and musical",
+        "hollywood movies",
+        "dual audio"
+      ]
     }
   ]
 }

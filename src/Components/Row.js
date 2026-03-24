@@ -93,7 +93,14 @@ function Row({ title, movies, tag , addToWatchlist, removeFromWatchlist, watchli
                   className="preview_watchlist"
                   onClick={(e) => {
                     e.stopPropagation();
-                    addToWatchlist(movie);
+
+                    const isAlreadyAdded = watchlist?.some((item => item.id === movie.id));
+                    
+                    if (isAlreadyAdded){
+                      removeFromWatchlist(movie);
+                    }else{
+                      addToWatchlist(movie);
+                    }
                   }}
                 >
                   {watchlist?.some((item) => item.id === movie.id)

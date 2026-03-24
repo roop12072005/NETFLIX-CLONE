@@ -1,57 +1,66 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-function Banner({type , genre }) {
-
-  
+function Banner({
+  type,
+  genre,
+  featuredMovie,
+  watchlist,
+  addToWatchlist,
+  removeFromWatchlist,
+}) {
+  const navigate = useNavigate();
 
   const bannerData = {
-    home: {
-      title: "JOHN WICK",
-      description: "John Wick, played by <u>Keanu Reeves</u>, is a legendary, retired hitman forced back into the criminal underworld he left behind. Known as "+"Baba Yaga"+" or the Boogeyman, he is renowned for his sheer will, focus, and relentless pursuit of revenge after gangsters kill the puppy left by his deceased wife. ",
-      image: "/posters/Banner.jpg"
-    },
-   //src={`/posters/${movie.poster}`}
+    home: featuredMovie
+      ? {
+          title: featuredMovie.title,
+          description: featuredMovie.description,
+          image: `/posters/${featuredMovie.poster}`,
+          meta: `${featuredMovie.year} • ${featuredMovie.genre}`,
+        }
+      : {
+          title: "JOHN WICK",
+          description:
+            "A legendary retired hitman is forced back into the underworld he left behind.",
+          image: "/posters/Banner.jpg",
+          meta: "Action Thriller",
+        },
     Action: {
       title: "Action Movies",
       description: "High adrenaline battles and intense missions.",
-      image: "/posters/Banner.jpg"
+      image: "/posters/Banner.jpg",
     },
-
     "Sci-Fi": {
       title: "Sci-Fi",
       description: "Explore futuristic worlds and technology.",
-      image: "/genreBanners/scifi.jpg"
+      image: "/genreBanners/scifi.jpg",
     },
-
     Drama: {
       title: "Drama",
       description: "Emotional storytelling and powerful characters.",
-      image: "/genreBanners/drama.jpg"
+      image: "/genreBanners/drama.jpg",
     },
-
     Crime: {
       title: "Crime",
       description: "Dark underworld and thrilling crime stories.",
-      image: "/genreBanners/crime.jpg"
+      image: "/genreBanners/crime.jpg",
     },
-
     Adventure: {
       title: "Adventure",
       description: "Epic journeys and exploration.",
-      image: "/genreBanners/adventure.jpg"
+      image: "/genreBanners/adventure.jpg",
     },
-
     tv: {
       title: "TV Shows",
       description: "Binge-worthy series and shows.",
-      image: "/genreBanners/tv.jpg"
+      image: "/genreBanners/tv.jpg",
     },
-
     movie: {
       title: "Movies",
       description: "Explore blockbuster and trending movies.",
-      image: "/genreBanners/movie.jpg"
-    }
+      image: "/genreBanners/movie.jpg",
+    },
   };
 
   let data;
@@ -66,52 +75,53 @@ function Banner({type , genre }) {
     data = bannerData.home;
   }
 
-  const bannerStyle = {
+  const isHomeBanner = !type || type === "home";
+  const isInWatchlist = watchlist?.some((item) => item.id === featuredMovie?.id);
 
-    backgroundImage: `url(${data.image})`, // No ./ prefix needed for public folder
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    height: '500px', // Ensure height is set or it won't show
-    width: '100%',
-    marginTop: '60px'
-    
+  const handlePlay = () => {
+    if (!featuredMovie) return;
+    navigate(`/movie/${featuredMovie.id}`, { state: featuredMovie });
   };
 
-  const titleStyle = {
+  const handleWatchlistToggle = () => {
+    if (!featuredMovie) return;
 
-    fontFamily: 'Impact, sans-serif',
-    textTransform: 'uppercase',
-    fontSize: '5rem',
-    color: 'white',
-    letterSpacing: '5px'
+    if (isInWatchlist) {
+      removeFromWatchlist(featuredMovie);
+      return;
+    }
 
+    addToWatchlist(featuredMovie);
   };
 
   return (
-    <div 
+    <div
       className="banner"
-       style={bannerStyle}
-       >
+      style={{ backgroundImage: `url(${data.image})` }}
+    >
+      <div className="banner_overlay">
+        <div className="banner_content">
+          {data.meta && <p className="banner_meta">{data.meta}</p>}
 
-      <div className="banner_content">
+          <h1 className="banner_title">{data.title}</h1>
 
-        <h1 
-          className="banner_title"
-          style={titleStyle}>
-            {data.title}
-          </h1>
+          {isHomeBanner && featuredMovie && (
+            <div className="banner_buttons">
+              <button className="banner_button banner_button_primary" onClick={handlePlay}>
+                Play
+              </button>
 
-        <div className="banner_buttons">
+              <button
+                className="banner_button banner_button_secondary"
+                onClick={handleWatchlistToggle}
+              >
+                {isInWatchlist ? "Remove from My List" : "+ My List"}
+              </button>
+            </div>
+          )}
 
-          <button className="banner_button">Play</button>
-          
-          <button className="banner_button">My List</button>
-        
+          <p className="banner_description">{data.description}</p>
         </div>
-
-        <p className="banner_description">
-          {data.description}
-        </p>
       </div>
     </div>
   );

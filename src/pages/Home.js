@@ -12,6 +12,11 @@ function Home({
   removeFromWatchlist 
 })
 {
+  const featuredMovie =
+    movies.find((movie) => movie.title?.toLowerCase().includes("john wick")) ||
+    movies.find((movie) => movie.tags?.includes("trending")) ||
+    movies[0];
+
   const trending = movies.filter(m =>
     m.tags.includes("trending")
   );
@@ -42,7 +47,12 @@ function Home({
   return (
     <div className="App">
       <Navbar setGenreFilter={setGenreFilter}/>
-      <Banner  />
+      <Banner
+        featuredMovie={featuredMovie}
+        watchlist={watchlist}
+        addToWatchlist={addToWatchlist}
+        removeFromWatchlist={removeFromWatchlist}
+      />
 
       <Row
         title="Trending Now"

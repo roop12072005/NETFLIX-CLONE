@@ -139,6 +139,9 @@ const removeFromWatchlist = (movie) => {
                 <ProtectedRoute>
                   <TVShows 
                     movies={movies}
+                    watchlist={watchlist}
+                    addToWatchlist={addToWatchlist}
+                    removeFromWatchlist={removeFromWatchlist}
                   />
                 </ProtectedRoute>
               }
@@ -149,7 +152,10 @@ const removeFromWatchlist = (movie) => {
                 <ProtectedRoute>
                   <Movies 
                     movies={movies}
-                    />
+                    watchlist={watchlist}
+                    addToWatchlist={addToWatchlist}
+                    removeFromWatchlist={removeFromWatchlist}
+                  />
                 </ProtectedRoute>
               }
             />

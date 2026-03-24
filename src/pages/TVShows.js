@@ -1,23 +1,42 @@
-import Navbar from "../Components/Navbar";
-import Row from "../Components/Row";
+import { useMemo } from "react";
+import MediaGridPage from "../Components/MediaGridPage";
 
-function TVShows({ trending, topRated, actionMovies }) {
+function TVShows({
+  movies,
+  watchlist,
+  addToWatchlist,
+  removeFromWatchlist,
+}) {
+  const sortedShows = useMemo(() => {
+    const tvShows = Array.isArray(movies)
+      ? movies.filter(
+          (item) =>
+            item.seasons ||
+            item.tags?.some((tag) => tag.toLowerCase().includes("shows"))
+        )
+      : [];
 
-  // Example filter: only TV shows
-  const tvShows = [...trending, ...topRated, ...actionMovies].filter(
-    (movie) => movie.type === "tv"
-  );
+    return [...tvShows].sort((a, b) => {
+      const trendingA = a.tags?.includes("trending") ? 1 : 0;
+      const trendingB = b.tags?.includes("trending") ? 1 : 0;
+
+      if (trendingA !== trendingB) {
+        return trendingB - trendingA;
+      }
+
+      return Number(b.rating || 0) - Number(a.rating || 0);
+    });
+  }, [movies]);
 
   return (
-    <div style={{ background: "#111", minHeight: "100vh", color: "white" }}>
-      <Navbar />
-
-      <div style={{ paddingTop: "100px" }}>
-        <h1 style={{ marginLeft: "40px" }}>TV Shows</h1>
-
-        <Row title="Popular TV Shows" movies={tvShows} />
-      </div>
-    </div>
+    <MediaGridPage
+      title="TV Shows"
+      items={sortedShows}
+      emptyMessage="No TV shows available right now."
+      watchlist={watchlist}
+      addToWatchlist={addToWatchlist}
+      removeFromWatchlist={removeFromWatchlist}
+    />
   );
 }
 

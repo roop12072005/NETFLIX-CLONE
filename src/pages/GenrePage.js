@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 // Use ../ to go up one level out of 'pages', then into 'Components'
 import Navbar from '../Components/Navbar'; 
+import Banner from "../Components/Banner";
 
 
 function GenrePage({
@@ -23,39 +24,10 @@ function GenrePage({
     movie.genre?.toLowerCase().includes(genreName?.toLowerCase())
   );
 
-
-  const genreInfo = {
-  Action: {
-    title: "ACTION MOVIES",
-    description: "High adrenaline battles and intense missions.",
-    banner: "/genreBanners/action.jpg"
-  },
-  "Sci-Fi": {
-    title: "SCI-FI",
-    description: "Explore futuristic worlds and advanced technology.",
-    banner: "/genreBanners/scifi.jpg"
-  },
-  Drama: {
-    title: "DRAMA",
-    description: "Powerful emotional storytelling and characters.",
-    banner: "/genreBanners/drama.jpg"
-  },
-  Crime: {
-    title: "CRIME",
-    description: "Dark underworld stories and criminal masterminds.",
-    banner: "/genreBanners/crime.jpg"
-  },
-  Adventure: {
-    title: "ADVENTURE",
-    description: "Epic journeys and thrilling explorations.",
-    banner: "/genreBanners/adventure.jpg"
-  }
-};
-  const info = genreInfo[genreName] || {
-    title: `${genreName?.toUpperCase()} MOVIES`,
-    description: "Explore titles in this genre.",
-    banner: "/genreBanners/action.jpg"
-  };
+  const featuredMovie =
+    genreMovies.find((movie) => movie.tags?.includes("trending")) ||
+    genreMovies.find((movie) => movie.tags?.includes("topRated")) ||
+    genreMovies[0];
 
   const closeModal = () => {
     setSelectedMovie(null);
@@ -81,26 +53,14 @@ function GenrePage({
   return (
     <div className="genre_page">
       <Navbar />
-      <div
-        className="genre_banner"
-        style={{ backgroundImage: `url(${info.banner})` }}
-      >
-        <div className="genre_banner_content">
-
-          <h1>{info.title}</h1>
-
-          <p>{info.description}</p>
-
-          <button
-            className="genre_play"
-            onClick={() => genreMovies[0] && setSelectedMovie(genreMovies[0])}
-            disabled={!genreMovies.length}
-          >
-            Play Featured
-          </button>
-
-        </div>
-      </div>
+      <Banner
+        type="genre"
+        genre={genreName}
+        featuredMovie={featuredMovie}
+        watchlist={watchlist}
+        addToWatchlist={addToWatchlist}
+        removeFromWatchlist={removeFromWatchlist}
+      />
 
       <div className="genre_content">
         <h1 className="genre_title">

@@ -11,21 +11,24 @@ function Banner({
 }) {
   const navigate = useNavigate();
 
+  const movieBannerData = featuredMovie
+    ? {
+        title: featuredMovie.title,
+        description: featuredMovie.description,
+        image: `/posters/${featuredMovie.poster}`,
+        meta: `${featuredMovie.year} | ${featuredMovie.genre}`,
+      }
+    : null;
+
   const bannerData = {
-    home: featuredMovie
-      ? {
-          title: featuredMovie.title,
-          description: featuredMovie.description,
-          image: `/posters/${featuredMovie.poster}`,
-          meta: `${featuredMovie.year} • ${featuredMovie.genre}`,
-        }
-      : {
-          title: "JOHN WICK",
-          description:
-            "A legendary retired hitman is forced back into the underworld he left behind.",
-          image: "/posters/Banner.jpg",
-          meta: "Action Thriller",
-        },
+    home:
+      movieBannerData || {
+        title: "JOHN WICK",
+        description:
+          "A legendary retired hitman is forced back into the underworld he left behind.",
+        image: "/posters/John Wick 4",
+        meta: "Action Thriller",
+      },
     Action: {
       title: "Action Movies",
       description: "High adrenaline battles and intense missions.",
@@ -66,7 +69,13 @@ function Banner({
   let data;
 
   if (type === "genre") {
-    data = bannerData[genre];
+    data =
+      movieBannerData ||
+      bannerData[genre] || {
+        title: `${genre || "Genre"} Movies`,
+        description: "Explore titles in this genre.",
+        image: "/genreBanners/action.jpg",
+      };
   } else if (type === "tv") {
     data = bannerData.tv;
   } else if (type === "movie") {
@@ -75,7 +84,7 @@ function Banner({
     data = bannerData.home;
   }
 
-  const isHomeBanner = !type || type === "home";
+  const showActionButtons = Boolean(featuredMovie);
   const isInWatchlist = watchlist?.some((item) => item.id === featuredMovie?.id);
 
   const handlePlay = () => {
@@ -97,7 +106,7 @@ function Banner({
   return (
     <div
       className="banner"
-      style={{ backgroundImage: `url(${data.image})` }}
+      style={{ backgroundImage: `url(${encodeURI(data.image)})` }}
     >
       <div className="banner_overlay">
         <div className="banner_content">
@@ -105,9 +114,12 @@ function Banner({
 
           <h1 className="banner_title">{data.title}</h1>
 
-          {isHomeBanner && featuredMovie && (
+          {showActionButtons && (
             <div className="banner_buttons">
-              <button className="banner_button banner_button_primary" onClick={handlePlay}>
+              <button
+                className="banner_button banner_button_primary"
+                onClick={handlePlay}
+              >
                 Play
               </button>
 

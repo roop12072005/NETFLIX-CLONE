@@ -18,6 +18,7 @@ function MyList({ watchlist, removeFromWatchlist }) {
                 src={`/posters/${movie.poster}`}
                 alt={movie.title}
               />
+              <h2 className="mylist_card_title">{movie.title}</h2>
               <button
                 className="remove_button"
                 onClick={() => removeFromWatchlist(movie)}

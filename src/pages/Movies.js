@@ -34,8 +34,35 @@ function Movies({
       items={sortedMovies}
       emptyMessage="No movies available right now."
       watchlist={watchlist}
-      addToWatchlist={addToWatchlist}
-      removeFromWatchlist={removeFromWatchlist}
+      renderCardActions={({ item, isInWatchlist, openDetails }) => (
+        <>
+          <button
+            className="preview_play"
+            onClick={(e) => {
+              e.stopPropagation();
+              openDetails();
+            }}
+          >
+            Play
+          </button>
+
+          <button
+            className="preview_watchlist"
+            onClick={(e) => {
+              e.stopPropagation();
+
+              if (isInWatchlist) {
+                removeFromWatchlist(item);
+                return;
+              }
+
+              addToWatchlist(item);
+            }}
+          >
+            {isInWatchlist ? "Added to List" : "+ My List"}
+          </button>
+        </>
+      )}
     />
   );
 }

@@ -54,12 +54,14 @@ function CollectionPage({ movies }) {
 
         <div className="movie_grid">
           {collectionMovies.slice(0, visibleMovies).map(movie => (
-            <img
-              key={movie.id}
-              src={`/posters/${movie.poster}`}
-              alt={movie.title}
-              className="grid_poster"
-            />
+            <div key={movie.id} className="poster_container genre_poster_container">
+              <img
+                src={`/posters/${movie.poster}`}
+                alt={movie.title}
+                className="grid_poster"
+              />
+              <h2 className="poster_title">{movie.title}</h2>
+            </div>
           ))}
 
           {!collectionMovies.length && (

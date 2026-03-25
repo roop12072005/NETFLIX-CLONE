@@ -12,8 +12,7 @@ function MediaGridPage({
   items,
   emptyMessage,
   watchlist,
-  addToWatchlist,
-  removeFromWatchlist,
+  renderCardActions,
 }) {
   const navigate = useNavigate();
   const [visibleCount, setVisibleCount] = useState(INITIAL_BATCH);
@@ -77,53 +76,34 @@ function MediaGridPage({
                 const isInWatchlist = watchlist?.some(
                   (watchlistItem) => watchlistItem.id === item.id
                 );
-                const meta = item.seasons
-                  ? `${item.year} | ${item.genre} | ${item.seasons} Seasons`
-                  : `${item.year} | ${item.genre}`;
 
                 return (
                   <div
                     key={item.id}
                     className="media_card poster_container genre_poster_container"
                   >
-                    <img
-                      src={`/posters/${item.poster}`}
-                      alt={item.title}
-                      className="row_poster grid_poster media_grid_poster"
-                      onClick={() => navigate(`/movie/${item.id}`, { state: item })}
-                    />
+                    <div className="poster_frame">
+                      <img
+                        src={`/posters/${item.poster}`}
+                        alt={item.title}
+                        className="row_poster grid_poster media_grid_poster"
+                        onClick={() => navigate(`/movie/${item.id}`, { state: item })}
+                      />
 
-                    <div className="poster_overlay">
-                      <button
-                        className="preview_play"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          navigate(`/movie/${item.id}`, { state: item });
-                        }}
-                      >
-                        Play
-                      </button>
-
-                      <button
-                        className="preview_watchlist"
-                        onClick={(e) => {
-                          e.stopPropagation();
-
-                          if (isInWatchlist) {
-                            removeFromWatchlist(item);
-                            return;
-                          }
-
-                          addToWatchlist(item);
-                        }}
-                      >
-                        {isInWatchlist ? "Added to List" : "+ My List"}
-                      </button>
+                      {renderCardActions ? (
+                        <div className="poster_overlay">
+                          {renderCardActions({
+                            item,
+                            isInWatchlist,
+                            openDetails: () =>
+                              navigate(`/movie/${item.id}`, { state: item }),
+                          })}
+                        </div>
+                      ) : null}
                     </div>
 
                     <div className="media_card_details">
                       <h2 className="media_card_title">{item.title}</h2>
-                      <p className="media_card_meta">{meta}</p>
                     </div>
                   </div>
                 );

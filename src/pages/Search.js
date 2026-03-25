@@ -52,38 +52,42 @@ function Search({ movies, watchlist, addToWatchlist, removeFromWatchlist }) {
               key={movie.id}
               className="poster_container search_poster_container"
             >
-              <img
-                className="search_poster"
-                src={`/posters/${movie.poster}`}
-                alt={movie.title}
-                onClick={() => navigate(`/movie/${movie.id}`, { state: movie })}
-              />
+              <div className="poster_frame">
+                <img
+                  className="search_poster"
+                  src={`/posters/${movie.poster}`}
+                  alt={movie.title}
+                  onClick={() => navigate(`/movie/${movie.id}`, { state: movie })}
+                />
 
-              <div className="poster_overlay">
-                <button
-                  className="preview_play"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setSelectedMovie(movie);
-                  }}
-                >
-                  Play
-                </button>
+                <div className="poster_overlay">
+                  <button
+                    className="preview_play"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setSelectedMovie(movie);
+                    }}
+                  >
+                    Play
+                  </button>
 
-                <button
-                  className="preview_watchlist"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    watchlist?.some((item) => item.id === movie.id)
-                      ? removeFromWatchlist(movie)
-                      : addToWatchlist(movie);
-                  }}
-                >
-                  {watchlist?.some((item) => item.id === movie.id)
-                    ? "Added to List"
-                    : "+ My List"}
-                </button>
+                  <button
+                    className="preview_watchlist"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      watchlist?.some((item) => item.id === movie.id)
+                        ? removeFromWatchlist(movie)
+                        : addToWatchlist(movie);
+                    }}
+                  >
+                    {watchlist?.some((item) => item.id === movie.id)
+                      ? "Added to List"
+                      : "+ My List"}
+                  </button>
+                </div>
               </div>
+
+              <h2 className="search_card_title">{movie.title}</h2>
             </div>
           ))
         )}

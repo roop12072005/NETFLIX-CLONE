@@ -73,36 +73,40 @@ function GenrePage({
               key={movie.id}
               className="poster_container genre_poster_container"
             >
-              <img
-                src={`/posters/${movie.poster}`}
-                alt={movie.title}
-                className="row_poster grid_poster"
-                onClick={() => navigate(`/movie/${movie.id}`, { state: movie })}
-              />
+              <div className="poster_frame">
+                <img
+                  src={`/posters/${movie.poster}`}
+                  alt={movie.title}
+                  className="row_poster grid_poster"
+                  onClick={() => navigate(`/movie/${movie.id}`, { state: movie })}
+                />
 
-              <div className="poster_overlay">
-                <button
-                  className="preview_play"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setSelectedMovie(movie);
-                  }}
-                >
-                  Play
-                </button>
+                <div className="poster_overlay">
+                  <button
+                    className="preview_play"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setSelectedMovie(movie);
+                    }}
+                  >
+                    Play
+                  </button>
 
-                <button
-                  className="preview_watchlist"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    addToWatchlist(movie);
-                  }}
-                >
-                  {watchlist?.some((item) => item.id === movie.id)
-                    ? "Added to List"
-                    : "+ My List"}
-                </button>
+                  <button
+                    className="preview_watchlist"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      addToWatchlist(movie);
+                    }}
+                  >
+                    {watchlist?.some((item) => item.id === movie.id)
+                      ? "Added to List"
+                      : "+ My List"}
+                  </button>
+                </div>
               </div>
+
+              <h2 className="poster_title">{movie.title}</h2>
             </div>
           ))}
         </div>

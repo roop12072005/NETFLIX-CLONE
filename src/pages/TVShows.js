@@ -3,12 +3,15 @@ import MediaGridPage from "../Components/MediaGridPage";
 
 function TVShows({
   movies,
+  tvShows,
   watchlist,
   addToWatchlist,
   removeFromWatchlist,
 }) {
   const sortedShows = useMemo(() => {
-    const tvShows = Array.isArray(movies)
+    const allShows = Array.isArray(tvShows)
+      ? tvShows
+      : Array.isArray(movies)
       ? movies.filter(
           (item) =>
             item.seasons ||
@@ -16,7 +19,7 @@ function TVShows({
         )
       : [];
 
-    return [...tvShows].sort((a, b) => {
+    return [...allShows].sort((a, b) => {
       const trendingA = a.tags?.includes("trending") ? 1 : 0;
       const trendingB = b.tags?.includes("trending") ? 1 : 0;
 
@@ -26,7 +29,7 @@ function TVShows({
 
       return Number(b.rating || 0) - Number(a.rating || 0);
     });
-  }, [movies]);
+  }, [movies, tvShows]);
 
   return (
     <MediaGridPage

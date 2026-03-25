@@ -23,9 +23,16 @@ function App() {
 });
 
   const [movies, setMovies] = useState([]);
+  const [tvShows, setTvShows] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/movies").then(res => res.json()).then(data => setMovies(data));
+    fetch("http://localhost:4000/movies")
+      .then((res) => res.json())
+      .then((data) => setMovies(data));
+
+    fetch("http://localhost:4000/shows")
+      .then((res) => res.json())
+      .then((data) => setTvShows(data));
     }, []);  
 
 useEffect(() => {
@@ -139,6 +146,7 @@ const removeFromWatchlist = (movie) => {
                 <ProtectedRoute>
                   <TVShows 
                     movies={movies}
+                    tvShows={tvShows}
                     watchlist={watchlist}
                     addToWatchlist={addToWatchlist}
                     removeFromWatchlist={removeFromWatchlist}

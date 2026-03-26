@@ -5,12 +5,22 @@ function Login({ setIsAuthenticated }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
-
+  const [error, setError] = useState("");
+  
+  
   const handleSubmit = (e) => {
     e.preventDefault();
-    localStorage.setItem("auth", "true");
-    setIsAuthenticated(true);
-    navigate("/home")
+  
+    const validEmail = "hereitis@gmail.com";
+    const validPassword = "loginForYou";
+  
+    if (email === validEmail && password === validPassword) {
+      localStorage.setItem("auth", "true");
+      setIsAuthenticated(true);
+      navigate("/home");
+    } else {
+      alert("Invalid email or password");
+    }
   };
   return (
     <div
@@ -38,6 +48,7 @@ function Login({ setIsAuthenticated }) {
             required
             placeholder="Enter your password"
           />
+          {error && <p className="error-text">{error}</p>}
         </div>
         <button type="submit" className="login-btn">Login</button>
       </form>

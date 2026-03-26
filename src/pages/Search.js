@@ -3,14 +3,21 @@ import { useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import "./Search.css";
 
-function Search({ movies, watchlist, addToWatchlist, removeFromWatchlist }) {
+function Search({
+  movies,
+  tvShows,
+  watchlist,
+  addToWatchlist,
+  removeFromWatchlist,
+}) {
   const location = useLocation();
   const navigate = useNavigate();
   const query = new URLSearchParams(location.search).get("q") || "";
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [showTrailer, setShowTrailer] = useState(false);
+  const searchItems = [...(movies || []), ...(tvShows || [])];
 
-  const results = movies.filter((movie) =>
+  const results = searchItems.filter((movie) =>
     movie.title.toLowerCase().includes(query.toLowerCase())
   );
 
@@ -45,7 +52,7 @@ function Search({ movies, watchlist, addToWatchlist, removeFromWatchlist }) {
       <div className="search_grid">
 
         {results.length === 0 ? (
-          <p>No movies found</p>
+          <p>No titles found</p>
         ) : (
           results.map((movie) => (
             <div

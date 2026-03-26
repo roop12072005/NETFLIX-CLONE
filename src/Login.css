@@ -63,3 +63,9 @@
 .login-btn:hover {
   background: #2a5298;
 }
+
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+  text-align: center;
+}

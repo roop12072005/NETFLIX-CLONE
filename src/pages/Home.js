@@ -6,6 +6,7 @@ import '../Home.css';
 
 function Home({
   movies,
+  tvShows,
   loading,
   watchlist, 
   addToWatchlist, 
@@ -29,19 +30,31 @@ function Home({
     m.tags.includes("dual audio")
   );
 
+  const trendingShows = Array.isArray(tvShows)
+    ? tvShows.filter((show) => show.tags?.includes("trending"))
+    : [];
+
+  const topRatedShows = Array.isArray(tvShows)
+    ? tvShows.filter((show) => show.tags?.includes("topRated"))
+    : [];
+
+  const bingeWorthyShows = Array.isArray(tvShows)
+    ? tvShows.filter(
+        (show) =>
+          show.tags?.includes("multiple seasons") || Number(show.seasons || 0) > 1
+      )
+    : [];
+
   const [genreFilter, setGenreFilter] = useState("All");
-  const filterMovies = (movies) => {
-    // ?? SAFETY CHECK: If movies is undefined, null, or not an array, return an empty array
-    if (!movies || !Array.isArray(movies)) {
+  const filterMedia = (items) => {
+    if (!items || !Array.isArray(items)) {
       return [];
     }
 
-    // If the filter is "All", just return the original array
-    if (genreFilter === "All") return movies;
+    if (genreFilter === "All") return items;
 
-    // Otherwise, filter by the selected genre
-    return movies.filter(
-      (movie) => movie.genre?.toLowerCase().includes(genreFilter.toLowerCase())
+    return items.filter(
+      (item) => item.genre?.toLowerCase().includes(genreFilter.toLowerCase())
     );
   };
   return (
@@ -57,7 +70,7 @@ function Home({
       <Row
         title="Trending Now"
         tag="trending"
-        movies={filterMovies(trending).slice(0, 10)}
+        movies={filterMedia(trending).slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}
@@ -66,7 +79,7 @@ function Home({
       <Row
         title="Top Rated"
         tag="topRated"
-        movies={filterMovies(topRated).slice(0, 10)}
+        movies={filterMedia(topRated).slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}
@@ -75,7 +88,34 @@ function Home({
       <Row
         title="Dual Audio"
         tag="dual audio"
-        movies={filterMovies(dual_Audio).slice(0, 10)}
+        movies={filterMedia(dual_Audio).slice(0, 10)}
+        addToWatchlist={addToWatchlist}
+        removeFromWatchlist={removeFromWatchlist}
+        watchlist={watchlist}
+      />
+
+      <Row
+        title="Trending Shows"
+        tag="trending"
+        movies={filterMedia(trendingShows).slice(0, 10)}
+        addToWatchlist={addToWatchlist}
+        removeFromWatchlist={removeFromWatchlist}
+        watchlist={watchlist}
+      />
+
+      <Row
+        title="Top Rated Shows"
+        tag="topRated"
+        movies={filterMedia(topRatedShows).slice(0, 10)}
+        addToWatchlist={addToWatchlist}
+        removeFromWatchlist={removeFromWatchlist}
+        watchlist={watchlist}
+      />
+
+      <Row
+        title="Binge-Worthy Shows"
+        tag="multiple seasons"
+        movies={filterMedia(bingeWorthyShows).slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}

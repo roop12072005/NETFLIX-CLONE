@@ -15,7 +15,7 @@ function Banner({
     ? {
         title: featuredMovie.title,
         description: featuredMovie.description,
-        image: `/posters/${featuredMovie.poster}`,
+        image: "/posters/JOHN WICK 4.jpg",
         meta: `${featuredMovie.year} | ${featuredMovie.genre}`,
       }
     : null;
@@ -26,7 +26,7 @@ function Banner({
         title: "JOHN WICK",
         description:
           "A legendary retired hitman is forced back into the underworld he left behind.",
-        image: "/posters/John Wick 4",
+        image: "/posters/JOHN WICK 4.jpg",
         meta: "Action Thriller",
       },
     Action: {

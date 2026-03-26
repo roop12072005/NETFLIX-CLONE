@@ -3,12 +3,12 @@
     {
       "id": 1,
       "title": "Dune: Part Two",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2024",
       "rating": 8.8,
       "genre": "Sci-Fi, Action",
       "description": "Paul Atreides unites with Chani and the Fremen while on a warpath of revenge.",
-      "trailer": "dune2.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies",
@@ -18,12 +18,12 @@
     {
       "id": 2,
       "title": "Oppenheimer",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 8.4,
       "genre": "Biography, Drama",
       "description": "The story of American scientist J. Robert Oppenheimer and the atomic bomb.",
-      "trailer": "oppenheimer.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies"
@@ -32,12 +32,12 @@
     {
       "id": 3,
       "title": "John Wick: Chapter 4",
-      "poster": "John Wick 4.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 7.7,
       "genre": "Action, Thriller",
       "description": "John Wick uncovers a path to defeating The High Table.",
-      "trailer": "jw4.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies",
@@ -47,12 +47,12 @@
     {
       "id": 4,
       "title": "Spider-Man: Across the Spider-Verse",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 8.6,
       "genre": "Animation, Action",
       "description": "Miles Morales catapults across the Multiverse.",
-      "trailer": "spiderverse.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "topRated",
@@ -62,12 +62,12 @@
     {
       "id": 5,
       "title": "The Godfather",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1972",
       "rating": 9.2,
       "genre": "Crime, Drama",
       "description": "The aging patriarch of an organized crime dynasty transfers control to his son.",
-      "trailer": "godfather.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies"
@@ -76,12 +76,12 @@
     {
       "id": 6,
       "title": "The Shawshank Redemption",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1994",
       "rating": 9.3,
       "genre": "Drama",
       "description": "Two imprisoned men bond over a number of years, finding solace and redemption.",
-      "trailer": "shawshank.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies"
@@ -90,12 +90,12 @@
     {
       "id": 7,
       "title": "The Dark Knight",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2008",
       "rating": 9,
       "genre": "Action, Crime",
       "description": "Batman must accept one of the greatest psychological tests of his ability.",
-      "trailer": "darkknight.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -105,12 +105,12 @@
     {
       "id": 8,
       "title": "Inception",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2010",
       "rating": 8.8,
       "genre": "Sci-Fi, Action",
       "description": "A thief who steals corporate secrets through dream-sharing technology.",
-      "trailer": "inception.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -120,12 +120,12 @@
     {
       "id": 9,
       "title": "Interstellar",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2014",
       "rating": 8.7,
       "genre": "Sci-Fi, Drama",
       "description": "Explorers travel through a wormhole in space to ensure humanity's survival.",
-      "trailer": "interstellar.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -135,12 +135,12 @@
     {
       "id": 10,
       "title": "Avatar: The Way of Water",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2022",
       "rating": 7.6,
       "genre": "Sci-Fi, Adventure",
       "description": "Jake Sully lives with his newfound family on the extrasolar moon Pandora.",
-      "trailer": "avatar2.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies",
@@ -150,12 +150,12 @@
     {
       "id": 11,
       "title": "Deadpool & Wolverine",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2024",
       "rating": 8.2,
       "genre": "Action, Comedy",
       "description": "A weary Wolverine finds himself teaming up with a loudmouthed Deadpool.",
-      "trailer": "deadpool3.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies"
@@ -164,12 +164,12 @@
     {
       "id": 12,
       "title": "Gladiator",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2000",
       "rating": 8.5,
       "genre": "Action, Drama",
       "description": "A former Roman General sets out to exact vengeance against the corrupt emperor.",
-      "trailer": "gladiator.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -179,12 +179,12 @@
     {
       "id": 13,
       "title": "The Matrix",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1999",
       "rating": 8.7,
       "genre": "Sci-Fi, Action",
       "description": "A computer hacker learns from mysterious rebels about the true nature of his reality.",
-      "trailer": "matrix.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -194,12 +194,12 @@
     {
       "id": 14,
       "title": "Mad Max: Fury Road",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2015",
       "rating": 8.1,
       "genre": "Action, Sci-Fi",
       "description": "A woman rebels against a tyrannical ruler in a post-apocalyptic wasteland.",
-      "trailer": "madmax.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies"
@@ -208,12 +208,12 @@
     {
       "id": 15,
       "title": "Avengers: Endgame",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2019",
       "rating": 8.4,
       "genre": "Action, Sci-Fi",
       "description": "The remaining Avengers assemble to reverse Thanos' actions.",
-      "trailer": "endgame.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -224,12 +224,12 @@
     {
       "id": 16,
       "title": "Jurassic Park",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1993",
       "rating": 8.2,
       "genre": "Adventure, Sci-Fi",
       "description": "A pragmatic paleontologist tours an almost complete theme park of cloned dinosaurs.",
-      "trailer": "jurassic.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies"
@@ -238,12 +238,12 @@
     {
       "id": 17,
       "title": "Terminator 2: Judgment Day",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1991",
       "rating": 8.6,
       "genre": "Action, Sci-Fi",
       "description": "A cyborg must protect Sarah Connor's son from a more advanced cyborg.",
-      "trailer": "t2.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -253,12 +253,12 @@
     {
       "id": 18,
       "title": "The Lord of the Rings: Return of the King",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2003",
       "rating": 9,
       "genre": "Fantasy, Adventure",
       "description": "Gandalf and Aragorn lead the World of Men against Sauron's army.",
-      "trailer": "lotr3.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies"
@@ -267,12 +267,12 @@
     {
       "id": 19,
       "title": "Titanic",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1997",
       "rating": 7.9,
       "genre": "Drama, Romance",
       "description": "An aristocrat falls in love with a poor artist aboard the luxurious R.M.S. Titanic.",
-      "trailer": "titanic.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -282,12 +282,12 @@
     {
       "id": 20,
       "title": "Top Gun: Maverick",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2022",
       "rating": 8.3,
       "genre": "Action, Drama",
       "description": "Maverick must confront ghosts of his past when he leads TOP GUN's elite graduates.",
-      "trailer": "topgun.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies"
@@ -296,12 +296,12 @@
     {
       "id": 21,
       "title": "Dangal",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2016",
       "rating": 8.3,
       "genre": "Biography, Drama",
       "description": "Former wrestler Mahavir Singh Phogat trains his daughters to become world-class wrestlers.",
-      "trailer": "dangal.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -311,12 +311,12 @@
     {
       "id": 22,
       "title": "3 Idiots",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2009",
       "rating": 8.4,
       "genre": "Comedy, Drama",
       "description": "Two friends search for their long lost companion, revisiting their college days.",
-      "trailer": "3idiots.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -325,12 +325,12 @@
     {
       "id": 23,
       "title": "Sholay",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1975",
       "rating": 8.1,
       "genre": "Action, Adventure",
       "description": "A retired police officer relies on two criminals to capture a ruthless bandit.",
-      "trailer": "sholay.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -339,12 +339,12 @@
     {
       "id": 24,
       "title": "PK",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2014",
       "rating": 8.1,
       "genre": "Comedy, Drama",
       "description": "An alien on Earth loses his communication device and questions religious dogmas.",
-      "trailer": "pk.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -353,12 +353,12 @@
     {
       "id": 25,
       "title": "Bajrangi Bhaijaan",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2015",
       "rating": 8.1,
       "genre": "Action, Comedy",
       "description": "An Indian man with a magnanimous heart takes a mute Pakistani girl back to her homeland.",
-      "trailer": "bajrangi.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -368,12 +368,12 @@
     {
       "id": 26,
       "title": "Lagaan",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2001",
       "rating": 8.1,
       "genre": "Drama, Sports",
       "description": "Villagers in Victorian India stake their future on a game of cricket against their British rulers.",
-      "trailer": "lagaan.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -382,12 +382,12 @@
     {
       "id": 27,
       "title": "Kahaani",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2012",
       "rating": 8.1,
       "genre": "Mystery, Thriller",
       "description": "A pregnant woman searches for her missing husband in the city of Kolkata.",
-      "trailer": "kahaani.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -396,12 +396,12 @@
     {
       "id": 28,
       "title": "Drishyam",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2015",
       "rating": 8.2,
       "genre": "Crime, Thriller",
       "description": "A man takes desperate measures to save his family from the dark side of the law.",
-      "trailer": "drishyam.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -410,12 +410,12 @@
     {
       "id": 29,
       "title": "Andhadhun",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 8.2,
       "genre": "Crime, Thriller",
       "description": "A series of mysterious events change the life of a blind piano player.",
-      "trailer": "andhadhun.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -425,12 +425,12 @@
     {
       "id": 30,
       "title": "Zindagi Na Milegi Dobara",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2011",
       "rating": 8.2,
       "genre": "Comedy, Drama",
       "description": "Three friends decide to turn their fantasy vacation into reality after one of them gets engaged.",
-      "trailer": "znmd.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -439,12 +439,12 @@
     {
       "id": 31,
       "title": "Dilwale Dulhania Le Jayenge",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1995",
       "rating": 8,
       "genre": "Drama, Romance",
       "description": "Raj and Simran fall in love during a vacation in Europe, but Simran's father has promised her hand to someone else.",
-      "trailer": "ddlj.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies",
@@ -454,12 +454,12 @@
     {
       "id": 32,
       "title": "Swades",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2004",
       "rating": 8.2,
       "genre": "Drama",
       "description": "A successful Indian scientist returns to an Indian village to take his nanny to America.",
-      "trailer": "swades.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -468,12 +468,12 @@
     {
       "id": 33,
       "title": "Chak De! India",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2007",
       "rating": 8.1,
       "genre": "Drama, Sports",
       "description": "A disgraced hockey player coaches the women's national team to win back his honor.",
-      "trailer": "chakde.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -482,12 +482,12 @@
     {
       "id": 34,
       "title": "Taare Zameen Par",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2007",
       "rating": 8.3,
       "genre": "Drama, Family",
       "description": "An unconventional art teacher helps an 8-year-old dyslexic boy discover his true identity.",
-      "trailer": "taare.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -496,12 +496,12 @@
     {
       "id": 35,
       "title": "Munna Bhai M.B.B.S.",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2003",
       "rating": 8.1,
       "genre": "Comedy, Drama",
       "description": "A goon sets out to fulfill his father's dream of becoming a doctor.",
-      "trailer": "munnabhai.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -510,12 +510,12 @@
     {
       "id": 36,
       "title": "Pathaan",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 5.9,
       "genre": "Action, Thriller",
       "description": "An Indian spy takes on the leader of a group of mercenaries who have nefarious plans to target his homeland.",
-      "trailer": "pathaan.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "bollywood movies"
@@ -524,12 +524,12 @@
     {
       "id": 37,
       "title": "Jawan",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 7,
       "genre": "Action, Thriller",
       "description": "A high-octane action thriller which outlines the emotional journey of a man who is set to rectify the wrongs in the society.",
-      "trailer": "jawan.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "bollywood movies"
@@ -538,12 +538,12 @@
     {
       "id": 38,
       "title": "Animal",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 6.2,
       "genre": "Action, Crime",
       "description": "The hardened son of a powerful industrialist returns home after years abroad and vows to take bloody revenge on those threatening his father.",
-      "trailer": "animal.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "bollywood movies"
@@ -552,12 +552,12 @@
     {
       "id": 39,
       "title": "Gangs of Wasseypur",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2012",
       "rating": 8.2,
       "genre": "Action, Crime",
       "description": "A clash between Sultan and Shahid Khan leads to the expulsion of Khan from Wasseypur, igniting a deadly blood feud spanning three generations.",
-      "trailer": "gow.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -566,12 +566,12 @@
     {
       "id": 40,
       "title": "Article 15",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2019",
       "rating": 8.1,
       "genre": "Crime, Drama",
       "description": "An upright police officer launches a harrowing investigation into the disappearance of three teenage girls in a rural village.",
-      "trailer": "article15.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "bollywood movies"
@@ -580,12 +580,12 @@
     {
       "id": 41,
       "title": "Carry on Jatta 3",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 7.5,
       "genre": "Comedy",
       "description": "Chaos ensues as Jass tries to marry Meet, but his father refuses to let him marry a girl who doesn't have a family.",
-      "trailer": "coj3.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "punjabi movies"
@@ -594,12 +594,12 @@
     {
       "id": 42,
       "title": "Qismat",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 8.3,
       "genre": "Drama, Romance",
       "description": "A man falls in love with a woman while studying in Chandigarh, despite his arranged marriage back home.",
-      "trailer": "qismat.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies",
@@ -609,12 +609,12 @@
     {
       "id": 43,
       "title": "Shadaa",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2019",
       "rating": 7.1,
       "genre": "Comedy, Romance",
       "description": "A man past the eligible age of marriage struggles to find a bride.",
-      "trailer": "shadaa.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -624,12 +624,12 @@
     {
       "id": 44,
       "title": "Chal Mera Putt",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2019",
       "rating": 8,
       "genre": "Comedy, Drama",
       "description": "Punjabi immigrants struggle to make a living and secure their residency in the UK.",
-      "trailer": "cmp.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -638,12 +638,12 @@
     {
       "id": 45,
       "title": "Sufna",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2020",
       "rating": 8.2,
       "genre": "Drama, Romance",
       "description": "Jeet is a free-spirited youth in a village who falls in love with Teg, a beautiful cotton picker.",
-      "trailer": "sufna.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -652,12 +652,12 @@
     {
       "id": 46,
       "title": "Ardaas",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2016",
       "rating": 8.2,
       "genre": "Drama",
       "description": "A teacher transfers to a village and helps the locals solve their various personal issues.",
-      "trailer": "ardaas.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -666,12 +666,12 @@
     {
       "id": 47,
       "title": "Punjab 1984",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2014",
       "rating": 8.3,
       "genre": "Drama, History",
       "description": "A mother searches for her missing son who is wrongly labeled a terrorist during the 1980s insurgency.",
-      "trailer": "punjab1984.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -680,12 +680,12 @@
     {
       "id": 48,
       "title": "Angrej",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2015",
       "rating": 8.3,
       "genre": "Comedy, Romance",
       "description": "A young man navigates love and marriage in rural Punjab during the 1940s.",
-      "trailer": "angrej.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -694,12 +694,12 @@
     {
       "id": 49,
       "title": "Jatt & Juliet",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2012",
       "rating": 7.6,
       "genre": "Comedy, Romance",
       "description": "A village boy and a sophisticated city girl clash during their journey to Canada, only to eventually fall in love.",
-      "trailer": "jattjuliet.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -708,12 +708,12 @@
     {
       "id": 50,
       "title": "Muklawa",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2019",
       "rating": 7.2,
       "genre": "Comedy, Romance",
       "description": "A man sets out to visit his wife after their marriage, challenging the traditions of the era.",
-      "trailer": "muklawa.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "punjabi movies"
@@ -722,12 +722,12 @@
     {
       "id": 51,
       "title": "Manje Bistre",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2017",
       "rating": 7.1,
       "genre": "Comedy, Drama",
       "description": "A traditional Punjabi wedding provides the backdrop for a budding romance.",
-      "trailer": "manjebistre.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -736,12 +736,12 @@
     {
       "id": 52,
       "title": "Honsla Rakh",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2021",
       "rating": 7.3,
       "genre": "Comedy, Romance",
       "description": "A single father attempts to find love again, but faces challenges from his young son and his ex.",
-      "trailer": "honsla.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "punjabi movies"
@@ -750,12 +750,12 @@
     {
       "id": 53,
       "title": "Nikka Zaildar",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2016",
       "rating": 7.5,
       "genre": "Comedy, Romance",
       "description": "A village youth falls for a college girl and uses various tactics to win her heart and convince his strict grandmother.",
-      "trailer": "nikka.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -764,12 +764,12 @@
     {
       "id": 54,
       "title": "Lahoriye",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2017",
       "rating": 7.6,
       "genre": "Drama, Romance",
       "description": "Love blossoms between an Indian Sikh man and a Pakistani Muslim woman, testing borders and prejudices.",
-      "trailer": "lahoriye.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -778,12 +778,12 @@
     {
       "id": 55,
       "title": "Bambukat",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2016",
       "rating": 7.7,
       "genre": "Comedy, Drama",
       "description": "A man tries to outshine his wealthy brother-in-law by buying a motorcycle.",
-      "trailer": "bambukat.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -792,12 +792,12 @@
     {
       "id": 56,
       "title": "Kala Shah Kala",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2019",
       "rating": 7.3,
       "genre": "Comedy, Romance",
       "description": "A dark-skinned man struggles to find a bride but eventually marries a beautiful woman who is in love with someone else.",
-      "trailer": "kalashah.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "punjabi movies"
@@ -806,12 +806,12 @@
     {
       "id": 57,
       "title": "Ashke",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 7.4,
       "genre": "Drama, Family",
       "description": "A former Bhangra dancer is inspired to rebuild his estranged college team to compete in a major competition.",
-      "trailer": "ashke.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies",
@@ -821,12 +821,12 @@
     {
       "id": 58,
       "title": "Saunkan Saunkne",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2022",
       "rating": 7.1,
       "genre": "Comedy",
       "description": "A childless couple's life turns upside down when the wife convinces the husband to marry her younger sister.",
-      "trailer": "saunkan.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "punjabi movies"
@@ -835,12 +835,12 @@
     {
       "id": 59,
       "title": "Rabb Da Radio",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2017",
       "rating": 7.9,
       "genre": "Drama, Family",
       "description": "A young woman brings love and unity to a deeply divided and estranged family.",
-      "trailer": "rabbda.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -849,12 +849,12 @@
     {
       "id": 60,
       "title": "Sardar Mohammad",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2017",
       "rating": 7.5,
       "genre": "Drama",
       "description": "An Indian Sikh man sets out to Pakistan to find his biological parents after discovering he was adopted.",
-      "trailer": "sardar.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "punjabi movies"
@@ -863,12 +863,12 @@
     {
       "id": 61,
       "title": "The Conjuring",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2013",
       "rating": 7.5,
       "genre": "Horror, Thriller",
       "description": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
-      "trailer": "conjuring.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Horror Movies",
@@ -879,12 +879,12 @@
     {
       "id": 62,
       "title": "Hereditary",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 7.3,
       "genre": "Horror, Drama",
       "description": "A grieving family is haunted by tragic and disturbing occurrences.",
-      "trailer": "hereditary.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "Horror Movies",
@@ -894,12 +894,12 @@
     {
       "id": 63,
       "title": "A Quiet Place",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 7.5,
       "genre": "Horror, Sci-Fi",
       "description": "A family is forced to live in silence while hiding from creatures that hunt by sound.",
-      "trailer": "quietplace.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -911,12 +911,12 @@
     {
       "id": 64,
       "title": "Get Out",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2017",
       "rating": 7.8,
       "genre": "Horror, Mystery",
       "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness reaches a boiling point.",
-      "trailer": "getout.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Horror Movies",
@@ -926,12 +926,12 @@
     {
       "id": 65,
       "title": "The Exorcist",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1973",
       "rating": 8.1,
       "genre": "Horror",
       "description": "When a teenage girl is possessed by a mysterious entity, her mother seeks the help of two priests to save her.",
-      "trailer": "exorcist.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Horror Movies",
@@ -941,12 +941,12 @@
     {
       "id": 66,
       "title": "It",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2017",
       "rating": 7.3,
       "genre": "Horror",
       "description": "In the summer of 1989, a group of bullied kids band together to destroy a shape-shifting monster.",
-      "trailer": "it.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "Horror Movies",
@@ -957,12 +957,12 @@
     {
       "id": 67,
       "title": "Halloween",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1978",
       "rating": 7.7,
       "genre": "Horror, Thriller",
       "description": "Fifteen years after murdering his sister on Halloween night, Michael Myers escapes from a mental hospital.",
-      "trailer": "halloween.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Horror Movies",
@@ -972,12 +972,12 @@
     {
       "id": 68,
       "title": "Sinister",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2012",
       "rating": 6.8,
       "genre": "Horror, Mystery",
       "description": "A true-crime writer discovers a cache of 8mm home movies that suggest the murder he is currently researching is the work of a serial killer.",
-      "trailer": "sinister.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "Horror Movies",
@@ -988,12 +988,12 @@
     {
       "id": 69,
       "title": "Insidious",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2010",
       "rating": 6.8,
       "genre": "Horror, Mystery",
       "description": "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
-      "trailer": "insidious.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "Horror Movies",
@@ -1004,12 +1004,12 @@
     {
       "id": 70,
       "title": "The Ring",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2002",
       "rating": 7.1,
       "genre": "Horror, Mystery",
       "description": "A journalist must investigate a mysterious videotape which seems to cause the death of anyone one week to the day after they view it.",
-      "trailer": "ring.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Horror Movies",
@@ -1019,12 +1019,12 @@
     {
       "id": 71,
       "title": "Tumbbad",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 8.2,
       "genre": "Horror, Fantasy",
       "description": "A mythological story about a goddess who created the entire universe and her firstborn greed-driven son.",
-      "trailer": "tumbbad.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -1035,12 +1035,12 @@
     {
       "id": 72,
       "title": "Stree",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 7.5,
       "genre": "Horror, Comedy",
       "description": "In the small town of Chanderi, the menfolk live in fear of an evil spirit named Stree who abducts men in the night.",
-      "trailer": "stree.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -1051,12 +1051,12 @@
     {
       "id": 73,
       "title": "Bhool Bhulaiyaa",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2007",
       "rating": 7.4,
       "genre": "Horror, Comedy",
       "description": "An NRI and his wife decide to stay in his ancestral home, ignoring the warnings about ghosts.",
-      "trailer": "bhool.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Horror Movies",
@@ -1066,12 +1066,12 @@
     {
       "id": 74,
       "title": "Pari",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 6.6,
       "genre": "Horror, Mystery",
       "description": "A kind-hearted man tries to help a strange woman named Rukhsana, who is a victim of abuse.",
-      "trailer": "pari.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "Horror Movies",
@@ -1081,12 +1081,12 @@
     {
       "id": 75,
       "title": "Raaz",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2002",
       "rating": 6.6,
       "genre": "Horror, Romance",
       "description": "A couple moves to Ooty to save their failing marriage, but their new home turns out to be haunted.",
-      "trailer": "raaz.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "Horror Movies",
         "bollywood movies"
@@ -1095,12 +1095,12 @@
     {
       "id": 76,
       "title": "La La Land",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2016",
       "rating": 8,
       "genre": "Comedy, Drama, Music",
       "description": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations.",
-      "trailer": "lalaland.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Music and musical",
@@ -1110,12 +1110,12 @@
     {
       "id": 77,
       "title": "The Greatest Showman",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2017",
       "rating": 7.5,
       "genre": "Biography, Drama, Music",
       "description": "Celebrates the birth of show business and tells of a visionary who rose from nothing to create a spectacle.",
-      "trailer": "showman.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "Music and musical",
@@ -1125,12 +1125,12 @@
     {
       "id": 78,
       "title": "Mamma Mia!",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2008",
       "rating": 6.5,
       "genre": "Comedy, Musical",
       "description": "The story of a bride-to-be trying to find her real father told using hit songs by the popular 1970s group ABBA.",
-      "trailer": "mammamia.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "Music and musical",
         "hollywood movies"
@@ -1139,12 +1139,12 @@
     {
       "id": 79,
       "title": "Les Misérables",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2012",
       "rating": 7.5,
       "genre": "Drama, Musical",
       "description": "In 19th-century France, Jean Valjean, who for decades has been hunted by the ruthless policeman Javert after breaking parole, agrees to care for a factory worker's daughter.",
-      "trailer": "lesmis.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Music and musical",
@@ -1154,12 +1154,12 @@
     {
       "id": 80,
       "title": "Chicago",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2002",
       "rating": 7.2,
       "genre": "Comedy, Crime, Musical",
       "description": "Two death-row murderesses develop a fierce rivalry while competing for publicity, celebrity, and a sleazy lawyer's attention.",
-      "trailer": "chicago.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Music and musical",
@@ -1169,12 +1169,12 @@
     {
       "id": 81,
       "title": "The Sound of Music",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1965",
       "rating": 8.1,
       "genre": "Biography, Drama, Family",
       "description": "A young novitiate is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.",
-      "trailer": "soundofmusic.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Music and musical",
@@ -1184,12 +1184,12 @@
     {
       "id": 82,
       "title": "Grease",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "1978",
       "rating": 7.2,
       "genre": "Comedy, Musical",
       "description": "Good girl Sandy Olsson and greaser Danny Zuko fell in love over the summer.",
-      "trailer": "grease.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Music and musical",
@@ -1199,12 +1199,12 @@
     {
       "id": 83,
       "title": "Moulin Rouge!",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2001",
       "rating": 7.6,
       "genre": "Drama, Musical",
       "description": "A poet falls for a beautiful courtesan whom a jealous duke covets.",
-      "trailer": "moulinrouge.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "Music and musical",
@@ -1214,12 +1214,12 @@
     {
       "id": 84,
       "title": "A Star is Born",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 7.6,
       "genre": "Drama, Music",
       "description": "A musician helps a young singer find fame as age and alcoholism send his own career into a downward spiral.",
-      "trailer": "starisborn.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "Music and musical",
@@ -1229,12 +1229,12 @@
     {
       "id": 85,
       "title": "Bohemian Rhapsody",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2018",
       "rating": 7.9,
       "genre": "Biography, Drama, Music",
       "description": "The story of the legendary British rock band Queen and lead singer Freddie Mercury.",
-      "trailer": "bohemian.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -1246,12 +1246,12 @@
     {
       "id": 86,
       "title": "Rockstar",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2011",
       "rating": 7.7,
       "genre": "Drama, Music",
       "description": "Janardhan Jakhar chases his dreams of becoming a big Rock star.",
-      "trailer": "rockstar.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -1262,12 +1262,12 @@
     {
       "id": 87,
       "title": "Aashiqui 2",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2013",
       "rating": 7.1,
       "genre": "Drama, Music",
       "description": "Rahul loses his fans and fame due to alcoholism. But he then decides to turn a small time singer into a rising star.",
-      "trailer": "aashiqui2.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "Music and musical",
         "bollywood movies"
@@ -1276,12 +1276,12 @@
     {
       "id": 88,
       "title": "Gully Boy",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2019",
       "rating": 7.9,
       "genre": "Drama, Music",
       "description": "A coming-of-age story based on the lives of street rappers in Mumbai.",
-      "trailer": "gullyboy.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -1292,12 +1292,12 @@
     {
       "id": 89,
       "title": "Qismat 2",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2021",
       "rating": 7.4,
       "genre": "Drama, Romance",
       "description": "A story of unrequited love, destiny and heartbreaks.",
-      "trailer": "qismat2.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "Music and musical",
@@ -1307,12 +1307,12 @@
     {
       "id": 90,
       "title": "The Batman",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2022",
       "rating": 7.8,
       "genre": "Action, Crime",
       "description": "Batman investigates the city's hidden corruption.",
-      "trailer": "thebatman.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies",
@@ -1322,12 +1322,12 @@
     {
       "id": 91,
       "title": "Guardians of the Galaxy Vol. 3",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 7.9,
       "genre": "Action, Adventure",
       "description": "Peter Quill rallies his team to defend the universe.",
-      "trailer": "gotg3.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies",
@@ -1337,12 +1337,12 @@
     {
       "id": 92,
       "title": "Mission: Impossible - Dead Reckoning",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 7.7,
       "genre": "Action, Thriller",
       "description": "Ethan Hunt tracks down a dangerous new weapon.",
-      "trailer": "mi7.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies",
@@ -1352,12 +1352,12 @@
     {
       "id": 93,
       "title": "Joker",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2019",
       "rating": 8.4,
       "genre": "Crime, Drama",
       "description": "A troubled comedian spirals into revolution and bloody crime.",
-      "trailer": "joker.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -1367,12 +1367,12 @@
     {
       "id": 94,
       "title": "Godzilla Minus One",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 8.3,
       "genre": "Action, Sci-Fi",
       "description": "Post-war Japan faces a new crisis in the form of a giant monster.",
-      "trailer": "godzilla.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "trending",
@@ -1382,12 +1382,12 @@
     {
       "id": 95,
       "title": "The Super Mario Bros. Movie",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2023",
       "rating": 7.1,
       "genre": "Animation, Adventure",
       "description": "Mario travels through an underground labyrinth with his brother.",
-      "trailer": "mario.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies",
@@ -1397,12 +1397,12 @@
     {
       "id": 96,
       "title": "Avatar",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2009",
       "rating": 7.9,
       "genre": "Action, Adventure",
       "description": "A paraplegic Marine is dispatched to the moon Pandora on a unique mission.",
-      "trailer": "avatar.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -1412,12 +1412,12 @@
     {
       "id": 97,
       "title": "The Wolf of Wall Street",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2013",
       "rating": 8.2,
       "genre": "Biography, Comedy",
       "description": "The rise and fall of stockbroker Jordan Belfort.",
-      "trailer": "wolf.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies"
@@ -1426,12 +1426,12 @@
     {
       "id": 98,
       "title": "Blade Runner 2049",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2017",
       "rating": 8,
       "genre": "Action, Sci-Fi",
       "description": "A young Blade Runner discovers a long-buried secret.",
-      "trailer": "br2049.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "hollywood movies",
@@ -1441,12 +1441,12 @@
     {
       "id": 99,
       "title": "Tenet",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2020",
       "rating": 7.3,
       "genre": "Action, Sci-Fi",
       "description": "A protagonist journeys through a twilight world of international espionage.",
-      "trailer": "tenet.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "trending",
         "hollywood movies",
@@ -1456,12 +1456,12 @@
     {
       "id": 100,
       "title": "Coco",
-      "poster": "John Wick.jpg",
+      "poster": "JOHN WICK.jpg",
       "year": "2017",
       "rating": 8.4,
       "genre": "Animation, Family",
       "description": "Miguel enters the Land of the Dead to find his great-great-grandfather.",
-      "trailer": "coco.mp4",
+      "trailer": "stHD.mp4",
       "tags": [
         "topRated",
         "Music and musical",
@@ -1469,108 +1469,1606 @@
         "dual audio"
       ]
     }
-  ]
-  ,
+  ],
   "shows": [
-    { "id": 101, "title": "Breaking Bad", "poster": "breakingbad.jpg", "year": "2008", "rating": 9.5, "genre": "Crime, Drama", "seasons": 5, "description": "A chemistry teacher diagnosed with cancer turns to manufacturing meth.", "trailer": "bb.mp4", "tags": ["topRated", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 102, "title": "Game of Thrones", "poster": "got.jpg", "year": "2011", "rating": 9.2, "genre": "Action, Fantasy", "seasons": 8, "description": "Nine noble families fight for control over the lands of Westeros.", "trailer": "got.mp4", "tags": ["topRated", "hollywood shows", "multiple seasons", "dual audio"] },
-    { "id": 103, "title": "Stranger Things", "poster": "strangerthings.jpg", "year": "2016", "rating": 8.7, "genre": "Sci-Fi, Horror", "seasons": 4, "description": "A group of kids uncover supernatural mysteries in their town.", "trailer": "st.mp4", "tags": ["trending", "Horror Shows", "hollywood shows", "multiple seasons", "dual audio"] },
-    { "id": 104, "title": "The Last of Us", "poster": "lastofus.jpg", "year": "2023", "rating": 8.7, "genre": "Drama, Sci-Fi", "seasons": 1, "description": "A hardened survivor takes charge of a 14-year-old girl.", "trailer": "lou.mp4", "tags": ["trending", "hollywood shows", "dual audio"] },
-    { "id": 105, "title": "Succession", "poster": "succession.jpg", "year": "2018", "rating": 8.9, "genre": "Drama", "seasons": 4, "description": "The Roy family is known for controlling the biggest media company in the world.", "trailer": "succession.mp4", "tags": ["topRated", "trending", "hollywood shows", "multiple seasons"] },
-    { "id": 106, "title": "The Wire", "poster": "thewire.jpg", "year": "2002", "rating": 9.3, "genre": "Crime, Drama", "seasons": 5, "description": "The Baltimore drug scene, seen through the eyes of drug dealers and law enforcement.", "trailer": "wire.mp4", "tags": ["topRated", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 107, "title": "The Sopranos", "poster": "sopranos.jpg", "year": "1999", "rating": 9.2, "genre": "Crime, Drama", "seasons": 6, "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues.", "trailer": "sopranos.mp4", "tags": ["topRated", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 108, "title": "Peaky Blinders", "poster": "peaky.jpg", "year": "2013", "rating": 8.8, "genre": "Crime, Drama", "seasons": 6, "description": "A gangster family epic set in 1900s England.", "trailer": "peaky.mp4", "tags": ["topRated", "trending", "Crime Shows", "hollywood shows", "multiple seasons", "dual audio"] },
-    { "id": 109, "title": "The Office", "poster": "theoffice.jpg", "year": "2005", "rating": 9.0, "genre": "Comedy", "seasons": 9, "description": "A mockumentary on a group of typical office workers.", "trailer": "theoffice.mp4", "tags": ["topRated", "hollywood shows", "multiple seasons"] },
-    { "id": 110, "title": "Friends", "poster": "friends.jpg", "year": "1994", "rating": 8.9, "genre": "Comedy, Romance", "seasons": 10, "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends.", "trailer": "friends.mp4", "tags": ["topRated", "hollywood shows", "multiple seasons"] },
-    { "id": 111, "title": "Sacred Games", "poster": "sacredgames.jpg", "year": "2018", "rating": 8.5, "genre": "Crime, Action", "seasons": 2, "description": "A link in their pasts leads an honest cop to a fugitive gang boss.", "trailer": "sacredgames.mp4", "tags": ["topRated", "Crime Shows", "bollywood shows", "multiple seasons"] },
-    { "id": 112, "title": "Mirzapur", "poster": "mirzapur.jpg", "year": "2018", "rating": 8.5, "genre": "Crime, Action", "seasons": 3, "description": "A shocking incident at a wedding procession ignites a series of events entangling two families.", "trailer": "mirzapur.mp4", "tags": ["trending", "topRated", "Crime Shows", "bollywood shows", "multiple seasons"] },
-    { "id": 113, "title": "The Family Man", "poster": "familyman.jpg", "year": "2019", "rating": 8.7, "genre": "Action, Comedy", "seasons": 2, "description": "A working man from the National Investigation Agency tries to protect the nation.", "trailer": "familyman.mp4", "tags": ["topRated", "trending", "bollywood shows", "multiple seasons"] },
-    { "id": 114, "title": "Scam 1992", "poster": "scam1992.jpg", "year": "2020", "rating": 9.3, "genre": "Biography, Crime", "seasons": 1, "description": "The story of Harshad Mehta, a stockbroker who took the stock market to dizzying heights.", "trailer": "scam.mp4", "tags": ["topRated", "Crime Shows", "bollywood shows"] },
-    { "id": 115, "title": "Panchayat", "poster": "panchayat.jpg", "year": "2020", "rating": 8.9, "genre": "Comedy, Drama", "seasons": 3, "description": "An engineering graduate joins as a Panchayat secretary in a remote village.", "trailer": "panchayat.mp4", "tags": ["topRated", "trending", "bollywood shows", "multiple seasons"] },
-    { "id": 116, "title": "Farzi", "poster": "farzi.jpg", "year": "2023", "rating": 8.4, "genre": "Crime, Thriller", "seasons": 1, "description": "A brilliant artist gets pulled into the murky high stakes of a con job.", "trailer": "farzi.mp4", "tags": ["trending", "Crime Shows", "bollywood shows"] },
-    { "id": 117, "title": "Asur", "poster": "asur.jpg", "year": "2020", "rating": 8.5, "genre": "Crime, Thriller", "seasons": 2, "description": "A unique crime thriller that pits two opposing worlds against each other.", "trailer": "asur.mp4", "tags": ["topRated", "Crime Shows", "bollywood shows", "multiple seasons"] },
-    { "id": 118, "title": "Paatal Lok", "poster": "paatallok.jpg", "year": "2020", "rating": 8.1, "genre": "Crime, Thriller", "seasons": 1, "description": "A down and out cop lands the case of a lifetime when four suspects are nabbed.", "trailer": "paatallok.mp4", "tags": ["Crime Shows", "bollywood shows"] },
-    { "id": 119, "title": "Delhi Crime", "poster": "delhicrime.jpg", "year": "2019", "rating": 8.5, "genre": "Crime, Drama", "seasons": 2, "description": "Based on a true story, a police officer investigates a horrific gang rape.", "trailer": "delhicrime.mp4", "tags": ["topRated", "Crime Shows", "bollywood shows", "multiple seasons"] },
-    { "id": 120, "title": "Kota Factory", "poster": "kota.jpg", "year": "2019", "rating": 9.0, "genre": "Comedy, Drama", "seasons": 3, "description": "Dedicated to students preparing for competitive exams in Kota.", "trailer": "kota.mp4", "tags": ["topRated", "bollywood shows", "multiple seasons"] },
-    { "id": 121, "title": "Warning", "poster": "warning.jpg", "year": "2021", "rating": 8.2, "genre": "Action, Crime", "seasons": 1, "description": "An intense action-packed series exploring the dark underworld of Punjab.", "trailer": "warning.mp4", "tags": ["trending", "Crime Shows", "punjabi shows"] },
-    { "id": 122, "title": "Shikari", "poster": "shikari.jpg", "year": "2021", "rating": 7.9, "genre": "Crime, Thriller", "seasons": 2, "description": "A gripping tale of crime, revenge, and mystery unfolding in Punjab.", "trailer": "shikari.mp4", "tags": ["Crime Shows", "punjabi shows", "multiple seasons"] },
-    { "id": 123, "title": "Yaar Chale Bahar", "poster": "ycb.jpg", "year": "2022", "rating": 8.5, "genre": "Comedy, Drama", "seasons": 2, "description": "Struggles of students trying to clear IELTS and go abroad.", "trailer": "ycb.mp4", "tags": ["topRated", "trending", "punjabi shows", "multiple seasons"] },
-    { "id": 124, "title": "Zila Sangrur", "poster": "zilasangrur.jpg", "year": "2021", "rating": 7.5, "genre": "Crime, Action", "seasons": 1, "description": "A story centered around the criminal activities in the district of Sangrur.", "trailer": "zila.mp4", "tags": ["Crime Shows", "punjabi shows"] },
-    { "id": 125, "title": "Murabba", "poster": "murabba.jpg", "year": "2021", "rating": 7.2, "genre": "Drama", "description": "A story about land disputes and the fierce rivalries it creates in villages.", "trailer": "murabba.mp4", "tags": ["punjabi shows"] },
-    { "id": 126, "title": "Shahi Majra", "poster": "shahimajra.jpg", "year": "2022", "rating": 7.4, "genre": "Thriller, Drama", "description": "A dark reality of youth migrating to cities and getting involved in crime.", "trailer": "shahi.mp4", "tags": ["Crime Shows", "punjabi shows"] },
-    { "id": 127, "title": "500 Meter", "poster": "500meter.jpg", "year": "2020", "rating": 7.3, "genre": "Crime, Mystery", "description": "A kidnapping case throws a family into absolute chaos.", "trailer": "500m.mp4", "tags": ["Crime Shows", "punjabi shows"] },
-    { "id": 128, "title": "Please Kill Me", "poster": "pleasekillme.jpg", "year": "2021", "rating": 7.1, "genre": "Thriller, Mystery", "description": "A girl goes missing, and the investigation leads to dark secrets.", "trailer": "pkm.mp4", "tags": ["Horror Shows", "punjabi shows"] },
-    { "id": 129, "title": "Ki Banu Punia Da", "poster": "kibanupunia.jpg", "year": "2022", "rating": 8.0, "genre": "Comedy", "description": "A hilarious take on a family dealing with daily village chaos.", "trailer": "punia.mp4", "tags": ["trending", "punjabi shows"] },
-    { "id": 130, "title": "Teeyan", "poster": "teeyan.jpg", "year": "2021", "rating": 7.6, "genre": "Drama", "description": "A touching story focusing on women's struggles and empowerment in Punjab.", "trailer": "teeyan.mp4", "tags": ["punjabi shows"] },
-    { "id": 131, "title": "The Haunting of Hill House", "poster": "hillhouse.jpg", "year": "2018", "rating": 8.6, "genre": "Horror, Drama", "seasons": 1, "description": "Flashing between past and present, a fractured family confronts haunting memories.", "trailer": "hillhouse.mp4", "tags": ["topRated", "Horror Shows", "hollywood shows", "dual audio"] },
-    { "id": 132, "title": "American Horror Story", "poster": "ahs.jpg", "year": "2011", "rating": 8.0, "genre": "Horror, Thriller", "seasons": 12, "description": "An anthology series centering on different characters and locations.", "trailer": "ahs.mp4", "tags": ["trending", "Horror Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 133, "title": "Midnight Mass", "poster": "midnightmass.jpg", "year": "2021", "rating": 7.7, "genre": "Horror, Mystery", "seasons": 1, "description": "An isolated island community experiences miraculous events and frightening omens.", "trailer": "midnight.mp4", "tags": ["Horror Shows", "hollywood shows"] },
-    { "id": 134, "title": "The Walking Dead", "poster": "twd.jpg", "year": "2010", "rating": 8.1, "genre": "Horror, Drama", "seasons": 11, "description": "Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins.", "trailer": "twd.mp4", "tags": ["trending", "Horror Shows", "hollywood shows", "multiple seasons", "dual audio"] },
-    { "id": 135, "title": "Penny Dreadful", "poster": "penny.jpg", "year": "2014", "rating": 8.2, "genre": "Horror, Fantasy", "seasons": 3, "description": "Explorer Sir Malcolm Murray and clairvoyant Vanessa Ives unite to combat supernatural threats.", "trailer": "penny.mp4", "tags": ["Horror Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 136, "title": "Mindhunter", "poster": "mindhunter.jpg", "year": "2017", "rating": 8.6, "genre": "Crime, Thriller", "seasons": 2, "description": "Two FBI agents interview serial killers to solve open cases.", "trailer": "mindhunter.mp4", "tags": ["topRated", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 137, "title": "Narcos", "poster": "narcos.jpg", "year": "2015", "rating": 8.8, "genre": "Crime, Drama", "seasons": 3, "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar.", "trailer": "narcos.mp4", "tags": ["topRated", "trending", "Crime Shows", "hollywood shows", "multiple seasons", "dual audio"] },
-    { "id": 138, "title": "True Detective", "poster": "truedetective.jpg", "year": "2014", "rating": 8.9, "genre": "Crime, Mystery", "seasons": 4, "description": "Anthology series where police investigations unearth deep secrets.", "trailer": "truedetective.mp4", "tags": ["topRated", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 139, "title": "Dexter", "poster": "dexter.jpg", "year": "2006", "rating": 8.6, "genre": "Crime, Drama", "seasons": 8, "description": "He's smart. He's good looking. And he's a great serial killer.", "trailer": "dexter.mp4", "tags": ["Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 140, "title": "Fargo", "poster": "fargo.jpg", "year": "2014", "rating": 8.9, "genre": "Crime, Drama", "seasons": 5, "description": "Chronicles of deception, intrigue and murder in and around frozen Minnesota.", "trailer": "fargo.mp4", "tags": ["topRated", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 141, "title": "Glee", "poster": "glee.jpg", "year": "2009", "rating": 6.8, "genre": "Comedy, Music", "seasons": 6, "description": "A group of ambitious misfits try to escape the harsh realities of high school by joining a glee club.", "trailer": "glee.mp4", "tags": ["Music and musical", "hollywood shows", "multiple seasons"] },
-    { "id": 142, "title": "Empire", "poster": "empire.jpg", "year": "2015", "rating": 7.4, "genre": "Drama, Music", "seasons": 6, "description": "A hip-hop mogul must choose a successor among his three sons.", "trailer": "empire.mp4", "tags": ["Music and musical", "hollywood shows", "multiple seasons"] },
-    { "id": 143, "title": "Crazy Ex-Girlfriend", "poster": "crazyex.jpg", "year": "2015", "rating": 7.8, "genre": "Comedy, Musical", "seasons": 4, "description": "A young woman abandons a choice job at a law firm to find love in California.", "trailer": "crazyex.mp4", "tags": ["Music and musical", "hollywood shows", "multiple seasons"] },
-    { "id": 144, "title": "Nashville", "poster": "nashville.jpg", "year": "2012", "rating": 7.7, "genre": "Drama, Music", "seasons": 6, "description": "Follows the lives and tragedies of rising and fading country music stars.", "trailer": "nashville.mp4", "tags": ["Music and musical", "hollywood shows", "multiple seasons"] },
-    { "id": 145, "title": "Bandish Bandits", "poster": "bandish.jpg", "year": "2020", "rating": 8.6, "genre": "Drama, Music", "seasons": 1, "description": "Indian classical singer Radhe and pop star Tamanna attempt to unite their musical worlds.", "trailer": "bandish.mp4", "tags": ["topRated", "Music and musical", "bollywood shows"] },
-    { "id": 146, "title": "The Boys", "poster": "theboys.jpg", "year": "2019", "rating": 8.7, "genre": "Action, Comedy", "seasons": 4, "description": "A group of vigilantes set out to take down corrupt superheroes.", "trailer": "boys.mp4", "tags": ["trending", "hollywood shows", "multiple seasons", "dual audio"] },
-    { "id": 147, "title": "House of the Dragon", "poster": "hotd.jpg", "year": "2022", "rating": 8.4, "genre": "Action, Fantasy", "seasons": 2, "description": "An internal succession war within House Targaryen.", "trailer": "hotd.mp4", "tags": ["trending", "hollywood shows", "multiple seasons", "dual audio"] },
-    { "id": 148, "title": "Squid Game", "poster": "squidgame.jpg", "year": "2021", "rating": 8.0, "genre": "Action, Thriller", "seasons": 1, "description": "Players accept a strange invitation to compete in deadly children's games.", "trailer": "squid.mp4", "tags": ["trending", "dual audio"] },
-    { "id": 149, "title": "Money Heist", "poster": "moneyheist.jpg", "year": "2017", "rating": 8.2, "genre": "Crime, Action", "seasons": 5, "description": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history.", "trailer": "moneyheist.mp4", "tags": ["trending", "Crime Shows", "multiple seasons", "dual audio"] },
-    { "id": 150, "title": "Dark", "poster": "dark.jpg", "year": "2017", "rating": 8.7, "genre": "Sci-Fi, Mystery", "seasons": 3, "description": "A family saga with a supernatural twist, set in a German town.", "trailer": "dark.mp4", "tags": ["topRated", "multiple seasons", "dual audio"] },
-    { "id": 151, "title": "The Witcher", "poster": "witcher.jpg", "year": "2019", "rating": 8.0, "genre": "Action, Fantasy", "seasons": 3, "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place.", "trailer": "witcher.mp4", "tags": ["trending", "hollywood shows", "multiple seasons", "dual audio"] },
-    { "id": 152, "title": "Loki", "poster": "loki.jpg", "year": "2021", "rating": 8.2, "genre": "Action, Fantasy", "seasons": 2, "description": "The mercurial villain Loki resumes his role as the God of Mischief.", "trailer": "loki.mp4", "tags": ["trending", "hollywood shows", "multiple seasons", "dual audio"] },
-    { "id": 153, "title": "WandaVision", "poster": "wanda.jpg", "year": "2021", "rating": 7.9, "genre": "Action, Comedy", "seasons": 1, "description": "Blends the style of classic sitcoms with the MCU in which Wanda Maximoff and Vision live idealized suburban lives.", "trailer": "wanda.mp4", "tags": ["hollywood shows", "dual audio"] },
-    { "id": 154, "title": "The Mandalorian", "poster": "mandalorian.jpg", "year": "2019", "rating": 8.6, "genre": "Action, Sci-Fi", "seasons": 3, "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy.", "trailer": "mando.mp4", "tags": ["trending", "hollywood shows", "multiple seasons"] },
-    { "id": 155, "title": "Severance", "poster": "severance.jpg", "year": "2022", "rating": 8.7, "genre": "Drama, Sci-Fi", "seasons": 1, "description": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives.", "trailer": "severance.mp4", "tags": ["topRated", "trending", "hollywood shows"] },
-    { "id": 156, "title": "Better Call Saul", "poster": "bcs.jpg", "year": "2015", "rating": 9.0, "genre": "Crime, Drama", "seasons": 6, "description": "The trials and tribulations of criminal lawyer Jimmy McGill.", "trailer": "bcs.mp4", "tags": ["topRated", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 157, "title": "The Crown", "poster": "crown.jpg", "year": "2016", "rating": 8.6, "genre": "Biography, Drama", "seasons": 6, "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign.", "trailer": "crown.mp4", "tags": ["topRated", "hollywood shows", "multiple seasons"] },
-    { "id": 158, "title": "Chernobyl", "poster": "chernobyl.jpg", "year": "2019", "rating": 9.3, "genre": "Drama, History", "seasons": 1, "description": "The story of the 1986 nuclear accident.", "trailer": "chernobyl.mp4", "tags": ["topRated", "hollywood shows", "dual audio"] },
-    { "id": 159, "title": "Band of Brothers", "poster": "bob.jpg", "year": "2001", "rating": 9.4, "genre": "Action, History", "seasons": 1, "description": "The story of Easy Company of the U.S. Army 101st Airborne Division.", "trailer": "bob.mp4", "tags": ["topRated", "hollywood shows"] },
-    { "id": 160, "title": "Black Mirror", "poster": "blackmirror.jpg", "year": "2011", "rating": 8.7, "genre": "Sci-Fi, Thriller", "seasons": 6, "description": "An anthology series exploring a twisted, high-tech multiverse.", "trailer": "blackmirror.mp4", "tags": ["topRated", "hollywood shows", "multiple seasons"] },
-    { "id": 161, "title": "Breathe", "poster": "breathe.jpg", "year": "2018", "rating": 8.3, "genre": "Crime, Thriller", "seasons": 2, "description": "Explores the lengths an ordinary man will go to when faced with extraordinary circumstances.", "trailer": "breathe.mp4", "tags": ["Crime Shows", "bollywood shows", "multiple seasons"] },
-    { "id": 162, "title": "Made in Heaven", "poster": "mih.jpg", "year": "2019", "rating": 8.3, "genre": "Drama, Romance", "seasons": 2, "description": "Two wedding planners in Delhi navigate big fat Indian weddings.", "trailer": "mih.mp4", "tags": ["bollywood shows", "multiple seasons"] },
-    { "id": 163, "title": "Aarya", "poster": "aarya.jpg", "year": "2020", "rating": 7.8, "genre": "Crime, Drama", "seasons": 3, "description": "A loving wife and mother takes charge of her husband's illicit business.", "trailer": "aarya.mp4", "tags": ["Crime Shows", "bollywood shows", "multiple seasons"] },
-    { "id": 164, "title": "Special OPS", "poster": "specialops.jpg", "year": "2020", "rating": 8.6, "genre": "Action, Thriller", "seasons": 2, "description": "A manhunt across the globe for the mastermind behind several terror attacks.", "trailer": "specialops.mp4", "tags": ["topRated", "Crime Shows", "bollywood shows", "multiple seasons"] },
-    { "id": 165, "title": "Rocket Boys", "poster": "rocketboys.jpg", "year": "2022", "rating": 8.9, "genre": "Biography, Drama", "seasons": 2, "description": "The story of two extraordinary men, Dr. Homi Bhabha and Dr. Vikram Sarabhai.", "trailer": "rocketboys.mp4", "tags": ["topRated", "bollywood shows", "multiple seasons"] },
-    { "id": 166, "title": "Yeh Meri Family", "poster": "yehmeri.jpg", "year": "2018", "rating": 8.9, "genre": "Comedy, Family", "seasons": 2, "description": "Set in the summer of 1998, a story about different emotions towards family members.", "trailer": "yehmeri.mp4", "tags": ["topRated", "bollywood shows", "multiple seasons"] },
-    { "id": 167, "title": "Apharan", "poster": "apharan.jpg", "year": "2018", "rating": 8.3, "genre": "Crime, Thriller", "seasons": 2, "description": "A senior inspector is lured into kidnapping a young girl at her request.", "trailer": "apharan.mp4", "tags": ["Crime Shows", "bollywood shows", "multiple seasons"] },
-    { "id": 168, "title": "Gullak", "poster": "gullak.jpg", "year": "2019", "rating": 9.1, "genre": "Comedy, Family", "seasons": 4, "description": "A collection of disarming and beautiful tales of the Mishra family.", "trailer": "gullak.mp4", "tags": ["topRated", "bollywood shows", "multiple seasons"] },
-    { "id": 169, "title": "Hostel Daze", "poster": "hosteldaze.jpg", "year": "2019", "rating": 8.2, "genre": "Comedy, Drama", "seasons": 4, "description": "Four naive and vulnerable wing-mates develop deep bonds in an engineering hostel.", "trailer": "hosteldaze.mp4", "tags": ["bollywood shows", "multiple seasons"] },
-    { "id": 170, "title": "Bhaag Beanie Bhaag", "poster": "beanie.jpg", "year": "2020", "rating": 6.8, "genre": "Comedy", "seasons": 1, "description": "Beanie decides to escape her regular life to pursue a career in stand-up comedy.", "trailer": "beanie.mp4", "tags": ["bollywood shows"] },
-    { "id": 171, "title": "Chaupal Originals: Shahi Majra", "poster": "shahi.jpg", "year": "2022", "rating": 7.4, "genre": "Crime, Thriller", "seasons": 1, "description": "A gripping tale highlighting the dark realities of a high-profile area in Chandigarh.", "trailer": "shahi.mp4", "tags": ["Crime Shows", "punjabi shows"] },
-    { "id": 172, "title": "Panchhi", "poster": "panchhi.jpg", "year": "2021", "rating": 7.1, "genre": "Crime, Thriller", "seasons": 1, "description": "A psychopath killer creates havoc, keeping everyone on the edge.", "trailer": "panchhi.mp4", "tags": ["Crime Shows", "Horror Shows", "punjabi shows"] },
-    { "id": 173, "title": "Dustbin", "poster": "dustbin.jpg", "year": "2021", "rating": 7.3, "genre": "Drama", "description": "A mysterious piece of trash in the dustbin changes a couple's life.", "trailer": "dustbin.mp4", "tags": ["punjabi shows"] },
-    { "id": 174, "title": "Umran Ch Ki Rakheya", "poster": "umran.jpg", "year": "2022", "rating": 7.5, "genre": "Comedy, Drama", "description": "Age is just a number when it comes to dreams and love.", "trailer": "umran.mp4", "tags": ["punjabi shows"] },
-    { "id": 175, "title": "Chidiyan Da Chamba", "poster": "chidiyan.jpg", "year": "2023", "rating": 7.8, "genre": "Action, Drama", "description": "Women take up arms to fight against oppression and injustice in their village.", "trailer": "chidiyan.mp4", "tags": ["trending", "punjabi shows"] },
-    { "id": 176, "title": "Outlander", "poster": "outlander.jpg", "year": "2014", "rating": 8.4, "genre": "Drama, Fantasy", "seasons": 7, "description": "An English combat nurse from 1945 is swept back in time to 1743.", "trailer": "outlander.mp4", "tags": ["hollywood shows", "multiple seasons"] },
-    { "id": 177, "title": "The Bear", "poster": "thebear.jpg", "year": "2022", "rating": 8.6, "genre": "Comedy, Drama", "seasons": 3, "description": "A young chef returns to Chicago to run his family's sandwich shop.", "trailer": "thebear.mp4", "tags": ["trending", "topRated", "hollywood shows", "multiple seasons"] },
-    { "id": 178, "title": "Ted Lasso", "poster": "tedlasso.jpg", "year": "2020", "rating": 8.8, "genre": "Comedy, Drama", "seasons": 3, "description": "American football coach Ted Lasso heads to London to manage AFC Richmond.", "trailer": "tedlasso.mp4", "tags": ["topRated", "hollywood shows", "multiple seasons"] },
-    { "id": 179, "title": "Arrested Development", "poster": "arrested.jpg", "year": "2003", "rating": 8.7, "genre": "Comedy", "seasons": 5, "description": "Level-headed son Michael Bluth takes over family affairs after his father is imprisoned.", "trailer": "arrested.mp4", "tags": ["hollywood shows", "multiple seasons"] },
-    { "id": 180, "title": "Parks and Recreation", "poster": "parksandrec.jpg", "year": "2009", "rating": 8.6, "genre": "Comedy", "seasons": 7, "description": "The absurd antics of an Indiana town's public officials.", "trailer": "parks.mp4", "tags": ["topRated", "hollywood shows", "multiple seasons"] },
-    { "id": 181, "title": "Typewriter", "poster": "typewriter.jpg", "year": "2019", "rating": 6.5, "genre": "Horror, Mystery", "seasons": 1, "description": "Three young friends in Goa plan to search an old villa for ghosts.", "trailer": "typewriter.mp4", "tags": ["Horror Shows", "bollywood shows"] },
-    { "id": 182, "title": "Ghoul", "poster": "ghoul.jpg", "year": "2018", "rating": 7.0, "genre": "Horror, Sci-Fi", "seasons": 1, "description": "An interrogator arrives at a covert detention center to discover some terrorists are not of this world.", "trailer": "ghoul.mp4", "tags": ["Horror Shows", "bollywood shows"] },
-    { "id": 183, "title": "Betaal", "poster": "betaal.jpg", "year": "2020", "rating": 5.4, "genre": "Horror, Action", "seasons": 1, "description": "Police officials are tasked with displacing tribal villagers, unleashing a curse.", "trailer": "betaal.mp4", "tags": ["Horror Shows", "bollywood shows"] },
-    { "id": 184, "title": "Bhram", "poster": "bhram.jpg", "year": "2019", "rating": 6.3, "genre": "Horror, Thriller", "seasons": 1, "description": "A novelist suffering from PTSD is pursued by a mysterious girl.", "trailer": "bhram.mp4", "tags": ["Horror Shows", "bollywood shows"] },
-    { "id": 185, "title": "Gehraiyaan", "poster": "gehraiyaan.jpg", "year": "2017", "rating": 7.2, "genre": "Horror, Mystery", "seasons": 1, "description": "A young girl is haunted by a dark force operating from the shadows of her new apartment.", "trailer": "gehraiyaan.mp4", "tags": ["Horror Shows", "bollywood shows"] },
-    { "id": 186, "title": "The Haunting of Bly Manor", "poster": "blymanor.jpg", "year": "2020", "rating": 7.4, "genre": "Horror, Drama", "seasons": 1, "description": "After an au pair's tragic death, Henry hires a young American nanny to care for his orphaned niece and nephew.", "trailer": "blymanor.mp4", "tags": ["Horror Shows", "hollywood shows"] },
-    { "id": 187, "title": "Bates Motel", "poster": "batesmotel.jpg", "year": "2013", "rating": 8.1, "genre": "Horror, Mystery", "seasons": 5, "description": "A contemporary prequel to Psycho, giving a portrayal of how Norman Bates' psyche unravels.", "trailer": "bates.mp4", "tags": ["Horror Shows", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 188, "title": "Hannibal", "poster": "hannibal.jpg", "year": "2013", "rating": 8.5, "genre": "Horror, Crime", "seasons": 3, "description": "Explores the early relationship between a renowned psychiatrist and a young FBI criminal profiler.", "trailer": "hannibal.mp4", "tags": ["topRated", "Horror Shows", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 189, "title": "Yellowjackets", "poster": "yellowjackets.jpg", "year": "2021", "rating": 7.8, "genre": "Horror, Drama", "seasons": 2, "description": "A wildly talented high school girl soccer team survives a plane crash deep in the wilderness.", "trailer": "yellowjackets.mp4", "tags": ["trending", "Horror Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 190, "title": "Marianne", "poster": "marianne.jpg", "year": "2019", "rating": 7.4, "genre": "Horror", "seasons": 1, "description": "A famous horror writer returns to her hometown to find the evil spirit she created is alive.", "trailer": "marianne.mp4", "tags": ["Horror Shows", "dual audio"] },
-    { "id": 191, "title": "Euphoria", "poster": "euphoria.jpg", "year": "2019", "rating": 8.3, "genre": "Drama", "seasons": 2, "description": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.", "trailer": "euphoria.mp4", "tags": ["trending", "hollywood shows", "multiple seasons"] },
-    { "id": 192, "title": "The White Lotus", "poster": "whitelotus.jpg", "year": "2021", "rating": 7.9, "genre": "Comedy, Drama", "seasons": 2, "description": "Follows the exploits of various guests and employees at an exclusive tropical resort over the span of a week.", "trailer": "whitelotus.mp4", "tags": ["trending", "hollywood shows", "multiple seasons"] },
-    { "id": 193, "title": "Wednesday", "poster": "wednesday.jpg", "year": "2022", "rating": 8.1, "genre": "Comedy, Fantasy", "seasons": 1, "description": "Follows Wednesday Addams' years as a student, attempting to master her emerging psychic ability.", "trailer": "wednesday.mp4", "tags": ["trending", "hollywood shows", "dual audio"] },
-    { "id": 194, "title": "The Sandman", "poster": "sandman.jpg", "year": "2022", "rating": 7.7, "genre": "Drama, Fantasy", "seasons": 1, "description": "Upon escaping after decades of imprisonment by a mortal wizard, Dream sets about to reclaim his lost equipment.", "trailer": "sandman.mp4", "tags": ["hollywood shows"] },
-    { "id": 195, "title": "Lupin", "poster": "lupin.jpg", "year": "2021", "rating": 7.5, "genre": "Action, Crime", "seasons": 3, "description": "Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father.", "trailer": "lupin.mp4", "tags": ["trending", "Crime Shows", "multiple seasons", "dual audio"] },
-    { "id": 196, "title": "Alice in Borderland", "poster": "alice.jpg", "year": "2020", "rating": 7.7, "genre": "Action, Sci-Fi", "seasons": 2, "description": "A group of bored delinquents are transported to a parallel wasteland as part of a survival game.", "trailer": "alice.mp4", "tags": ["trending", "multiple seasons", "dual audio"] },
-    { "id": 197, "title": "All of Us Are Dead", "poster": "allofus.jpg", "year": "2022", "rating": 7.5, "genre": "Action, Horror", "seasons": 1, "description": "Trapped students must escape their high school which has become ground zero for a zombie virus outbreak.", "trailer": "allofus.mp4", "tags": ["Horror Shows", "trending", "dual audio"] },
-    { "id": 198, "title": "Narcos: Mexico", "poster": "narcosmexico.jpg", "year": "2018", "rating": 8.4, "genre": "Crime, Drama", "seasons": 3, "description": "Explores the origins of the modern drug war by going back to its roots, beginning at a time when the Mexican trafficking world was a loose and disorganized confederation of independent growers and dealers.", "trailer": "narcosmexico.mp4", "tags": ["Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 199, "title": "Only Murders in the Building", "poster": "onlymurders.jpg", "year": "2021", "rating": 8.1, "genre": "Comedy, Crime", "seasons": 3, "description": "Three strangers who share an obsession with true crime suddenly find themselves caught up in one.", "trailer": "onlymurders.mp4", "tags": ["trending", "Crime Shows", "hollywood shows", "multiple seasons"] },
-    { "id": 200, "title": "Barry", "poster": "barry.jpg", "year": "2018", "rating": 8.4, "genre": "Action, Comedy", "seasons": 4, "description": "A hit man from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.", "trailer": "barry.mp4", "tags": ["topRated", "Crime Shows", "hollywood shows", "multiple seasons"] }
+    {
+      "id": 101,
+      "title": "Breaking Bad",
+      "poster": "DARK.jpg",
+      "year": "2008",
+      "rating": 9.5,
+      "genre": "Crime, Drama",
+      "seasons": 5,
+      "description": "A chemistry teacher diagnosed with cancer turns to manufacturing meth.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 102,
+      "title": "Game of Thrones",
+      "poster": "DARK.jpg",
+      "year": "2011",
+      "rating": 9.2,
+      "genre": "Action, Fantasy",
+      "seasons": 8,
+      "description": "Nine noble families fight for control over the lands of Westeros.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "hollywood shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 103,
+      "title": "Stranger Things",
+      "poster": "DARK.jpg",
+      "year": "2016",
+      "rating": 8.7,
+      "genre": "Sci-Fi, Horror",
+      "seasons": 4,
+      "description": "A group of kids uncover supernatural mysteries in their town.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "Horror Shows",
+        "hollywood shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 104,
+      "title": "The Last of Us",
+      "poster": "DARK.jpg",
+      "year": "2023",
+      "rating": 8.7,
+      "genre": "Drama, Sci-Fi",
+      "seasons": 1,
+      "description": "A hardened survivor takes charge of a 14-year-old girl.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "hollywood shows",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 105,
+      "title": "Succession",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 8.9,
+      "genre": "Drama",
+      "seasons": 4,
+      "description": "The Roy family is known for controlling the biggest media company in the world.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 106,
+      "title": "The Wire",
+      "poster": "DARK.jpg",
+      "year": "2002",
+      "rating": 9.3,
+      "genre": "Crime, Drama",
+      "seasons": 5,
+      "description": "The Baltimore drug scene, seen through the eyes of drug dealers and law enforcement.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 107,
+      "title": "The Sopranos",
+      "poster": "DARK.jpg",
+      "year": "1999",
+      "rating": 9.2,
+      "genre": "Crime, Drama",
+      "seasons": 6,
+      "description": "New Jersey mob boss Tony Soprano deals with personal and professional issues.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 108,
+      "title": "Peaky Blinders",
+      "poster": "DARK.jpg",
+      "year": "2013",
+      "rating": 8.8,
+      "genre": "Crime, Drama",
+      "seasons": 6,
+      "description": "A gangster family epic set in 1900s England.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 109,
+      "title": "The Office",
+      "poster": "DARK.jpg",
+      "year": "2005",
+      "rating": 9,
+      "genre": "Comedy",
+      "seasons": 9,
+      "description": "A mockumentary on a group of typical office workers.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 110,
+      "title": "Friends",
+      "poster": "DARK.jpg",
+      "year": "1994",
+      "rating": 8.9,
+      "genre": "Comedy, Romance",
+      "seasons": 10,
+      "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 111,
+      "title": "Sacred Games",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 8.5,
+      "genre": "Crime, Action",
+      "seasons": 2,
+      "description": "A link in their pasts leads an honest cop to a fugitive gang boss.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 112,
+      "title": "Mirzapur",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 8.5,
+      "genre": "Crime, Action",
+      "seasons": 3,
+      "description": "A shocking incident at a wedding procession ignites a series of events entangling two families.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "topRated",
+        "Crime Shows",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 113,
+      "title": "The Family Man",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 8.7,
+      "genre": "Action, Comedy",
+      "seasons": 2,
+      "description": "A working man from the National Investigation Agency tries to protect the nation.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 114,
+      "title": "Scam 1992",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 9.3,
+      "genre": "Biography, Crime",
+      "seasons": 1,
+      "description": "The story of Harshad Mehta, a stockbroker who took the stock market to dizzying heights.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 115,
+      "title": "Panchayat",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 8.9,
+      "genre": "Comedy, Drama",
+      "seasons": 3,
+      "description": "An engineering graduate joins as a Panchayat secretary in a remote village.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 116,
+      "title": "Farzi",
+      "poster": "DARK.jpg",
+      "year": "2023",
+      "rating": 8.4,
+      "genre": "Crime, Thriller",
+      "seasons": 1,
+      "description": "A brilliant artist gets pulled into the murky high stakes of a con job.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "Crime Shows",
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 117,
+      "title": "Asur",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 8.5,
+      "genre": "Crime, Thriller",
+      "seasons": 2,
+      "description": "A unique crime thriller that pits two opposing worlds against each other.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 118,
+      "title": "Paatal Lok",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 8.1,
+      "genre": "Crime, Thriller",
+      "seasons": 1,
+      "description": "A down and out cop lands the case of a lifetime when four suspects are nabbed.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 119,
+      "title": "Delhi Crime",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 8.5,
+      "genre": "Crime, Drama",
+      "seasons": 2,
+      "description": "Based on a true story, a police officer investigates a horrific gang rape.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 120,
+      "title": "Kota Factory",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 9,
+      "genre": "Comedy, Drama",
+      "seasons": 3,
+      "description": "Dedicated to students preparing for competitive exams in Kota.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 121,
+      "title": "Warning",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 8.2,
+      "genre": "Action, Crime",
+      "seasons": 1,
+      "description": "An intense action-packed series exploring the dark underworld of Punjab.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "Crime Shows",
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 122,
+      "title": "Shikari",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.9,
+      "genre": "Crime, Thriller",
+      "seasons": 2,
+      "description": "A gripping tale of crime, revenge, and mystery unfolding in Punjab.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "punjabi shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 123,
+      "title": "Yaar Chale Bahar",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 8.5,
+      "genre": "Comedy, Drama",
+      "seasons": 2,
+      "description": "Struggles of students trying to clear IELTS and go abroad.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "punjabi shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 124,
+      "title": "Zila Sangrur",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.5,
+      "genre": "Crime, Action",
+      "seasons": 1,
+      "description": "A story centered around the criminal activities in the district of Sangrur.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 125,
+      "title": "Murabba",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.2,
+      "genre": "Drama",
+      "description": "A story about land disputes and the fierce rivalries it creates in villages.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 126,
+      "title": "Shahi Majra",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 7.4,
+      "genre": "Thriller, Drama",
+      "description": "A dark reality of youth migrating to cities and getting involved in crime.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 127,
+      "title": "500 Meter",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 7.3,
+      "genre": "Crime, Mystery",
+      "description": "A kidnapping case throws a family into absolute chaos.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 128,
+      "title": "Please Kill Me",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.1,
+      "genre": "Thriller, Mystery",
+      "description": "A girl goes missing, and the investigation leads to dark secrets.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 129,
+      "title": "Ki Banu Punia Da",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 8,
+      "genre": "Comedy",
+      "description": "A hilarious take on a family dealing with daily village chaos.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 130,
+      "title": "Teeyan",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.6,
+      "genre": "Drama",
+      "description": "A touching story focusing on women's struggles and empowerment in Punjab.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 131,
+      "title": "The Haunting of Hill House",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 8.6,
+      "genre": "Horror, Drama",
+      "seasons": 1,
+      "description": "Flashing between past and present, a fractured family confronts haunting memories.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Horror Shows",
+        "hollywood shows",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 132,
+      "title": "American Horror Story",
+      "poster": "DARK.jpg",
+      "year": "2011",
+      "rating": 8,
+      "genre": "Horror, Thriller",
+      "seasons": 12,
+      "description": "An anthology series centering on different characters and locations.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "Horror Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 133,
+      "title": "Midnight Mass",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.7,
+      "genre": "Horror, Mystery",
+      "seasons": 1,
+      "description": "An isolated island community experiences miraculous events and frightening omens.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "hollywood shows"
+      ]
+    },
+    {
+      "id": 134,
+      "title": "The Walking Dead",
+      "poster": "DARK.jpg",
+      "year": "2010",
+      "rating": 8.1,
+      "genre": "Horror, Drama",
+      "seasons": 11,
+      "description": "Sheriff Deputy Rick Grimes wakes up from a coma to learn the world is in ruins.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "Horror Shows",
+        "hollywood shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 135,
+      "title": "Penny Dreadful",
+      "poster": "DARK.jpg",
+      "year": "2014",
+      "rating": 8.2,
+      "genre": "Horror, Fantasy",
+      "seasons": 3,
+      "description": "Explorer Sir Malcolm Murray and clairvoyant Vanessa Ives unite to combat supernatural threats.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 136,
+      "title": "Mindhunter",
+      "poster": "DARK.jpg",
+      "year": "2017",
+      "rating": 8.6,
+      "genre": "Crime, Thriller",
+      "seasons": 2,
+      "description": "Two FBI agents interview serial killers to solve open cases.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 137,
+      "title": "Narcos",
+      "poster": "DARK.jpg",
+      "year": "2015",
+      "rating": 8.8,
+      "genre": "Crime, Drama",
+      "seasons": 3,
+      "description": "A chronicled look at the criminal exploits of Colombian drug lord Pablo Escobar.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 138,
+      "title": "True Detective",
+      "poster": "DARK.jpg",
+      "year": "2014",
+      "rating": 8.9,
+      "genre": "Crime, Mystery",
+      "seasons": 4,
+      "description": "Anthology series where police investigations unearth deep secrets.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 139,
+      "title": "Dexter",
+      "poster": "DARK.jpg",
+      "year": "2006",
+      "rating": 8.6,
+      "genre": "Crime, Drama",
+      "seasons": 8,
+      "description": "He's smart. He's good looking. And he's a great serial killer.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 140,
+      "title": "Fargo",
+      "poster": "DARK.jpg",
+      "year": "2014",
+      "rating": 8.9,
+      "genre": "Crime, Drama",
+      "seasons": 5,
+      "description": "Chronicles of deception, intrigue and murder in and around frozen Minnesota.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 141,
+      "title": "Glee",
+      "poster": "DARK.jpg",
+      "year": "2009",
+      "rating": 6.8,
+      "genre": "Comedy, Music",
+      "seasons": 6,
+      "description": "A group of ambitious misfits try to escape the harsh realities of high school by joining a glee club.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Music and musical",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 142,
+      "title": "Empire",
+      "poster": "DARK.jpg",
+      "year": "2015",
+      "rating": 7.4,
+      "genre": "Drama, Music",
+      "seasons": 6,
+      "description": "A hip-hop mogul must choose a successor among his three sons.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Music and musical",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 143,
+      "title": "Crazy Ex-Girlfriend",
+      "poster": "DARK.jpg",
+      "year": "2015",
+      "rating": 7.8,
+      "genre": "Comedy, Musical",
+      "seasons": 4,
+      "description": "A young woman abandons a choice job at a law firm to find love in California.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Music and musical",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 144,
+      "title": "Nashville",
+      "poster": "DARK.jpg",
+      "year": "2012",
+      "rating": 7.7,
+      "genre": "Drama, Music",
+      "seasons": 6,
+      "description": "Follows the lives and tragedies of rising and fading country music stars.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Music and musical",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 145,
+      "title": "Bandish Bandits",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 8.6,
+      "genre": "Drama, Music",
+      "seasons": 1,
+      "description": "Indian classical singer Radhe and pop star Tamanna attempt to unite their musical worlds.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Music and musical",
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 146,
+      "title": "The Boys",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 8.7,
+      "genre": "Action, Comedy",
+      "seasons": 4,
+      "description": "A group of vigilantes set out to take down corrupt superheroes.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "hollywood shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 147,
+      "title": "House of the Dragon",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 8.4,
+      "genre": "Action, Fantasy",
+      "seasons": 2,
+      "description": "An internal succession war within House Targaryen.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "hollywood shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 148,
+      "title": "Squid Game",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 8,
+      "genre": "Action, Thriller",
+      "seasons": 1,
+      "description": "Players accept a strange invitation to compete in deadly children's games.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 149,
+      "title": "Money Heist",
+      "poster": "DARK.jpg",
+      "year": "2017",
+      "rating": 8.2,
+      "genre": "Crime, Action",
+      "seasons": 5,
+      "description": "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "Crime Shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 150,
+      "title": "Dark",
+      "poster": "DARK.jpg",
+      "year": "2017",
+      "rating": 8.7,
+      "genre": "Sci-Fi, Mystery",
+      "seasons": 3,
+      "description": "A family saga with a supernatural twist, set in a German town.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 151,
+      "title": "The Witcher",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 8,
+      "genre": "Action, Fantasy",
+      "seasons": 3,
+      "description": "Geralt of Rivia, a solitary monster hunter, struggles to find his place.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "hollywood shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 152,
+      "title": "Loki",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 8.2,
+      "genre": "Action, Fantasy",
+      "seasons": 2,
+      "description": "The mercurial villain Loki resumes his role as the God of Mischief.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "hollywood shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 153,
+      "title": "WandaVision",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.9,
+      "genre": "Action, Comedy",
+      "seasons": 1,
+      "description": "Blends the style of classic sitcoms with the MCU in which Wanda Maximoff and Vision live idealized suburban lives.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "hollywood shows",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 154,
+      "title": "The Mandalorian",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 8.6,
+      "genre": "Action, Sci-Fi",
+      "seasons": 3,
+      "description": "The travels of a lone bounty hunter in the outer reaches of the galaxy.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 155,
+      "title": "Severance",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 8.7,
+      "genre": "Drama, Sci-Fi",
+      "seasons": 1,
+      "description": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "trending",
+        "hollywood shows"
+      ]
+    },
+    {
+      "id": 156,
+      "title": "Better Call Saul",
+      "poster": "DARK.jpg",
+      "year": "2015",
+      "rating": 9,
+      "genre": "Crime, Drama",
+      "seasons": 6,
+      "description": "The trials and tribulations of criminal lawyer Jimmy McGill.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 157,
+      "title": "The Crown",
+      "poster": "DARK.jpg",
+      "year": "2016",
+      "rating": 8.6,
+      "genre": "Biography, Drama",
+      "seasons": 6,
+      "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 158,
+      "title": "Chernobyl",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 9.3,
+      "genre": "Drama, History",
+      "seasons": 1,
+      "description": "The story of the 1986 nuclear accident.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "hollywood shows",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 159,
+      "title": "Band of Brothers",
+      "poster": "DARK.jpg",
+      "year": "2001",
+      "rating": 9.4,
+      "genre": "Action, History",
+      "seasons": 1,
+      "description": "The story of Easy Company of the U.S. Army 101st Airborne Division.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "hollywood shows"
+      ]
+    },
+    {
+      "id": 160,
+      "title": "Black Mirror",
+      "poster": "DARK.jpg",
+      "year": "2011",
+      "rating": 8.7,
+      "genre": "Sci-Fi, Thriller",
+      "seasons": 6,
+      "description": "An anthology series exploring a twisted, high-tech multiverse.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 161,
+      "title": "Breathe",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 8.3,
+      "genre": "Crime, Thriller",
+      "seasons": 2,
+      "description": "Explores the lengths an ordinary man will go to when faced with extraordinary circumstances.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 162,
+      "title": "Made in Heaven",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 8.3,
+      "genre": "Drama, Romance",
+      "seasons": 2,
+      "description": "Two wedding planners in Delhi navigate big fat Indian weddings.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 163,
+      "title": "Aarya",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 7.8,
+      "genre": "Crime, Drama",
+      "seasons": 3,
+      "description": "A loving wife and mother takes charge of her husband's illicit business.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 164,
+      "title": "Special OPS",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 8.6,
+      "genre": "Action, Thriller",
+      "seasons": 2,
+      "description": "A manhunt across the globe for the mastermind behind several terror attacks.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 165,
+      "title": "Rocket Boys",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 8.9,
+      "genre": "Biography, Drama",
+      "seasons": 2,
+      "description": "The story of two extraordinary men, Dr. Homi Bhabha and Dr. Vikram Sarabhai.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 166,
+      "title": "Yeh Meri Family",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 8.9,
+      "genre": "Comedy, Family",
+      "seasons": 2,
+      "description": "Set in the summer of 1998, a story about different emotions towards family members.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 167,
+      "title": "Apharan",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 8.3,
+      "genre": "Crime, Thriller",
+      "seasons": 2,
+      "description": "A senior inspector is lured into kidnapping a young girl at her request.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 168,
+      "title": "Gullak",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 9.1,
+      "genre": "Comedy, Family",
+      "seasons": 4,
+      "description": "A collection of disarming and beautiful tales of the Mishra family.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 169,
+      "title": "Hostel Daze",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 8.2,
+      "genre": "Comedy, Drama",
+      "seasons": 4,
+      "description": "Four naive and vulnerable wing-mates develop deep bonds in an engineering hostel.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "bollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 170,
+      "title": "Bhaag Beanie Bhaag",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 6.8,
+      "genre": "Comedy",
+      "seasons": 1,
+      "description": "Beanie decides to escape her regular life to pursue a career in stand-up comedy.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 171,
+      "title": "Chaupal Originals: Shahi Majra",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 7.4,
+      "genre": "Crime, Thriller",
+      "seasons": 1,
+      "description": "A gripping tale highlighting the dark realities of a high-profile area in Chandigarh.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 172,
+      "title": "Panchhi",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.1,
+      "genre": "Crime, Thriller",
+      "seasons": 1,
+      "description": "A psychopath killer creates havoc, keeping everyone on the edge.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "Horror Shows",
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 173,
+      "title": "Dustbin",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.3,
+      "genre": "Drama",
+      "description": "A mysterious piece of trash in the dustbin changes a couple's life.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 174,
+      "title": "Umran Ch Ki Rakheya",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 7.5,
+      "genre": "Comedy, Drama",
+      "description": "Age is just a number when it comes to dreams and love.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 175,
+      "title": "Chidiyan Da Chamba",
+      "poster": "DARK.jpg",
+      "year": "2023",
+      "rating": 7.8,
+      "genre": "Action, Drama",
+      "description": "Women take up arms to fight against oppression and injustice in their village.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "punjabi shows"
+      ]
+    },
+    {
+      "id": 176,
+      "title": "Outlander",
+      "poster": "DARK.jpg",
+      "year": "2014",
+      "rating": 8.4,
+      "genre": "Drama, Fantasy",
+      "seasons": 7,
+      "description": "An English combat nurse from 1945 is swept back in time to 1743.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 177,
+      "title": "The Bear",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 8.6,
+      "genre": "Comedy, Drama",
+      "seasons": 3,
+      "description": "A young chef returns to Chicago to run his family's sandwich shop.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "topRated",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 178,
+      "title": "Ted Lasso",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 8.8,
+      "genre": "Comedy, Drama",
+      "seasons": 3,
+      "description": "American football coach Ted Lasso heads to London to manage AFC Richmond.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 179,
+      "title": "Arrested Development",
+      "poster": "DARK.jpg",
+      "year": "2003",
+      "rating": 8.7,
+      "genre": "Comedy",
+      "seasons": 5,
+      "description": "Level-headed son Michael Bluth takes over family affairs after his father is imprisoned.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 180,
+      "title": "Parks and Recreation",
+      "poster": "DARK.jpg",
+      "year": "2009",
+      "rating": 8.6,
+      "genre": "Comedy",
+      "seasons": 7,
+      "description": "The absurd antics of an Indiana town's public officials.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 181,
+      "title": "Typewriter",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 6.5,
+      "genre": "Horror, Mystery",
+      "seasons": 1,
+      "description": "Three young friends in Goa plan to search an old villa for ghosts.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 182,
+      "title": "Ghoul",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 7,
+      "genre": "Horror, Sci-Fi",
+      "seasons": 1,
+      "description": "An interrogator arrives at a covert detention center to discover some terrorists are not of this world.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 183,
+      "title": "Betaal",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 5.4,
+      "genre": "Horror, Action",
+      "seasons": 1,
+      "description": "Police officials are tasked with displacing tribal villagers, unleashing a curse.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 184,
+      "title": "Bhram",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 6.3,
+      "genre": "Horror, Thriller",
+      "seasons": 1,
+      "description": "A novelist suffering from PTSD is pursued by a mysterious girl.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 185,
+      "title": "Gehraiyaan",
+      "poster": "DARK.jpg",
+      "year": "2017",
+      "rating": 7.2,
+      "genre": "Horror, Mystery",
+      "seasons": 1,
+      "description": "A young girl is haunted by a dark force operating from the shadows of her new apartment.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "bollywood shows"
+      ]
+    },
+    {
+      "id": 186,
+      "title": "The Haunting of Bly Manor",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 7.4,
+      "genre": "Horror, Drama",
+      "seasons": 1,
+      "description": "After an au pair's tragic death, Henry hires a young American nanny to care for his orphaned niece and nephew.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "hollywood shows"
+      ]
+    },
+    {
+      "id": 187,
+      "title": "Bates Motel",
+      "poster": "DARK.jpg",
+      "year": "2013",
+      "rating": 8.1,
+      "genre": "Horror, Mystery",
+      "seasons": 5,
+      "description": "A contemporary prequel to Psycho, giving a portrayal of how Norman Bates' psyche unravels.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 188,
+      "title": "Hannibal",
+      "poster": "DARK.jpg",
+      "year": "2013",
+      "rating": 8.5,
+      "genre": "Horror, Crime",
+      "seasons": 3,
+      "description": "Explores the early relationship between a renowned psychiatrist and a young FBI criminal profiler.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Horror Shows",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 189,
+      "title": "Yellowjackets",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.8,
+      "genre": "Horror, Drama",
+      "seasons": 2,
+      "description": "A wildly talented high school girl soccer team survives a plane crash deep in the wilderness.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "Horror Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 190,
+      "title": "Marianne",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 7.4,
+      "genre": "Horror",
+      "seasons": 1,
+      "description": "A famous horror writer returns to her hometown to find the evil spirit she created is alive.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 191,
+      "title": "Euphoria",
+      "poster": "DARK.jpg",
+      "year": "2019",
+      "rating": 8.3,
+      "genre": "Drama",
+      "seasons": 2,
+      "description": "A group of high school students navigate love and friendships in a world of drugs, sex, trauma, and social media.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 192,
+      "title": "The White Lotus",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.9,
+      "genre": "Comedy, Drama",
+      "seasons": 2,
+      "description": "Follows the exploits of various guests and employees at an exclusive tropical resort over the span of a week.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 193,
+      "title": "Wednesday",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 8.1,
+      "genre": "Comedy, Fantasy",
+      "seasons": 1,
+      "description": "Follows Wednesday Addams' years as a student, attempting to master her emerging psychic ability.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "hollywood shows",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 194,
+      "title": "The Sandman",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 7.7,
+      "genre": "Drama, Fantasy",
+      "seasons": 1,
+      "description": "Upon escaping after decades of imprisonment by a mortal wizard, Dream sets about to reclaim his lost equipment.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "hollywood shows"
+      ]
+    },
+    {
+      "id": 195,
+      "title": "Lupin",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 7.5,
+      "genre": "Action, Crime",
+      "seasons": 3,
+      "description": "Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "Crime Shows",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 196,
+      "title": "Alice in Borderland",
+      "poster": "DARK.jpg",
+      "year": "2020",
+      "rating": 7.7,
+      "genre": "Action, Sci-Fi",
+      "seasons": 2,
+      "description": "A group of bored delinquents are transported to a parallel wasteland as part of a survival game.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "multiple seasons",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 197,
+      "title": "All of Us Are Dead",
+      "poster": "DARK.jpg",
+      "year": "2022",
+      "rating": 7.5,
+      "genre": "Action, Horror",
+      "seasons": 1,
+      "description": "Trapped students must escape their high school which has become ground zero for a zombie virus outbreak.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Horror Shows",
+        "trending",
+        "dual audio"
+      ]
+    },
+    {
+      "id": 198,
+      "title": "Narcos: Mexico",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 8.4,
+      "genre": "Crime, Drama",
+      "seasons": 3,
+      "description": "Explores the origins of the modern drug war by going back to its roots, beginning at a time when the Mexican trafficking world was a loose and disorganized confederation of independent growers and dealers.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 199,
+      "title": "Only Murders in the Building",
+      "poster": "DARK.jpg",
+      "year": "2021",
+      "rating": 8.1,
+      "genre": "Comedy, Crime",
+      "seasons": 3,
+      "description": "Three strangers who share an obsession with true crime suddenly find themselves caught up in one.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "trending",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    },
+    {
+      "id": 200,
+      "title": "Barry",
+      "poster": "DARK.jpg",
+      "year": "2018",
+      "rating": 8.4,
+      "genre": "Action, Comedy",
+      "seasons": 4,
+      "description": "A hit man from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.",
+      "trailer": "stHD.mp4",
+      "tags": [
+        "topRated",
+        "Crime Shows",
+        "hollywood shows",
+        "multiple seasons"
+      ]
+    }
   ]
 }

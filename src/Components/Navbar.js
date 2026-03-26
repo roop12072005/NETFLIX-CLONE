@@ -55,7 +55,7 @@ function Navbar({ setGenreFilter}) {
 
       <div className="navbar_left">
 
-        <h2 className="logo">NETFLIX</h2>
+        <h2 className="logo">GOMOVIE</h2>
 
         <div className="navbar_menu">
           

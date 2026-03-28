@@ -45,8 +45,18 @@ function MovieDetails({ movies, addToWatchlist, removeFromWatchlist, watchlist }
             src={`/posters/${movie.poster}`}
             alt={movie.title}
           />
+        </div>
 
-          <div className="movie_poster_actions">
+        <div className="movie_info">
+          <h1>{movie.title}</h1>
+
+          <div className="movie_meta">
+            {movie.rating} | {movie.year}
+          </div>
+
+          <p className="movie_description">{movie.description}</p>
+
+          <div className="movie_actions">
             <button className="play_btn" onClick={() => setShowTrailer(true)}>
               Play Trailer
             </button>
@@ -62,16 +72,6 @@ function MovieDetails({ movies, addToWatchlist, removeFromWatchlist, watchlist }
               {isInWatchlist ? "Added to List" : "+ Add to List"}
             </button>
           </div>
-        </div>
-
-        <div className="movie_info">
-          <h1>{movie.title}</h1>
-
-          <div className="movie_meta">
-            {movie.rating} | {movie.year}
-          </div>
-
-          <p className="movie_description">{movie.description}</p>
 
           {showTrailer && (
             <div className="trailer_overlay">

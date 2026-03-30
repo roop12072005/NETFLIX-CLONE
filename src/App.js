@@ -11,7 +11,8 @@ import GenrePage from './pages/GenrePage';
 import CollectionPage from "./pages/Collection.js";
 import TVShows from "./pages/TVShows";
 import Movies from "./pages/Movies";
-
+import Register from "./Register.js"
+import ProtectedRoute from "./ProtectedRoute.js";
 function App() {
 
   const [loading, setLoading] = useState(true);
@@ -54,12 +55,10 @@ const removeFromWatchlist = (movie) => {
 };
 
   const [isAuthenticated, setIsAuthenticated] = useState(() => {
-    return localStorage.getItem("auth") === "true";
+    const authData = JSON.parse(localStorage.getItem("auth"));
+    return authData?.loggedIn || false;
   });
-  const ProtectedRoute = ({ children }) => {
-    return isAuthenticated ? children : <Navigate to="/" />;
-  };
-
+  
   
 
   return (
@@ -67,6 +66,7 @@ const removeFromWatchlist = (movie) => {
       <Scroll />
         <Routes>
           <Route path="/" element={<Login setIsAuthenticated={setIsAuthenticated} />} />
+          <Route path="/register" element={<Register />} />
           <Route
             path="/home" 
             element={
@@ -77,7 +77,10 @@ const removeFromWatchlist = (movie) => {
                 loading={loading}
                 watchlist={watchlist}
                 addToWatchlist={addToWatchlist}
-                removeFromWatchlist={removeFromWatchlist}/>
+                removeFromWatchlist={removeFromWatchlist}
+                isAuthenticated={isAuthenticated}
+                setIsAuthenticated={setIsAuthenticated}
+                />
             </ProtectedRoute>
             }
             />

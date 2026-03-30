@@ -10,7 +10,9 @@ function Home({
   loading,
   watchlist, 
   addToWatchlist, 
-  removeFromWatchlist 
+  removeFromWatchlist, 
+  isAuthenticated,
+  setIsAuthenticated
 })
 {
   const featuredMovie =
@@ -44,6 +46,17 @@ function Home({
           show.tags?.includes("multiple seasons") || Number(show.seasons || 0) > 1
       )
     : [];
+  const storedUser = localStorage.getItem("currentUser");
+
+let user = null;
+
+if (storedUser && storedUser !== "undefined") {
+  try {
+    user = JSON.parse(storedUser);
+  } catch (error) {
+    user = null;
+  }
+}
 
   const [genreFilter, setGenreFilter] = useState("All");
   const filterMedia = (items) => {
@@ -59,7 +72,8 @@ function Home({
   };
   return (
     <div className="App">
-      <Navbar setGenreFilter={setGenreFilter}/>
+      <Navbar  isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated} setGenreFilter={setGenreFilter}/>
+      <h2>Welcome, {user?.email}</h2>
       <Banner
         featuredMovie={featuredMovie}
         watchlist={watchlist}

@@ -11,11 +11,11 @@ function Banner({
 }) {
   const navigate = useNavigate();
 
-  const movieBannerData = featuredMovie
+  const movieBannerData = featuredMovie 
     ? {
         title: featuredMovie.title,
         description: featuredMovie.description,
-        image: "/posters/JOHN WICK 4.jpg",
+        image: `/posters/${featuredMovie.poster}`,
         meta: `${featuredMovie.year} | ${featuredMovie.genre}`,
       }
     : null;
@@ -32,7 +32,7 @@ function Banner({
     Action: {
       title: "Action Movies",
       description: "High adrenaline battles and intense missions.",
-      image: "/posters/Banner.jpg",
+      image: "/posters/The Dune 2.webp",
     },
     "Sci-Fi": {
       title: "Sci-Fi",
@@ -70,8 +70,7 @@ function Banner({
 
   if (type === "genre") {
     data =
-      movieBannerData ||
-      bannerData[genre] || {
+      movieBannerData || {
         title: `${genre || "Genre"} Movies`,
         description: "Explore titles in this genre.",
         image: "/genreBanners/action.jpg",
@@ -106,7 +105,7 @@ function Banner({
   return (
     <div
       className="banner"
-      style={{ backgroundImage: `url(${encodeURI(data.image)})` }}
+      style={{ backgroundImage: `url(${encodeURI(data.image)})`, minHeight: "60vh" }}
     >
       <div className="banner_overlay">
         <div className="banner_content">

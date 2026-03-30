@@ -1,58 +1,113 @@
 import React, { useState } from 'react';
-import './Login.css';import { useNavigate } from "react-router-dom";
+import './Login.css';
+import { useNavigate } from "react-router-dom";
 
 function Login({ setIsAuthenticated }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate();
   const [error, setError] = useState("");
-  
-  
+  const navigate = useNavigate();
+
+  // Inside Login.js
+
+  const loginStyle = {
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/posters/Login.png'})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    height: '100vh',
+    width: '100%'
+  };
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
-  
-    const validEmail = "hereitis@gmail.com";
-    const validPassword = "loginForYou";
-  
-    if (email === validEmail && password === validPassword) {
-      localStorage.setItem("auth", "true");
-      setIsAuthenticated(true);
-      navigate("/home");
-    } else {
-      alert("Invalid email or password");
+    setError("");
+
+    // Validation
+    if (!email || !password) {
+      setError("All fields are required");
+      return;
     }
-  };
+
+    if (!email.includes("@")) {
+      setError("Enter a valid email");
+      return;
+    }
+  
+    // Get stored user
+    const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
+
+const validUser = storedUsers.find(
+  (user) => user.email === email && user.password === password
+);
+
+if (validUser) {
+  localStorage.setItem("auth", JSON.stringify({ loggedIn: true }));
+  setIsAuthenticated(true);
+  navigate("/home");
+} else {
+  setError("Invalid email or password");
+  localStorage.setItem("currentUser", JSON.stringify(validUser));
+}
+}
+
   return (
-    <div
-     className="login-container">
-      <form className="login-form" onSubmit={handleSubmit}>
+    <div style={loginStyle} className="login-container">
+      <form className="login-form" key={window.location.pathname} onSubmit={handleSubmit} autoComplete="off">
         <h2>OTT Platform Login</h2>
+
         <div className="input-group">
-          <label htmlFor="email">Email</label>
+          <label>Email</label>
           <input
             type="email"
             id="email"
+            className={error ? "input-error" : ""}
             value={email}
+            autoComplete="off"
             onChange={(e) => setEmail(e.target.value)}
-            required
             placeholder="Enter your email"
           />
+          {error && !email && <p className="error-text">Email is required</p>}
         </div>
+
         <div className="input-group">
-          <label htmlFor="password">Password</label>
+          <label>Password</label>
           <input
             type="password"
             id="password"
+            className={error ? "input-error" : ""}
             value={password}
+            autoComplete="off"
             onChange={(e) => setPassword(e.target.value)}
-            required
             placeholder="Enter your password"
           />
-          {error && <p className="error-text">{error}</p>}
+          {error && !password && <p className="error-text">Password is required</p>}
         </div>
-        <button type="submit" className="login-btn">Login</button>
+
+        {error && email && password && (
+          <p className="error-text">{error}</p>
+        )}
+
+        <button
+          type="submit"
+          className="login-btn"
+          disabled={!email || !password}
+        >
+          Login
+        </button>
+
+        <p style={{ textAlign: "center" }}>
+          Don't have an account?{" "}
+          <span
+            style={{ color: "blue", cursor: "pointer" }}
+            onClick={() => navigate("/register")}
+          >
+            Register
+          </span>
+        </p>
       </form>
     </div>
+
   );
 }
 

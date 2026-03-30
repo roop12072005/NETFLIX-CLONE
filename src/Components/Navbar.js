@@ -6,12 +6,13 @@ import { useLocation } from "react-router-dom";
 
 
 
-function Navbar({ setGenreFilter}) {
+function Navbar({ setGenreFilter , isAuthenticated , setIsAuthenticated}) {
 
   const navigate = useNavigate();
 
   const handleLogout = () => {
     localStorage.removeItem("auth");
+    setIsAuthenticated(false);
     navigate("/");
   }
 

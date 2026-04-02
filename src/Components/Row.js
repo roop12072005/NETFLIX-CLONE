@@ -47,7 +47,7 @@ function Row({ title, movies, tag, addToWatchlist, removeFromWatchlist, watchlis
           className="see_more"
           onClick={() => navigate(`/collection/${tag}`)}
         >
-          See More ->
+          See More -
         </button>
       </div>
 

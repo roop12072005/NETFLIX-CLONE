@@ -16,7 +16,7 @@ import ProtectedRoute from "./ProtectedRoute.js";
 function App() {
 
   const [loading, setLoading] = useState(true);
-
+  const db = required("./db");
 
   const [watchlist, setWatchlist] = useState(() => {
   const saved = localStorage.getItem("watchlist");

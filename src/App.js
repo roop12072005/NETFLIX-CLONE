@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Scroll from'./pages/Scroll';
 import Home from "./pages/Home";
 import Login from "./Login";
-import { useEffect, useState} from "react";
+import { use, useEffect, useState} from "react";
 import MovieDetail from "./pages/movieDetail.js";
 import { Navigate } from "react-router-dom";
 import MyList from "./pages/MyList";
@@ -13,27 +13,27 @@ import TVShows from "./pages/TVShows";
 import Movies from "./pages/Movies";
 import Register from "./Register.js"
 import ProtectedRoute from "./ProtectedRoute.js";
+
+
 function App() {
 
   const [loading, setLoading] = useState(true);
-  const db = required("./db");
+
 
   const [watchlist, setWatchlist] = useState(() => {
   const saved = localStorage.getItem("watchlist");
   return saved ? JSON.parse(saved) : [];
 });
-
+  const [ data , setDAta] = use
   const [movies, setMovies] = useState([]);
   const [tvShows, setTvShows] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/movies")
+    fetch("http://localhost:5000/data")
       .then((res) => res.json())
       .then((data) => setMovies(data));
 
-    fetch("http://localhost:4000/shows")
-      .then((res) => res.json())
-      .then((data) => setTvShows(data));
+
     }, []);  
 
 useEffect(() => {

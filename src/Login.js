@@ -8,8 +8,6 @@ function Login({ setIsAuthenticated }) {
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
-  // Inside Login.js
-
   const loginStyle = {
     backgroundImage: `url(${process.env.PUBLIC_URL + '/posters/Login.png'})`,
     backgroundSize: 'cover',
@@ -17,7 +15,6 @@ function Login({ setIsAuthenticated }) {
     height: '100vh',
     width: '100%'
   };
-
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -34,22 +31,30 @@ function Login({ setIsAuthenticated }) {
       return;
     }
   
-    // Get stored user
-    const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
+    // UPDATED: Pointing to the new PHP API on XAMPP
+    fetch("http://localhost/streaming_api/login.php", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ email, password })
+    })
+    .then(res => res.json())
+    .then(data => {
+      if (data.success) {
+        localStorage.setItem("auth", JSON.stringify({ loggedIn: true }));
+        localStorage.setItem("currentUser", JSON.stringify(data.user));
 
-const validUser = storedUsers.find(
-  (user) => user.email === email && user.password === password
-);
-
-if (validUser) {
-  localStorage.setItem("auth", JSON.stringify({ loggedIn: true }));
-  setIsAuthenticated(true);
-  navigate("/home");
-} else {
-  setError("Invalid email or password");
-  localStorage.setItem("currentUser", JSON.stringify(validUser));
-}
-}
+        setIsAuthenticated(true);
+        navigate("/home");
+      } else {
+        setError(data.message || "Login failed");
+      }
+    })
+    .catch(() => {
+      setError("Server error - Make sure XAMPP Apache/MySQL are running.");
+    });
+  }
 
   return (
     <div style={loginStyle} className="login-container">
@@ -107,7 +112,6 @@ if (validUser) {
         </p>
       </form>
     </div>
-
   );
 }
 

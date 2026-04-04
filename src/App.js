@@ -2,9 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Scroll from'./pages/Scroll';
 import Home from "./pages/Home";
 import Login from "./Login";
-import { use, useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import MovieDetail from "./pages/movieDetail.js";
-import { Navigate } from "react-router-dom";
 import MyList from "./pages/MyList";
 import Search from "./pages/Search";
 import GenrePage from './pages/GenrePage';
@@ -20,25 +19,31 @@ function App() {
   const [loading, setLoading] = useState(true);
 
 
-  const [watchlist, setWatchlist] = useState(() => {
-  const saved = localStorage.getItem("watchlist");
-  return saved ? JSON.parse(saved) : [];
-});
-  const [ data , setDAta] = use
+  const [watchlist, setWatchlist] = useState([]);
+ ;
+  const [ data , setData] = useState();
   const [movies, setMovies] = useState([]);
   const [tvShows, setTvShows] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/data")
-      .then((res) => res.json())
-      .then((data) => setMovies(data));
+    fetch('http://localhost/streaming_api/movies.php')
+  .then((res) => res.json())
+  .then((data) => {
+    setMovies(data);
+    setLoading(false);
+  });
+    }, []); 
+  
+    useEffect(() => {
+          // NEW WAY
+    fetch('http://localhost/streaming_api/shows.php')
+    .then((res) => res.json())
+    .then((data) => {
+      setTvShows(data);
+      setLoading(false);
+    });
+    }, []); 
 
-
-    }, []);  
-
-useEffect(() => {
-  localStorage.setItem("watchlist", JSON.stringify(watchlist));
-}, [watchlist]);
 
 const addToWatchlist = (movie) => {
   setWatchlist((prev) => {

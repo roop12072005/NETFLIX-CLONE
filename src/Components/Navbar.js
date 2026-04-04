@@ -12,9 +12,10 @@ function Navbar({ setGenreFilter , isAuthenticated , setIsAuthenticated}) {
 
   const handleLogout = () => {
     localStorage.removeItem("auth");
-    setIsAuthenticated(false);
-    navigate("/");
-  }
+    localStorage.removeItem("currentUser");
+    setIsAuthenticated?.(false);
+    navigate("/", { replace: true });
+  };
 
   const location = useLocation();
   
@@ -97,7 +98,7 @@ function Navbar({ setGenreFilter , isAuthenticated , setIsAuthenticated}) {
           className="search_input"
         />
 
-        <button className="logout_btn" onClick={handleLogout}>LogOut</button>
+        <button type="button" className="logout_btn" onClick={handleLogout}>LogOut</button>
       
       </div>
     </div>);

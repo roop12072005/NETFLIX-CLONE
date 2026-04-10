@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import "./MovieDetails.css";
 
-function MovieDetails({ movies, addToWatchlist, removeFromWatchlist, watchlist }) {
+function MovieDetails({ addToWatchlist, removeFromWatchlist, watchlist }) {
   const location = useLocation();
   const movie = location.state;
   const [showTrailer, setShowTrailer] = useState(false);

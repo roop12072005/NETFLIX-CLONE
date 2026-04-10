@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
 import Row from "../Components/Row";
@@ -7,11 +6,9 @@ import '../Home.css';
 function Home({
   movies,
   tvShows,
-  loading,
   watchlist, 
   addToWatchlist, 
   removeFromWatchlist, 
-  isAuthenticated,
   setIsAuthenticated
 })
 {
@@ -58,21 +55,9 @@ if (storedUser && storedUser !== "undefined") {
   }
 }
 
-  const [genreFilter, setGenreFilter] = useState("All");
-  const filterMedia = (items) => {
-    if (!items || !Array.isArray(items)) {
-      return [];
-    }
-
-    if (genreFilter === "All") return items;
-
-    return items.filter(
-      (item) => item.genre?.toLowerCase().includes(genreFilter.toLowerCase())
-    );
-  };
   return (
     <div className="App">
-      <Navbar  isAuthenticated={isAuthenticated} setIsAuthenticated={setIsAuthenticated} setGenreFilter={setGenreFilter}/>
+      <Navbar setIsAuthenticated={setIsAuthenticated} />
       <h2>Welcome, {user?.email}</h2>
       <Banner
         featuredMovie={featuredMovie}
@@ -84,7 +69,7 @@ if (storedUser && storedUser !== "undefined") {
       <Row
         title="Trending Now"
         tag="trending"
-        movies={filterMedia(trending).slice(0, 10)}
+        movies={trending.slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}
@@ -93,7 +78,7 @@ if (storedUser && storedUser !== "undefined") {
       <Row
         title="Top Rated"
         tag="topRated"
-        movies={filterMedia(topRated).slice(0, 10)}
+        movies={topRated.slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}
@@ -102,7 +87,7 @@ if (storedUser && storedUser !== "undefined") {
       <Row
         title="Dual Audio"
         tag="dual audio"
-        movies={filterMedia(dual_Audio).slice(0, 10)}
+        movies={dual_Audio.slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}
@@ -111,7 +96,7 @@ if (storedUser && storedUser !== "undefined") {
       <Row
         title="Trending Shows"
         tag="trending"
-        movies={filterMedia(trendingShows).slice(0, 10)}
+        movies={trendingShows.slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}
@@ -120,7 +105,7 @@ if (storedUser && storedUser !== "undefined") {
       <Row
         title="Top Rated Shows"
         tag="topRated"
-        movies={filterMedia(topRatedShows).slice(0, 10)}
+        movies={topRatedShows.slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}
@@ -129,7 +114,7 @@ if (storedUser && storedUser !== "undefined") {
       <Row
         title="Binge-Worthy Shows"
         tag="multiple seasons"
-        movies={filterMedia(bingeWorthyShows).slice(0, 10)}
+        movies={bingeWorthyShows.slice(0, 10)}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
         watchlist={watchlist}
@@ -139,10 +124,5 @@ if (storedUser && storedUser !== "undefined") {
     
   );
 }
-
-// Inside your React component (Home.js)
-
-
-
 
 export default Home;

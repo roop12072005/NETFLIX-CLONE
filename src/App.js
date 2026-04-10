@@ -15,13 +15,7 @@ import ProtectedRoute from "./ProtectedRoute.js";
 
 
 function App() {
-
-  const [loading, setLoading] = useState(true);
-
-
   const [watchlist, setWatchlist] = useState([]);
- ;
-  const [ data , setData] = useState();
   const [movies, setMovies] = useState([]);
   const [tvShows, setTvShows] = useState([]);
 
@@ -30,7 +24,6 @@ function App() {
   .then((res) => res.json())
   .then((data) => {
     setMovies(data);
-    setLoading(false);
   });
     }, []); 
   
@@ -40,7 +33,6 @@ function App() {
     .then((res) => res.json())
     .then((data) => {
       setTvShows(data);
-      setLoading(false);
     });
     }, []); 
 
@@ -59,7 +51,7 @@ const removeFromWatchlist = (movie) => {
   );
 };
 
-  const [isAuthenticated, setIsAuthenticated] = useState(() => {
+  const [, setIsAuthenticated] = useState(() => {
     const authData = JSON.parse(localStorage.getItem("auth"));
     return authData?.loggedIn || false;
   });
@@ -79,11 +71,9 @@ const removeFromWatchlist = (movie) => {
               <Home 
                 movies={movies}
                 tvShows={tvShows}
-                loading={loading}
                 watchlist={watchlist}
                 addToWatchlist={addToWatchlist}
                 removeFromWatchlist={removeFromWatchlist}
-                isAuthenticated={isAuthenticated}
                 setIsAuthenticated={setIsAuthenticated}
                 />
             </ProtectedRoute>
@@ -119,7 +109,6 @@ const removeFromWatchlist = (movie) => {
               element={
                 <ProtectedRoute>
                   <MovieDetail
-                    movies={movies}
                     addToWatchlist={addToWatchlist}
                     removeFromWatchlist={removeFromWatchlist}
                     watchlist={watchlist}

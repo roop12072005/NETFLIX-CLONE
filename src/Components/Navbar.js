@@ -6,7 +6,7 @@ import { useLocation } from "react-router-dom";
 
 
 
-function Navbar({ setGenreFilter , isAuthenticated , setIsAuthenticated}) {
+function Navbar({ setIsAuthenticated }) {
 
   const navigate = useNavigate();
 
@@ -38,7 +38,7 @@ function Navbar({ setGenreFilter , isAuthenticated , setIsAuthenticated}) {
 
     return () => clearTimeout(delay);
 
-  }, [search]);
+  }, [navigate, search]);
 
   const handleSearch = (e) => {
     setSearch(e.target.value);

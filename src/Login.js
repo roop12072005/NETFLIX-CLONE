@@ -42,8 +42,10 @@ function Login({ setIsAuthenticated }) {
     .then(res => res.json())
     .then(data => {
       if (data.success) {
+        localStorage.clear(); // Clear any existing data
         localStorage.setItem("auth", JSON.stringify({ loggedIn: true }));
         localStorage.setItem("currentUser", JSON.stringify(data.user));
+        window.dispatchEvent(new Event("storage"));
 
         setIsAuthenticated(true);
         navigate("/home");

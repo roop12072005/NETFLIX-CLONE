@@ -77,6 +77,10 @@ body {
   color: white;
 }
 
+.logo_link .active {
+  color: #e50914;
+}
+
 .nav_item.active::after {
   content: "";
   position: absolute;
@@ -91,7 +95,7 @@ body {
 /* LOGO */
 .logo {
   color: #e50914;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 800;
   letter-spacing: 1px;
 }

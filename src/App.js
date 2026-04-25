@@ -18,6 +18,42 @@ function App() {
   const [watchlist, setWatchlist] = useState([]);
   const [movies, setMovies] = useState([]);
   const [tvShows, setTvShows] = useState([]);
+  const [currentUser, setCurrentUser] = useState(
+  JSON.parse(localStorage.getItem("currentUser"))
+);
+
+useEffect(() => {
+  const syncUser = () => {
+    setCurrentUser(
+      JSON.parse(localStorage.getItem("currentUser"))
+    );
+  };
+
+  window.addEventListener("storage", syncUser);
+
+  syncUser();
+
+  return () => window.removeEventListener("storage", syncUser);
+}, []);
+
+useEffect(() => {
+  const user = JSON.parse(localStorage.getItem("currentUser"));
+
+  if (!user?.id) return;
+
+  fetch(`http://localhost/streaming_api/wishlist.php?user_id=${user.id}`)
+    .then((res) => res.json())
+    .then((ids) => {
+      const allContent = [...movies, ...tvShows];
+
+      const matchedItems = allContent.filter((item) =>
+        ids.includes(item.id)
+      );
+
+      setWatchlist(matchedItems);
+    });
+}, [currentUser, movies, tvShows]);
+
 
   useEffect(() => {
     fetch('http://localhost/streaming_api/movies.php')
@@ -38,17 +74,41 @@ function App() {
 
 
 const addToWatchlist = (movie) => {
-  setWatchlist((prev) => {
-    const exists = prev.find((item) => item.id === movie.id);
-    if (exists) return prev;
-    return [...prev, movie];
-  });
+  const user = JSON.parse(localStorage.getItem("currentUser"));
+
+  if(!user?.id) return;
+
+  fetch("http://localhost/streaming_api/wishlist.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" }, 
+    body: JSON.stringify({
+      user_id: user.id,
+      content_id: movie.id
+    })
+    }).then(() => {
+      setWatchlist((prev) => {
+        const exists = prev.find((items) => items.id === movie.id)
+        if(exists) return prev;
+        return [ ...prev, movie];
+      });
+    });
 };
 
 const removeFromWatchlist = (movie) => {
-  setWatchlist((prev) =>
-    prev.filter((item) => item.id !== movie.id)
-  );
+  const user = JSON.parse(localStorage.getItem("currentUser"));
+
+  if(!user?.id) return;
+
+  fetch("http://localhost/streaming_api/wishlist.php", {
+    method: "DELETE",
+    headers: { "Content-Type": "application/json" }, 
+    body: JSON.stringify({
+      user_id: user.id,
+      content_id: movie.id
+    })
+  }).then(() => {
+    setWatchlist((prev) => prev.filter((item) => item.id !== movie.id));
+  });
 };
 
   const [, setIsAuthenticated] = useState(() => {

@@ -15,6 +15,7 @@ function Navbar({ setIsAuthenticated }) {
     localStorage.removeItem("currentUser");
     setIsAuthenticated?.(false);
     navigate("/", { replace: true });
+    window.location.href = "/"; // Force reload to reset state across the app
   };
 
   const location = useLocation();
@@ -57,7 +58,9 @@ function Navbar({ setIsAuthenticated }) {
 
       <div className="navbar_left">
 
-        <h2 className="logo">GOMOVIE</h2>
+        <NavLink className="logo" to="/home">
+          <h2 >GOMOVIE</h2>
+        </NavLink>
 
         <div className="navbar_menu">
           

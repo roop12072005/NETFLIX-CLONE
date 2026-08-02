@@ -1,0 +1,193 @@
+import { useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+// Use ../ to go up one level out of 'pages', then into 'Components'
+import Navbar from '../NavBar/Navbar'; 
+import Banner from "../Banner/Banner";
+
+
+function GenrePage({
+  items,
+  watchlist,
+  addToWatchlist,
+  removeFromWatchlist
+}) {
+
+
+  let { genreName } = useParams();
+  
+  const navigate = useNavigate();
+  const [selectedMovie, setSelectedMovie] = useState(null);
+  const [showTrailer, setShowTrailer] = useState(false);
+
+  const genreitems = items.filter((item) =>
+    item?.genres.map((genre) => genre.toLowerCase()).includes(genreName?.toLowerCase())
+  );
+console.log(genreitems)
+  const featureditem =
+    genreitems.find((genreItem) => genreItem.tags?.includes("trending")) ||
+    genreitems.find((genreItem) => genreItem.tags?.includes("topRated")) ||
+    genreitems[0];
+
+  const closeModal = () => {
+    setSelectedMovie(null);
+    setShowTrailer(false);
+  };
+
+  const isInWatchlist = watchlist?.some(
+    (item) => item.id === selectedMovie?.id
+  );
+
+  useEffect(() => {
+    const handleEsc = (e) => {
+      if (e.key === "Escape") {
+        closeModal();
+      }
+    };
+
+    window.addEventListener("keydown", handleEsc);
+
+    return () => window.removeEventListener("keydown", handleEsc);
+  }, [selectedMovie]);
+
+  return (
+    <div className="genre_page">
+      <Navbar />
+      <Banner
+        type="genre"
+        genre={genreName}
+        featuredMovie={featureditem}
+        watchlist={watchlist}
+        addToWatchlist={addToWatchlist}
+        removeFromWatchlist={removeFromWatchlist}
+      />
+
+      <div className="genre_content">
+        <h1 className="genre_title">
+          {genreName.toUpperCase()} MOVIES
+        </h1>
+
+        <div className="movie_grid">
+          {genreitems.map((item) => (
+            <div
+              key={item.id}
+              className="poster_container genre_poster_container"
+            >
+              <div className="poster_frame">
+                <img
+                  src={item.poster}
+                  alt={item.title}
+                  className="row_poster grid_poster"
+                  onClick={() => navigate(`/movie/${item.id}`, { state: item })}
+                />
+
+                <div className="poster_overlay">
+                  <button
+                    className="preview_play"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setSelectedMovie(item);
+                    }}
+                  >
+                    Play
+                  </button>
+
+                  <button
+                    className="preview_watchlist"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      addToWatchlist(item);
+                    }}
+                  >
+                    {watchlist?.some((watchlistItem) => watchlistItem.id === item.id)
+                      ? "Added to List"
+                      : "+ My List"}
+                  </button>
+                </div>
+              </div>
+
+              <h2 className="poster_title">{item.title}</h2>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {selectedMovie && (
+        <div className="cinema_overlay" onClick={closeModal}>
+          <div
+            className="cinema_container"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <span
+              className="cinema_close"
+              onClick={closeModal}
+            >
+              x
+            </span>
+
+            {!showTrailer ? (
+              <div className="cinema_content">
+                <img
+                  className="cinema_poster"
+                  src={`/posters/${selectedMovie.poster}`}
+                  alt={selectedMovie.title}
+                />
+
+                <div className="cinema_details">
+                  <h2>{selectedMovie.title}</h2>
+                  <p className="cinema_year">{selectedMovie.year}</p>
+                  <p className="cinema_description">
+                    {selectedMovie.description}
+                  </p>
+                  <span className="rating_badge">
+                    {selectedMovie.rating}
+                  </span>
+
+                  <div className="cinema_buttons">
+                    <button
+                      className="cinema_trailer"
+                      onClick={() => setShowTrailer(true)}
+                    >
+                      Play Trailer
+                    </button>
+                    <button
+                      className="watchlist_button"
+                      onClick={() =>
+                        isInWatchlist
+                          ? removeFromWatchlist(selectedMovie)
+                          : addToWatchlist(selectedMovie)
+                      }
+                    >
+                      {isInWatchlist ? "Added to List" : "+ Add to Watchlist"}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className="cinema_section">
+                {selectedMovie.trailer.includes("youtube") ? (
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src={selectedMovie.trailer}
+                    title="Trailer"
+                    allowFullScreen
+                  ></iframe>
+                ) : (
+                  <video
+                    width="100%"
+                    height="400"
+                    controls
+                    autoPlay
+                    src={`/trailer/${selectedMovie.trailer}`}
+                  ></video>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default GenrePage;

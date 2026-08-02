@@ -1,0 +1,69 @@
+import MediaGridPage from "../../Components/Grid/MediaGridPage";
+
+function Movies({
+  movies,
+  watchlist,
+  addToWatchlist,
+  removeFromWatchlist,
+}) {
+  // const sortedMovies = useMemo(() => {
+  //   const allMovies = Array.isArray(movies)
+  //     ? movies.filter(
+  //         (item) =>
+  //           !item.seasons &&
+  //           !item.tags?.some((tag) => tag.toLowerCase().includes("shows"))
+  //       )
+  //     : [];
+
+  //   return [...allMovies].sort((a, b) => {
+  //     const trendingA = a.tags?.includes("trending") ? 1 : 0;
+  //     const trendingB = b.tags?.includes("trending") ? 1 : 0;
+
+  //     if (trendingA !== trendingB) {
+  //       return trendingB - trendingA;
+  //     }
+
+  //     return Number(b.rating || 0) - Number(a.rating || 0);
+  //   });
+  // }, [movies]);
+console.log("Movies:", movies);
+  return (
+    <MediaGridPage
+      title="Movies"
+      items={movies.allMovies}
+      emptyMessage="No movies available right now."
+      watchlist={watchlist}
+      renderCardActions={({ item, isInWatchlist, openDetails }) => (
+        <>
+          <button
+            className="preview_play"
+            onClick={(e) => {
+              e.stopPropagation();
+              openDetails();
+            }}
+          >
+            Play
+          </button>
+
+          <button
+            className="preview_watchlist"
+            onClick={(e) => {
+              e.stopPropagation();
+
+              if (isInWatchlist) {
+                removeFromWatchlist(item);
+                return;
+              }
+
+              addToWatchlist(item);
+            }}
+          >
+            {isInWatchlist ? "Added to List" : "+ My List"}
+          </button>
+        </>
+      )}
+    />
+  );
+}
+
+export default Movies;

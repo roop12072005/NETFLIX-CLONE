@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import axios from "axios";
 import "./Login.css"; // reuse same styling
 
 function Register() {
-  // 1. ADDED: Name state to match the MySQL database requirements
-  const [name, setName] = useState(""); 
+  const [loading , setLoading] = useState(false)
+  const [username, setUsername] = useState(""); 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -19,42 +20,48 @@ function Register() {
     width: '100%'
   };
 
-  const handleRegister = (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault();
-    setError("");
 
-    // 2. UPDATED: Ensure name is also filled out
-    if (!name || !email || !password) {
+    setError("");
+    setLoading(true)
+
+    if (!username || !email || !password) {
       setError("All fields are required");
+      setLoading(false);
       return;
     }
 
     if (!email.includes("@")) {
       setError("Enter a valid email");
+      setLoading(false);
       return;
     }
 
-    // 3. REPLACED LOCALSTORAGE WITH FETCH: Now we talk to XAMPP!
-    fetch("http://localhost/streaming_api/register.php", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ name, email, password })
-    })
-    .then(res => res.json())
-    .then(data => {
-      if (data.success) {
-        alert("Registration successful! You can now log in.");
-        navigate("/"); // Send them back to the login page
-      } else {
-        // If the PHP script says the email exists, show that error
-        setError(data.message || "Registration failed");
+    try{
+      const response = await axios.post(
+        "http://localhost:5000/api/auth/register", 
+        {
+          username,
+          email,
+          password,
+        }
+      );
+
+      if(response.data.success){
+        navigate("/");
+      }else{
+        setError(response.data.message);
       }
-    })
-    .catch(() => {
-      setError("Server error - Make sure XAMPP Apache/MySQL are running.");
-    });
+    } catch(error){
+      setError(
+        error.response?.data?.message ||
+        "Registration Failed"
+      );
+    }finally{
+      setLoading(false);
+    }
+
   };
 
   return (
@@ -64,12 +71,12 @@ function Register() {
 
         {/* 4. ADDED: Name Input Field in the UI */}
         <div className="input-group">
-          <label>Name</label>
+          <label>username</label>
           <input
             type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            placeholder="Enter your name"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            placeholder="Enter your username"
           />
         </div>
 
@@ -95,7 +102,13 @@ function Register() {
 
         {error && <p className="error-text">{error}</p>}
 
-        <button className="login-btn">Register</button>
+        <button 
+          typr="submit"
+          className="login-btn"
+          disabled={loading}
+          >
+            {loading ? "Registering..." : "Register"}
+          </button>
 
         <p style={{ textAlign: "center" }}>
           Already have an account?{" "}

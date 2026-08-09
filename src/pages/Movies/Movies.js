@@ -1,11 +1,12 @@
 import MediaGridPage from "../../Components/Grid/MediaGridPage";
+import WatchlistContext from "../../context.js/WatchlistContext";
+import { useContext} from "react"
 
 function Movies({
-  movies,
-  watchlist,
-  addToWatchlist,
-  removeFromWatchlist,
+  movies
 }) {
+    const { watchlist, addToWatchlist, removeFromWatchlist } = useContext(WatchlistContext);
+  
   // const sortedMovies = useMemo(() => {
   //   const allMovies = Array.isArray(movies)
   //     ? movies.filter(

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import axios from "axios"
 import './Login.css';
 import { useNavigate } from "react-router-dom";
 
 function Login({ setIsAuthenticated }) {
+  const [loading , setLoading] = useState(false)
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState("");
@@ -16,9 +18,10 @@ function Login({ setIsAuthenticated }) {
     width: '100%'
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
+    setLoading(true);
 
     // Validation
     if (!email || !password) {
@@ -30,33 +33,37 @@ function Login({ setIsAuthenticated }) {
       setError("Enter a valid email");
       return;
     }
-  
-    // UPDATED: Pointing to the new PHP API on XAMPP
-    fetch("http://localhost/streaming_api/login.php", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({ email, password })
-    })
-    .then(res => res.json())
-    .then(data => {
-      if (data.success) {
-        localStorage.clear(); // Clear any existing data
-        localStorage.setItem("auth", JSON.stringify({ loggedIn: true }));
+    try{
+      const response = await axios.post(
+        "http://localhost:5000/api/auth/login", 
+        {
+          email,
+          password,
+        }
+      );
+
+      const data = response.data;
+        
+      if (data.success) { 
+        localStorage.setItem("token", data.token);
         localStorage.setItem("currentUser", JSON.stringify(data.user));
+        
         window.dispatchEvent(new Event("storage"));
 
         setIsAuthenticated(true);
         navigate("/home");
       } else {
-        setError(data.message || "Login failed");
+          setError(data.message || "Login failed");
+        } 
+
+      } catch (err) {
+        setError(err.response?.message || 
+          "Server Error"
+        );
+      }finally{
+        setLoading(false);
       }
-    })
-    .catch(() => {
-      setError("Server error - Make sure XAMPP Apache/MySQL are running.");
-    });
-  }
+  };
 
   return (
     <div style={loginStyle} className="login-container">
@@ -98,9 +105,9 @@ function Login({ setIsAuthenticated }) {
         <button
           type="submit"
           className="login-btn"
-          disabled={!email || !password}
+          disabled={loading}
         >
-          Login
+          {loading ? "Logging in.." : "Login"}
         </button>
 
         <p style={{ textAlign: "center" }}>

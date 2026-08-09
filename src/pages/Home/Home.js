@@ -2,20 +2,23 @@ import Navbar from "../../Components/NavBar/Navbar";
 import Banner from "../../Components/Banner/Banner";
 import Row from "../../Components/Row/Row";
 import '../Home/Home.css';
+import WatchlistContext from "../../context.js/WatchlistContext";
+import { useContext } from "react"
+
 
 function Home({
   movies,
   tvShows,
-  watchlist, 
-  addToWatchlist, 
-  removeFromWatchlist, 
-  setIsAuthenticated
+  setIsAuthenticated,
 })
+
+
 { console.log(tvShows)
   const featuredMovie = movies.popular[0]
   // const topRated = movies.filter(m =>
-  //   m.tags.includes("topRated")
-  // );
+    //   m.tags.includes("topRated")
+    // );
+    const { watchlist, addToWatchlist, removeFromWatchlist } = useContext(WatchlistContext);
 
   // const dual_Audio = movies.filter(m =>
   //   m.tags.includes("dual audio")
@@ -60,63 +63,63 @@ let user = null;
       <Row
         title="Popular"
         tag="popular"
-         movies={movies.popular}
+        movies={movies.popular}
+        watchlist={watchlist}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
-        watchlist={watchlist}
       />
 
       <Row
         title="Top Rated"
         tag="topRated"
         movies={movies.topRated}
+        watchlist={watchlist}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
-        watchlist={watchlist}
       />
 
       <Row
         title="Upcoming"
         tag="upcoming"
         movies={movies.upcoming}
+        watchlist={watchlist}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
-        watchlist={watchlist}
       />
       <Row
         title="latest"
         tag="dual audio"
         movies={movies.latest}
+        watchlist={watchlist}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
-        watchlist={watchlist}
       />
 
       <Row
         title="Airing Today Shows"
         tag="airingToday"
         shows={tvShows.airingToday}
+        watchlist={watchlist}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
-        watchlist={watchlist}
       />
 
       <Row
         title="Top Rated Shows"
         tag="topRated"
         shows={tvShows.topRated}
+        watchlist={watchlist}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
-        watchlist={watchlist}
       />
 
       <Row
         title="On The Air Shows"
         tag="onTheAir"
         shows={tvShows.onTheAir}
+        watchlist={watchlist}
         addToWatchlist={addToWatchlist}
         removeFromWatchlist={removeFromWatchlist}
-        watchlist={watchlist}
       />
       
     </div>

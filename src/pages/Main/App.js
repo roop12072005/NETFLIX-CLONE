@@ -19,7 +19,6 @@ function App() {
   // const [topRatedMovies , setTopRatedMovies] = useState([])
   // const [allMovies , setAllMovies] = useState([])
 
-  const [watchlist, setWatchlist] = useState([]);
   const [loading, setLoading] = useState(true)
   const [movies, setMovies] = useState({
     popular :[],
@@ -73,47 +72,6 @@ function App() {
   console.log("shows state updated:", tvShows);
   }, [tvShows , movies]);
 
-          
-  const addToWatchlist = (movie) => {
-    const user = JSON.parse(localStorage.getItem("currentUser"));
-    setWatchlist((prev) => {
-      const exits = prev.find((items) => items.id === movie.id)
-      if(exits) return prev;
-      return [ ...prev, movie];
-    })
-    // if(!user?.id) return;
-    // fetch("", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" }, 
-    //   body: JSON.stringify({
-    //     user_id: user.id,
-    //     content_id: movie.id
-    //   })
-    // }).then(() => {
-    //   setWatchlist((prev) => {
-    //     const exists = prev.find((items) => items.id === movie.id)
-    //     if(exists) return prev;
-    //     return [ ...prev, movie];
-    //     });
-    //  });
-   };
-          
-const removeFromWatchlist = (movie) => {
-  const user = JSON.parse(localStorage.getItem("currentUser"));
-  setWatchlist((prev) => prev.filter((item) => item.id !== movie.id));
-  // if(!user?.id) return;
-
-  // fetch("", {
-  //   method: "DELETE",
-  //   headers: { "Content-Type": "application/json" }, 
-  //   body: JSON.stringify({
-  //     user_id: user.id,
-  //     content_id: movie.id
-  //   })
-  // }).then(() => {
-  //   setWatchlist((prev) => prev.filter((item) => item.id !== movie.id));
-  // });
-};
 
 const [isAuthenticated, setIsAuthenticated] = useState(true)
 if(loading){
@@ -123,18 +81,15 @@ if(loading){
     <Router>
       <Scroll />
         <Routes>
-          {/* <Route path="/" element={<Login setIsAuthenticated={setIsAuthenticated} />} /> */}
-          {/* <Route path="/register" element={<Register />} /> */}
+          { <Route path="/" element={<Login setIsAuthenticated={setIsAuthenticated} />} /> }
+          { <Route path="/register" element={<Register />} /> }
           <Route
-            path="/" 
+            path="/home" 
             element={
             <ProtectedRoute>
               <Home 
                 movies={movies}
                 tvShows={tvShows}
-                watchlist={watchlist}
-                addToWatchlist={addToWatchlist}
-                removeFromWatchlist={removeFromWatchlist}
                 setIsAuthenticated={setIsAuthenticated}
                 />
            // </ProtectedRoute>
@@ -147,9 +102,6 @@ if(loading){
                   <Search
                     movies={movies}
                     tvShows={tvShows}
-                    watchlist={watchlist}
-                    addToWatchlist={addToWatchlist}
-                    removeFromWatchlist={removeFromWatchlist}
                   />
                 </ProtectedRoute>
               }
@@ -159,8 +111,6 @@ if(loading){
             element={
               <ProtectedRoute>
                 <MyList
-                  watchlist={watchlist}
-                  removeFromWatchlist={removeFromWatchlist}
                 />
               </ProtectedRoute>
               }
@@ -171,9 +121,6 @@ if(loading){
                 <ProtectedRoute>
                   <MovieDetail
                     movies={movies}
-                    addToWatchlist={addToWatchlist}
-                    removeFromWatchlist={removeFromWatchlist}
-                    watchlist={watchlist}
                   />
                 </ProtectedRoute>
               }
@@ -197,9 +144,6 @@ if(loading){
                 <ProtectedRoute>
                   <GenrePage
                     items={[...movies.allMovies, ...tvShows.allShows]}
-                    watchlist={watchlist}
-                    addToWatchlist={addToWatchlist}
-                    removeFromWatchlist={removeFromWatchlist}
                   />
                 </ProtectedRoute>
               }
@@ -221,9 +165,6 @@ if(loading){
                 <ProtectedRoute>
                   <TVShows 
                     tvShows={tvShows}
-                    watchlist={watchlist}
-                    addToWatchlist={addToWatchlist}
-                    removeFromWatchlist={removeFromWatchlist}
                   />
                 </ProtectedRoute>
               }
@@ -234,9 +175,6 @@ if(loading){
                 <ProtectedRoute>
                   <Movies 
                     movies={movies}
-                    watchlist={watchlist}
-                    addToWatchlist={addToWatchlist}
-                    removeFromWatchlist={removeFromWatchlist}
                   />
                 </ProtectedRoute>
               }
@@ -247,9 +185,6 @@ if(loading){
                 <ProtectedRoute>
                   <ShowDetails
                     tvShows={tvShows}
-                    watchlist={watchlist}
-                    addToWatchlist={addToWatchlist}
-                    removeFromWatchlist={removeFromWatchlist}
                   />
                 </ProtectedRoute>
               }

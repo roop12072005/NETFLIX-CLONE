@@ -1,13 +1,15 @@
-import { useState } from "react";
+import { useState , useContext} from "react";
 import { useLocation, useParams } from "react-router-dom";
 import Navbar from "../../Components/NavBar/Navbar";
 import "./ShowDetails.css";
+import WatchlistContext from "../../context.js/WatchlistContext";
 
-function ShowDetails({ tvShows, watchlist, addToWatchlist, removeFromWatchlist }) {
+function ShowDetails({ tvShows }) {
   const { id } = useParams();
   const location = useLocation();
   const show = location.state ?? tvShows.allShows.find((s) => String(s.id) === id);
   const seasonCount = Number(show?.seasons) || 0;
+  const { watchlist, addToWatchlist, removeFromWatchlist } = useContext(WatchlistContext);
 
   const [season, setSeason] = useState(1);
   const [episodes] = useState([]);

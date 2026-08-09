@@ -1,17 +1,16 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 // Use ../ to go up one level out of 'pages', then into 'Components'
 import Navbar from '../NavBar/Navbar'; 
 import Banner from "../Banner/Banner";
+import WatchlistContext from "../../context.js/WatchlistContext";
 
 
 function GenrePage({
-  items,
-  watchlist,
-  addToWatchlist,
-  removeFromWatchlist
+  items
 }) {
 
+  const { watchlist, addToWatchlist, removeFromWatchlist } = useContext(WatchlistContext);
 
   let { genreName } = useParams();
   

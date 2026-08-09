@@ -3,7 +3,10 @@ const axios = require("axios");
 
 const transformMovie = require("../utils/moviesTransformer");
 const router = express.Router();
-let movieCache = null;
+const {
+  getMovieCache,
+  setMovieCache
+} = require("../services/movieCache")
 const headers = {
   Authorization: `Bearer ${process.env.TMDB_BEARER_TOKEN}`,
   accept: "application/json",
@@ -14,8 +17,9 @@ const headers = {
 
 router.get("/", async (req, res) => {
   console.log("loaded from the cache")
-  if(movieCache){
-    return res.json(movieCache);
+  const cache = getMovieCache();
+  if(cache){
+    return res.json(cache);
   }
 
   try {
@@ -52,7 +56,7 @@ router.get("/", async (req, res) => {
       ...new Map(allMovies.map(movie => [movie.id, movie])).values()
     ];
     
-    movieCache = {
+    setMovieCache({
       movies: {
         popular: popularMovies,
         topRated: topRatedMovies,
@@ -60,9 +64,9 @@ router.get("/", async (req, res) => {
         latest: latestMovies,
         allMovies: uniqueMovies
       }
-    };
+    });
     
-    res.json(movieCache);
+    res.json(getMovieCache());
     console.log("Loaded by fetching")
   } catch (err) {
     console.error(err.response?.data || err.message);

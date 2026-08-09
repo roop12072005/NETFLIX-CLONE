@@ -1,9 +1,13 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useContext } from "react";
 import { useNavigate } from "react-router-dom";
+import WatchlistContext from "../../context.js/WatchlistContext";
 
-function Row({ title,shows, movies, tag, addToWatchlist, removeFromWatchlist, watchlist }) {
+
+function Row({ title,shows, movies, tag }) {
   const rowRef = useRef();
   const navigate = useNavigate();
+    const { watchlist, addToWatchlist, removeFromWatchlist } = useContext(WatchlistContext);
+
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [showTrailer, setShowTrailer] = useState(false);
   const scrollLeft = () => {

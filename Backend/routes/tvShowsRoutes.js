@@ -4,6 +4,7 @@ const axios = require("axios")
 // to transform teh shows
 const transformTvShow = require("../utils/tvShowsTransformer")
 const router = express.Router();
+const { getTvCache , setTvCache } = require("../services/movieCache")
 
 const headers = {
     Authorization: `Bearer ${process.env.TMDB_BEARER_TOKEN}`,
@@ -11,6 +12,12 @@ const headers = {
 };
 
 router.get("/" , async(req , res) => {
+    console.log("Loadded from tc chace")
+    const cache = getTvCache();
+
+    if(cache){
+        return res.json(cache);
+    }
     try {
         const [popularResponse , topRatedResponse , onTheAirResponse , airingTodayResponse ] = await Promise.all([
             axios.get(
@@ -39,7 +46,7 @@ router.get("/" , async(req , res) => {
             allShows.map(show => [show.id, show])).values()
         ];
 
-        res.json({
+        setTvCache({
             shows: {
                 popular : popularShows,
                 topRated : topRatedShows,
@@ -47,7 +54,9 @@ router.get("/" , async(req , res) => {
                 onTheAir: onTheAirShows,
                 allShows: uniqueShows
             }
-        });
+        })
+        res.json(getTvCache());
+        console("loaded from fetching")
     } catch (err) {
         console.error(err.response?.data || err.message);
         res.status(500).json({

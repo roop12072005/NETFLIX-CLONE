@@ -1,13 +1,12 @@
 import MediaGridPage from "../../Components/Grid/MediaGridPage";
+import WatchlistContext from "../../context.js/WatchlistContext";
+import { useContext } from "react"
 
 function TVShows({
-  tvShows,
-  watchlist,
-  addToWatchlist,
-  removeFromWatchlist,
+  tvShows
 }) {
 
-
+  const { watchlist, addToWatchlist, removeFromWatchlist } = useContext(WatchlistContext);
 
 
 

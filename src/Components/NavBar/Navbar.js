@@ -58,13 +58,13 @@ function Navbar({ setIsAuthenticated }) {
 
       <div className="navbar_left">
 
-        <NavLink className="logo" to="/">
+        <NavLink className="logo" to="/home">
           <h2 >GOMOVIE</h2>
         </NavLink>
 
         <div className="navbar_menu">
           
-          <NavLink className="nav_item" to="/">Home</NavLink>
+          <NavLink className="nav_item" to="/home">Home</NavLink>
           
           <NavLink className="nav_item" to="/tvShows">TV Shows</NavLink>
 

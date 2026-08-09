@@ -19,9 +19,9 @@ const getMovieById = async (movieId) => {
 };
 
 const getShowById = async (showId) => {
-    const response = await azios.get(
+    const response = await axios.get(
         `https://api.themoviedb.org/3/tv/${showId}`,
-        { headers }
+        { headers , timout: 10000,}
     );
 
     return transformTvShows(response.data);

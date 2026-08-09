@@ -16,9 +16,9 @@ const headers = {
 
 
 router.get("/", async (req, res) => {
-  console.log("loaded from the cache")
   const cache = getMovieCache();
   if(cache){
+    console.log("loaded from the cache")
     return res.json(cache);
   }
 
@@ -69,7 +69,12 @@ router.get("/", async (req, res) => {
     res.json(getMovieCache());
     console.log("Loaded by fetching")
   } catch (err) {
-    console.error(err.response?.data || err.message);
+    console.error("TV SHOW ERROR", err);
+
+    if(res.headersSent){
+      console.error("response was already sent!");
+      return;
+    }
     res.status(500).json({
       message: "Error fetching movies"
     });

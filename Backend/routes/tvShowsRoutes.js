@@ -12,10 +12,10 @@ const headers = {
 };
 
 router.get("/" , async(req , res) => {
-    console.log("Loadded from tc chace")
     const cache = getTvCache();
-
+    
     if(cache){
+        console.log("Loadded from tc chace")
         return res.json(cache);
     }
     try {
@@ -56,7 +56,7 @@ router.get("/" , async(req , res) => {
             }
         })
         res.json(getTvCache());
-        console("loaded from fetching")
+        console.log("loaded from fetching")
     } catch (err) {
         console.error(err.response?.data || err.message);
         res.status(500).json({

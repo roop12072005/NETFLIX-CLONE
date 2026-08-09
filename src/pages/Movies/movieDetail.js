@@ -6,11 +6,11 @@ import WatchlistContext from "../../context.js/WatchlistContext";
 
 function MovieDetails({ movies}) {
   const { id } = useParams();
+  const { watchlist, addToWatchlist, removeFromWatchlist } = useContext(WatchlistContext);
   const location = useLocation();
   const movie = location.state ?? movies.allMovies.find((m) => String(m.id) === id);
   const [showTrailer, setShowTrailer] = useState(false);
   const isInWatchlist = watchlist?.some((item) => item.id === movie?.id);
-  const { watchlist, addToWatchlist, removeFromWatchlist } = useContext(WatchlistContext);
   useEffect(() => {
     const handleEsc = (e) => {
       if (e.key === "Escape") {
